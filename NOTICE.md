@@ -42,3 +42,11 @@ A summary:
   "Disable USB power saving" to Moderate, and five GPU driver tweaks (AMD ULPS, AMD ASPM,
   NVIDIA dynamic P-state, Intel async flips, Intel adaptive vsync) to Moderate. They trade
   idle power and heat for unmeasured gains.
+
+### 2026-11-12: consequence and source for each item
+- New `EvidenceUrl` on `[Optimization]`, shown in the details dialog as "Source". 22 items link
+  verified documentation (mostly Microsoft Learn); items without one show "no verified source".
+- New `.Consequence` translation key, shown as "What you give up". Required for every Moderate
+  and Risky item (21 items), enforced by `OptimizationEvidenceTests`.
+- Consequence text is written in English and Korean. The other 16 locales carry the English
+  text for now and need translating.

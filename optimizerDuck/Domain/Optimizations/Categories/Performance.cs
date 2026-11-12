@@ -24,7 +24,8 @@ public class Performance : LocalizedObject, IOptimizationCategory
     [Optimization(
         Id = "648EC19A-FDA5-4607-8A7C-148B8B05FB4C",
         Risk = OptimizationRisk.Moderate,
-        Tags = OptimizationTags.System | OptimizationTags.Performance | OptimizationTags.Ram
+        Tags = OptimizationTags.System | OptimizationTags.Performance | OptimizationTags.Ram,
+        EvidenceUrl = "https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-privacy"
     )]
     public class DisableBackgroundApps : BaseOptimization
     {
@@ -54,7 +55,8 @@ public class Performance : LocalizedObject, IOptimizationCategory
     [Optimization(
         Id = "CD436A05-51F1-46E9-B4DE-5262EE7F812A",
         Risk = OptimizationRisk.Moderate,
-        Tags = OptimizationTags.System | OptimizationTags.Performance | OptimizationTags.Ram
+        Tags = OptimizationTags.System | OptimizationTags.Performance | OptimizationTags.Ram,
+        EvidenceUrl = "https://learn.microsoft.com/en-us/windows/application-management/svchost-service-refactoring"
     )]
     public class ConsolidateServiceHosts : BaseOptimization
     {
@@ -100,7 +102,8 @@ public class Performance : LocalizedObject, IOptimizationCategory
             | OptimizationTags.Performance
             | OptimizationTags.Latency
             | OptimizationTags.Audio
-            | OptimizationTags.Display
+            | OptimizationTags.Display,
+        EvidenceUrl = "https://learn.microsoft.com/en-us/windows/win32/procthread/multimedia-class-scheduler-service"
     )]
     public class OptimizeMultimediaScheduler : BaseOptimization
     {
@@ -165,7 +168,8 @@ public class Performance : LocalizedObject, IOptimizationCategory
     [Optimization(
         Id = "B7BB32F8-C756-47A4-83F2-F6E7EC7D45B8",
         Risk = OptimizationRisk.Moderate,
-        Tags = OptimizationTags.Latency | OptimizationTags.System
+        Tags = OptimizationTags.Latency | OptimizationTags.System,
+        EvidenceUrl = "https://support.microsoft.com/en-us/windows/make-your-mouse-keyboard-and-other-input-devices-easier-to-use-10733da7-fa82-88be-0672-f123d4b3dcfe"
     )]
     public class DisableAccessibilityKeyboardHotkeys : BaseOptimization
     {

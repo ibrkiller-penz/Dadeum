@@ -24,7 +24,8 @@ public class BloatwareAndServices : LocalizedObject, IOptimizationCategory
     [Optimization(
         Id = "E3C970B0-129D-4354-BAE4-2732E5BACCF7",
         Risk = OptimizationRisk.Safe,
-        Tags = OptimizationTags.System | OptimizationTags.Disk
+        Tags = OptimizationTags.System | OptimizationTags.Disk,
+        EvidenceUrl = "https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-experience"
     )]
     public class DisablePreinstalledApps : BaseOptimization
     {
@@ -64,7 +65,8 @@ public class BloatwareAndServices : LocalizedObject, IOptimizationCategory
     [Optimization(
         Id = "66126FAC-E79B-4CDA-9F53-F85DD88730A9",
         Risk = OptimizationRisk.Risky,
-        Tags = OptimizationTags.System | OptimizationTags.Performance | OptimizationTags.Latency
+        Tags = OptimizationTags.System | OptimizationTags.Performance | OptimizationTags.Latency,
+        EvidenceUrl = "https://learn.microsoft.com/en-us/windows-server/security/windows-services/security-guidelines-for-disabling-system-services-in-windows-server"
     )]
     public class ConfigureServices : BaseOptimization
     {

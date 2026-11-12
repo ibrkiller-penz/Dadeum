@@ -2502,4 +2502,76 @@
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>詳細資料已寫入記錄檔。</value>
   </data>
+  <data name="Optimizer.AI.DisableRecall.Consequence" xml:space="preserve">
+    <value>You can no longer search past screen snapshots, and saved snapshots are deleted. Turning Recall back on does not bring them back.</value>
+  </data>
+  <data name="Optimizer.BloatwareAndServices.ConfigureServices.Consequence" xml:space="preserve">
+    <value>Changes the startup type of many services at once. Features that depend on a changed service, such as printing, Bluetooth, Xbox or remote access, can stop working until you revert.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableUlps.Consequence" xml:space="preserve">
+    <value>The GPU no longer saves power when idle, so power draw and heat rise, especially on laptops. The performance gain has not been measured.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisablePowerGating.Consequence" xml:space="preserve">
+    <value>The GPU no longer saves power when idle, so power draw and heat rise, especially on laptops. The performance gain has not been measured.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableAspm.Consequence" xml:space="preserve">
+    <value>The GPU no longer saves power when idle, so power draw and heat rise, especially on laptops. The performance gain has not been measured.</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableDynamicPstate.Consequence" xml:space="preserve">
+    <value>The GPU no longer saves power when idle, so power draw and heat rise, especially on laptops. The performance gain has not been measured.</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableAsyncPstates.Consequence" xml:space="preserve">
+    <value>The GPU no longer saves power when idle, so power draw and heat rise, especially on laptops. The performance gain has not been measured.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableVideoClockGating.Consequence" xml:space="preserve">
+    <value>The video engines stay powered, so power draw rises while playing or recording video. The stability gain has not been measured.</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAsyncFlips.Consequence" xml:space="preserve">
+    <value>Forcing synchronous flips can lower the frame rate in some games. The latency gain has not been measured.</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAdaptiveVsync.Consequence" xml:space="preserve">
+    <value>With fixed V-Sync, frame rates that drop below the refresh rate can stutter. The gain has not been measured.</value>
+  </data>
+  <data name="Optimizer.Performance.DisableBackgroundApps.Consequence" xml:space="preserve">
+    <value>Apps such as Mail, Calendar or messengers stop updating and sending notifications while they are closed.</value>
+  </data>
+  <data name="Optimizer.Performance.ConsolidateServiceHosts.Consequence" xml:space="preserve">
+    <value>Services share fewer processes, so one failing service can take others down with it. Xbox controller services have broken with this setting before.</value>
+  </data>
+  <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Consequence" xml:space="preserve">
+    <value>Sticky Keys, Filter Keys and Toggle Keys can no longer be turned on with their keyboard shortcuts. They stay available in Settings.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableHibernateAndFastStartup.Consequence" xml:space="preserve">
+    <value>Hibernate is no longer available, and turning the PC on can take a few seconds longer without Fast Startup.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableUSBPowerSaving.Consequence" xml:space="preserve">
+    <value>USB devices stay powered, which shortens battery life on laptops.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisablePowerSaving.Consequence" xml:space="preserve">
+    <value>Windows can no longer slow down background work to save power, so power draw and heat rise, especially on laptops. The gain differs from PC to PC and has not been measured.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableTelemetry.Consequence" xml:space="preserve">
+    <value>Microsoft receives less diagnostic data, which can slow down fixes for problems on your PC. Windows Insider and some feedback features need optional diagnostic data and may stop working.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableErrorReporting.Consequence" xml:space="preserve">
+    <value>Crash reports are no longer sent, so Windows cannot offer solutions for app and driver crashes, and the Program Compatibility Assistant stops warning about incompatible apps.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableAutoLogger.Consequence" xml:space="preserve">
+    <value>Some diagnostic traces are no longer recorded at boot, which makes certain problems harder to diagnose. Security software may flag the change.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCortana.Consequence" xml:space="preserve">
+    <value>Windows Search no longer shows web results, and the Cortana voice assistant is unavailable.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCopilot.Consequence" xml:space="preserve">
+    <value>The Copilot assistant is no longer available from the taskbar or its keyboard shortcut.</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Consequence" xml:space="preserve">
+    <value>代價</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence" xml:space="preserve">
+    <value>依據</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
+    <value>此項目尚無經過核實的依據。請將其效果視為未經證實。</value>
+  </data>
 </root>

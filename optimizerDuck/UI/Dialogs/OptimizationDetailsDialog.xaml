@@ -166,6 +166,50 @@
             </StackPanel>
         </Border>
 
+        <!--  Dadeum: what the user gives up, and the source that backs the item.  -->
+        <Border
+            Margin="0,0,0,12"
+            Padding="16"
+            Background="{DynamicResource CardBackgroundFillColorDefaultBrush}"
+            BorderBrush="{DynamicResource CardStrokeColorDefaultBrush}"
+            BorderThickness="1"
+            CornerRadius="{StaticResource CornerRadiusMedium}">
+            <StackPanel>
+                <StackPanel Margin="0,0,0,12" Visibility="{Binding Optimization.Consequence, Converter={StaticResource NotNullToVisibilityConverter}}">
+                    <StackPanel Margin="0,0,0,8" Orientation="Horizontal">
+                        <ui:SymbolIcon
+                            Margin="0,0,6,0"
+                            Foreground="{DynamicResource SystemFillColorCautionBrush}"
+                            Symbol="Warning24" />
+                        <ui:TextBlock FontTypography="BodyStrong" Text="{ext:Loc OptimizationDetailsDialog.Consequence}" />
+                    </StackPanel>
+                    <ui:TextBlock
+                        FontTypography="Body"
+                        Foreground="{DynamicResource TextFillColorSecondaryBrush}"
+                        Text="{Binding Optimization.Consequence}"
+                        TextWrapping="Wrap" />
+                </StackPanel>
+
+                <ui:TextBlock
+                    Margin="0,0,0,4"
+                    FontTypography="BodyStrong"
+                    Text="{ext:Loc OptimizationDetailsDialog.Evidence}" />
+                <ui:HyperlinkButton
+                    Padding="0"
+                    HorizontalAlignment="Left"
+                    NavigateUri="{Binding Optimization.EvidenceUrl}"
+                    Visibility="{Binding Optimization.EvidenceUrl, Converter={StaticResource NotNullToVisibilityConverter}}">
+                    <TextBlock Text="{Binding Optimization.EvidenceUrl}" TextWrapping="Wrap" />
+                </ui:HyperlinkButton>
+                <ui:TextBlock
+                    FontTypography="Body"
+                    Foreground="{DynamicResource TextFillColorSecondaryBrush}"
+                    Text="{ext:Loc OptimizationDetailsDialog.Evidence.None}"
+                    TextWrapping="Wrap"
+                    Visibility="{Binding Optimization.EvidenceUrl, Converter={StaticResource IsNullToVisibilityConverter}}" />
+            </StackPanel>
+        </Border>
+
         <ui:TextBlock
             Margin="0,0,0,8"
             FontTypography="BodyStrong"

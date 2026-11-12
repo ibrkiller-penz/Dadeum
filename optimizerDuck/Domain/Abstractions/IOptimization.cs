@@ -25,6 +25,18 @@ public interface IOptimization
     /// <summary>Gets a localized short description of what this optimization does.</summary>
     string ShortDescription { get; }
 
+    /// <summary>
+    ///     Gets a localized sentence on what the user gives up by applying this optimization, or
+    ///     <see langword="null" /> when none is written. Required for Moderate and Risky items.
+    /// </summary>
+    string? Consequence { get; }
+
+    /// <summary>
+    ///     Gets the link to the documentation that backs this optimization, or
+    ///     <see langword="null" /> when no source has been verified.
+    /// </summary>
+    string? EvidenceUrl { get; }
+
     /// <summary>Gets or sets the execution and applied state of the optimization.</summary>
     OptimizationState State { get; set; }
 
