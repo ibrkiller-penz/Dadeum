@@ -38,13 +38,19 @@ public static class ReflectionHelper
             if (_implementationCache.TryGetValue(interfaceType, out var cached))
                 return cached;
 
+            // The app assembly is matched by reference, not by name: Dadeum renames the exe
+            // (AssemblyName "Dadeum") while the namespace and the test assembly stay "optimizerDuck".
+            var appAssembly = typeof(ReflectionHelper).Assembly;
             var types = AppDomain
                 .CurrentDomain.GetAssemblies()
                 .Where(a =>
-                    a.FullName != null
-                    && a.FullName.StartsWith(
-                        nameof(optimizerDuck),
-                        StringComparison.OrdinalIgnoreCase
+                    a == appAssembly
+                    || (
+                        a.FullName != null
+                        && a.FullName.StartsWith(
+                            nameof(optimizerDuck),
+                            StringComparison.OrdinalIgnoreCase
+                        )
                     )
                 )
                 .SelectMany(SafeGetTypes)
