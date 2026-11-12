@@ -263,10 +263,10 @@
     <value>Der aktuell aktive Energiesparplan konnte nicht erkannt werden.</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ImportFailed" xml:space="preserve">
-    <value>Der Energiesparplan von optimizerDuck konnte nicht importiert werden.</value>
+    <value>Der Energiesparplan von Dadeum konnte nicht importiert werden.</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ActivateFailed" xml:space="preserve">
-    <value>Der Energiesparplan von optimizerDuck konnte nicht aktiviert werden.</value>
+    <value>Der Energiesparplan von Dadeum konnte nicht aktiviert werden.</value>
   </data>
   <data name="Optimizer.UI.Tags.System" xml:space="preserve">
     <value>System</value>
@@ -956,7 +956,7 @@
     <value>Danksagungen</value>
   </data>
   <data name="Settings.About.Acknowledgements.Description" xml:space="preserve">
-    <value>optimizerDuck wird durch folgende Open-Source-Software und Ressourcen ermöglicht.</value>
+    <value>Dadeum wird durch folgende Open-Source-Software und Ressourcen ermöglicht.</value>
   </data>
   <data name="RestorePoint.Title" xml:space="preserve">
     <value>Systemwiederherstellung</value>
@@ -966,7 +966,7 @@
 Das ist eine Sicherheitsmaßnahme zum Schutz deines Windows vor dem Anwenden von Änderungen.</value>
   </data>
   <data name="RestorePointDialog.Help" xml:space="preserve">
-    <value>Die Anwendung aktiviert automatisch die Systemwiederherstellung und erstellt einen Prüfpunkt namens "optimizerDuck...".
+    <value>Die Anwendung aktiviert automatisch die Systemwiederherstellung und erstellt einen Prüfpunkt namens "Dadeum...".
 So kannst du jederzeit zurückgehen, falls etwas schiefgeht.</value>
   </data>
   <data name="RestorePoint.Snackbar.Error.Title" xml:space="preserve">
@@ -1024,7 +1024,7 @@ So kannst du jederzeit zurückgehen, falls etwas schiefgeht.</value>
     <value>Keine unnötigen Apps gefunden ¯\_(ツ)_/¯</value>
   </data>
   <data name="Bloatware.Empty.Description" xml:space="preserve">
-    <value>optimizerDuck hat keine entfernbaren AppX-Pakete gefunden. Hier ist alles leer...</value>
+    <value>Dadeum hat keine entfernbaren AppX-Pakete gefunden. Hier ist alles leer...</value>
   </data>
   <data name="Bloatware.Loading" xml:space="preserve">
     <value>Entfernbare Apps werden gesucht...</value>
@@ -1054,7 +1054,7 @@ So kannst du jederzeit zurückgehen, falls etwas schiefgeht.</value>
     <value>Entfernt beim Entfernen installierter AppX-Pakete auch die zugehörigen bereitgestellten Pakete, um automatische Neuinstallation für neue Benutzer zu verhindern.</value>
   </data>
   <data name="Dashboard.UpdateInfoBar.Message" xml:space="preserve">
-    <value>optimizerDuck (v{0}) ist verfügbar!
+    <value>Dadeum (v{0}) ist verfügbar!
 Aktualisiere jetzt, um die neuesten Funktionen, Verbesserungen und Fehlerbehebungen zu nutzen.</value>
   </data>
   <data name="Common.Search.Placeholder" xml:space="preserve">
@@ -1594,7 +1594,7 @@ Aktualisiere jetzt, um die neuesten Funktionen, Verbesserungen und Fehlerbehebun
     <value>Rechtliche Vereinbarung</value>
   </data>
   <data name="LegalDialog.Intro.Title" xml:space="preserve">
-    <value>Willkommen bei optimizerDuck!</value>
+    <value>Willkommen bei Dadeum!</value>
   </data>
   <data name="LegalDialog.Intro.Description" xml:space="preserve">
     <value>Wählen Sie Ihre Sprache und Ihr Design, nehmen Sie sich einen Moment Zeit, um unsere Nutzungsbedingungen, Datenschutzrichtlinie und den Haftungsausschluss zu prüfen, dann kann es losgehen.</value>
@@ -1837,7 +1837,7 @@ Aktualisiere jetzt, um die neuesten Funktionen, Verbesserungen und Fehlerbehebun
     <value>Kompatibilitätsprüfung fehlgeschlagen</value>
   </data>
   <data name="Condition.Error.Description" xml:space="preserve">
-    <value>optimizerDuck konnte nicht feststellen, ob dieses Element auf Ihrem System unterstützt wird.</value>
+    <value>Dadeum konnte nicht feststellen, ob dieses Element auf Ihrem System unterstützt wird.</value>
   </data>
   <data name="Condition.Windows11.Title" xml:space="preserve">
     <value>Windows 11 erforderlich</value>
@@ -2044,7 +2044,7 @@ Aktualisiere jetzt, um die neuesten Funktionen, Verbesserungen und Fehlerbehebun
     <value>Vorheriger Energiesparplan konnte nicht wiederhergestellt werden: {0}.</value>
   </data>
   <data name="Revert.PowerPlan.Error.DeleteFailed" xml:space="preserve">
-    <value>optimizerDuck-Energiesparplan konnte nicht gelöscht werden: {0}</value>
+    <value>Dadeum-Energiesparplan konnte nicht gelöscht werden: {0}</value>
   </data>
   <data name="Revert.PowerPlan.Error.NothingToDo" xml:space="preserve">
     <value>Nichts rückgängig zu machen: Es ist kein vorheriger oder installierter Energiesparplan gespeichert.</value>
@@ -2494,7 +2494,7 @@ Aktualisiere jetzt, um die neuesten Funktionen, Verbesserungen und Fehlerbehebun
     <value>Berichtsdatei anzeigen</value>
   </data>
   <data name="OptimizationDetailsDialog.Other.OpenRecordFile.Description" xml:space="preserve">
-    <value>Öffnet die Datei, in der optimizerDuck festhält, was diese Optimierung getan hat. Sie bleibt nach einem Rückgängigmachen erhalten.</value>
+    <value>Öffnet die Datei, in der Dadeum festhält, was diese Optimierung getan hat. Sie bleibt nach einem Rückgängigmachen erhalten.</value>
   </data>
   <data name="Optimizer.Details.Provider.Registry" xml:space="preserve">
     <value>Registrierung</value>

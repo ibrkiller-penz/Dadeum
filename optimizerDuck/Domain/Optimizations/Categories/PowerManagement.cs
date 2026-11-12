@@ -277,9 +277,7 @@ public class PowerManagement : LocalizedObject, IOptimizationCategory
             )
             {
                 context.Logger.LogError("Failed to extract embedded power plan");
-                return ApplyResult.False(
-                    "Failed to extract optimizerDuck power plan from resources."
-                );
+                return ApplyResult.False("Failed to extract Dadeum power plan from resources.");
             }
 
             context.Logger.LogInformation("Extracted power plan to {Path}", powerPlanPath);
@@ -305,7 +303,7 @@ public class PowerManagement : LocalizedObject, IOptimizationCategory
             if (!installResult.Ok)
             {
                 context.Logger.LogError(
-                    "Failed to install optimizerDuck power plan: {Error}",
+                    "Failed to install Dadeum power plan: {Error}",
                     installResult.Error ?? "unknown"
                 );
                 if (previousId is null)
@@ -319,7 +317,7 @@ public class PowerManagement : LocalizedObject, IOptimizationCategory
                 );
             }
 
-            context.Logger.LogInformation("Installed optimizerDuck power plan successfully!");
+            context.Logger.LogInformation("Installed Dadeum power plan successfully!");
             return context.Changes.ToApplyResult();
         }
     }

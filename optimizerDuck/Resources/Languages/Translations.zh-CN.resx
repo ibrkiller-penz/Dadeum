@@ -214,10 +214,10 @@
     <value>检测当前活动电源计划失败。</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ImportFailed" xml:space="preserve">
-    <value>导入 optimizerDuck 电源计划失败。</value>
+    <value>导入 Dadeum 电源计划失败。</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ActivateFailed" xml:space="preserve">
-    <value>激活 optimizerDuck 电源计划失败。</value>
+    <value>激活 Dadeum 电源计划失败。</value>
   </data>
   <data name="Optimizer.UI.Tags.System" xml:space="preserve">
     <value>系统</value>
@@ -937,7 +937,7 @@
     <value>致谢</value>
   </data>
   <data name="Settings.About.Acknowledgements.Description" xml:space="preserve">
-    <value>optimizerDuck 的实现得益于以下开源软件与资源支持。</value>
+    <value>Dadeum 的实现得益于以下开源软件与资源支持。</value>
   </data>
   <data name="RestorePoint.Title" xml:space="preserve">
     <value>系统还原</value>
@@ -947,7 +947,7 @@
 这是应用更改前保护 Windows 的安全措施。</value>
   </data>
   <data name="RestorePointDialog.Help" xml:space="preserve">
-    <value>应用将自动启用系统还原，并创建名为“optimizerDuck...”的还原点。
+    <value>应用将自动启用系统还原，并创建名为“Dadeum...”的还原点。
 确保出现问题时可随时回退。</value>
   </data>
   <data name="RestorePoint.Snackbar.Error.Title" xml:space="preserve">
@@ -1005,7 +1005,7 @@
     <value>未找到可卸载的冗余应用 ¯\_(ツ)_/¯</value>
   </data>
   <data name="Bloatware.Empty.Description" xml:space="preserve">
-    <value>optimizerDuck 未检测到可移除的应用安装包，列表为空...</value>
+    <value>Dadeum 未检测到可移除的应用安装包，列表为空...</value>
   </data>
   <data name="Bloatware.Loading" xml:space="preserve">
     <value>正在扫描可卸载应用...</value>
@@ -1035,7 +1035,7 @@
     <value>移除已安装的应用包时，同时删除对应的系统预置包，防止新用户自动重新安装。</value>
   </data>
   <data name="Dashboard.UpdateInfoBar.Message" xml:space="preserve">
-    <value>optimizerDuck (v{0}) 已发布！
+    <value>Dadeum (v{0}) 已发布！
 立即更新，体验最新功能、优化与问题修复。</value>
   </data>
   <data name="Common.Search.Placeholder" xml:space="preserve">
@@ -1632,7 +1632,7 @@
     <value>法律协议</value>
   </data>
   <data name="LegalDialog.Intro.Title" xml:space="preserve">
-    <value>欢迎使用 optimizerDuck！</value>
+    <value>欢迎使用 Dadeum！</value>
   </data>
   <data name="LegalDialog.Intro.Description" xml:space="preserve">
     <value>选择您的语言和主题，花点时间查看我们的服务条款、隐私政策和免责声明，然后就可以开始了。</value>
@@ -1850,7 +1850,7 @@
     <value>兼容性检查失败</value>
   </data>
   <data name="Condition.Error.Description" xml:space="preserve">
-    <value>optimizerDuck 无法确定该项是否受当前系统支持。</value>
+    <value>Dadeum 无法确定该项是否受当前系统支持。</value>
   </data>
   <data name="Condition.Windows11.Title" xml:space="preserve">
     <value>需要 Windows 11</value>
@@ -2000,7 +2000,7 @@
     <value>还原以前的电源计划失败: {0}。</value>
   </data>
   <data name="Revert.PowerPlan.Error.DeleteFailed" xml:space="preserve">
-    <value>删除 optimizerDuck 电源计划失败: {0}</value>
+    <value>删除 Dadeum 电源计划失败: {0}</value>
   </data>
   <data name="Revert.PowerPlan.Error.NothingToDo" xml:space="preserve">
     <value>没有可还原的内容: 未记录以前或已安装的电源计划。</value>
@@ -2450,7 +2450,7 @@
     <value>显示记录文件</value>
   </data>
   <data name="OptimizationDetailsDialog.Other.OpenRecordFile.Description" xml:space="preserve">
-    <value>打开 optimizerDuck 记录此项优化做了什么的文件。还原后它依然保留，方便日后查看。</value>
+    <value>打开 Dadeum 记录此项优化做了什么的文件。还原后它依然保留，方便日后查看。</value>
   </data>
   <data name="Optimizer.Details.Provider.Registry" xml:space="preserve">
     <value>注册表</value>

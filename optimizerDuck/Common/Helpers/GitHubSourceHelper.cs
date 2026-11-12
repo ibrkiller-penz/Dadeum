@@ -192,7 +192,7 @@ public static class GitHubSourceHelper
     {
         var client = HttpClientFactory.CreateClient(timeout: RequestTimeout);
         client.DefaultRequestHeaders.UserAgent.Add(
-            new ProductInfoHeaderValue("optimizerDuck", Shared.FileVersion)
+            new ProductInfoHeaderValue(Shared.AppName, Shared.FileVersion)
         );
         return client;
     }

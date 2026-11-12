@@ -213,10 +213,10 @@
   <value>현재 활성 전원 계획을 감지하지 못했습니다</value>
 </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ImportFailed" xml:space="preserve">
-  <value>optimizerDuck 전원 계획을 가져오지 못했습니다</value>
+  <value>다듬 전원 계획을 가져오지 못했습니다</value>
 </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ActivateFailed" xml:space="preserve">
-  <value>optimizerDuck 전원 계획을 활성화하지 못했습니다</value>
+  <value>다듬 전원 계획을 활성화하지 못했습니다</value>
 </data>
   <data name="Optimizer.UI.Tags.System" xml:space="preserve">
   <value>시스템</value>
@@ -894,7 +894,7 @@
     <value>감사의 말</value>
   </data>
   <data name="Settings.About.Acknowledgements.Description" xml:space="preserve">
-    <value>optimizerDuck은 다음 오픈 소스 소프트웨어 및 리소스를 통해 가능해졌습니다</value>
+    <value>다듬은 다음 오픈 소스 소프트웨어 및 리소스를 통해 가능해졌습니다</value>
   </data>
   <data name="RestorePoint.Title" xml:space="preserve">
     <value>시스템 복원</value>
@@ -904,7 +904,7 @@
 변경 사항을 적용하기 전에 Windows를 보호하기 위한 안전 조치입니다</value>
   </data>
   <data name="RestorePointDialog.Help" xml:space="preserve">
-    <value>응용 프로그램은 자동으로 시스템 복원을 활성화하고 "optimizerDuck..."이라는 검사점을 생성합니다
+    <value>응용 프로그램은 자동으로 시스템 복원을 활성화하고 "Dadeum..."이라는 검사점을 생성합니다
 이렇게 하면 문제가 발생하더라도 언제든지 돌아갈 수 있습니다</value>
   </data>
   <data name="RestorePoint.Snackbar.Error.Title" xml:space="preserve">
@@ -992,7 +992,7 @@
     <value>설치된 AppX 패키지를 제거할 때 해당 프로비저닝된 패키지도 제거하여 새 사용자의 자동 재설치를 방지합니다</value>
   </data>
   <data name="Dashboard.UpdateInfoBar.Message" xml:space="preserve">
-    <value>optimizerDuck(v{0})을 사용할 수 있습니다!
+    <value>다듬(v{0})을 사용할 수 있습니다!
 지금 업데이트하여 최신 기능, 개선 사항, 버그 수정을 즐겨보세요</value>
   </data>
   <data name="Common.Search.Placeholder" xml:space="preserve">
@@ -1524,7 +1524,7 @@
     <value>법적 계약</value>
   </data>
   <data name="LegalDialog.Intro.Title" xml:space="preserve">
-    <value>optimizerDuck에 오신 것을 환영합니다!</value>
+    <value>다듬에 오신 것을 환영합니다!</value>
   </data>
   <data name="LegalDialog.Intro.Description" xml:space="preserve">
     <value>언어와 테마를 선택하고, 이용 약관, 개인정보 처리방침 및 면책 조항을 잠시 검토한 후 시작하세요.</value>
@@ -1776,7 +1776,7 @@
     <value>호환성 확인 실패</value>
   </data>
   <data name="Condition.Error.Description" xml:space="preserve">
-    <value>optimizerDuck이 이 항목이 시스템에서 지원되는지 확인할 수 없습니다.</value>
+    <value>다듬이 이 항목이 시스템에서 지원되는지 확인할 수 없습니다.</value>
   </data>
   <data name="Condition.Windows11.Title" xml:space="preserve">
     <value>Windows 11 필요</value>
@@ -1983,7 +1983,7 @@
     <value>이전 전원 계획을 복원하지 못했습니다: {0}.</value>
   </data>
   <data name="Revert.PowerPlan.Error.DeleteFailed" xml:space="preserve">
-    <value>optimizerDuck 전원 계획을 삭제하지 못했습니다: {0}</value>
+    <value>다듬 전원 계획을 삭제하지 못했습니다: {0}</value>
   </data>
   <data name="Revert.PowerPlan.Error.NothingToDo" xml:space="preserve">
     <value>되돌릴 항목이 없습니다: 기록된 이전 또는 설치된 전원 계획이 없습니다.</value>
@@ -2433,7 +2433,7 @@
     <value>기록 파일 보기</value>
   </data>
   <data name="OptimizationDetailsDialog.Other.OpenRecordFile.Description" xml:space="preserve">
-    <value>이 최적화가 무엇을 했는지 optimizerDuck이 기록한 파일을 엽니다. 되돌린 뒤에도 남아 있어 나중에 확인할 수 있습니다.</value>
+    <value>이 최적화가 무엇을 했는지 다듬이 기록한 파일을 엽니다. 되돌린 뒤에도 남아 있어 나중에 확인할 수 있습니다.</value>
   </data>
   <data name="Optimizer.Details.Provider.Registry" xml:space="preserve">
     <value>레지스트리</value>

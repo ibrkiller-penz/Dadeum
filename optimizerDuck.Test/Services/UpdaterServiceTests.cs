@@ -13,7 +13,7 @@ public class UpdaterServiceTests
     {
         var header = UpdaterService.BuildUserAgentHeader();
 
-        Assert.Equal("optimizerDuck", header.Product?.Name);
+        Assert.Equal("Dadeum", header.Product?.Name);
         Assert.Equal(Shared.FileVersion, header.Product?.Version);
     }
 
@@ -42,17 +42,19 @@ public class UpdaterServiceTests
     public void FindExecutableAsset_WithoutTheExecutable_IsNothing()
     {
         Assert.Null(UpdaterService.FindExecutableAsset(null));
-        Assert.Null(UpdaterService.FindExecutableAsset(Release("optimizerDuck.zip")));
+        Assert.Null(UpdaterService.FindExecutableAsset(Release("Dadeum.zip")));
         Assert.Null(UpdaterService.FindExecutableAsset(Release("notes.txt")));
+        // An upstream optimizerDuck build must never be offered as a Dadeum update.
+        Assert.Null(UpdaterService.FindExecutableAsset(Release("optimizerDuck-v1.2.3-win.exe")));
     }
 
     [Fact]
     public void FindExecutableAsset_WithTheExecutable_FindsIt()
     {
-        var asset = UpdaterService.FindExecutableAsset(Release("optimizerDuck-v1.2.3-win.exe"));
+        var asset = UpdaterService.FindExecutableAsset(Release("Dadeum-v1.2.3-win.exe"));
 
         Assert.NotNull(asset);
-        Assert.Equal("optimizerDuck-v1.2.3-win.exe", asset!.Name);
+        Assert.Equal("Dadeum-v1.2.3-win.exe", asset!.Name);
     }
 
     private static GitHubRelease Release(params string[] assetNames)

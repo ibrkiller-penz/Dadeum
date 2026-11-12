@@ -214,10 +214,10 @@
     <value>Falha ao detectar o plano de energia ativo atual.</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ImportFailed" xml:space="preserve">
-    <value>Falha ao importar o plano de energia do optimizerDuck.</value>
+    <value>Falha ao importar o plano de energia do Dadeum.</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ActivateFailed" xml:space="preserve">
-    <value>Falha ao ativar o plano de energia do optimizerDuck.</value>
+    <value>Falha ao ativar o plano de energia do Dadeum.</value>
   </data>
   <data name="Optimizer.UI.Tags.System" xml:space="preserve">
     <value>Sistema</value>
@@ -895,7 +895,7 @@
     <value>Agradecimentos</value>
   </data>
   <data name="Settings.About.Acknowledgements.Description" xml:space="preserve">
-    <value>O optimizerDuck é possível graças aos seguintes softwares e recursos de código aberto.</value>
+    <value>O Dadeum é possível graças aos seguintes softwares e recursos de código aberto.</value>
   </data>
   <data name="RestorePoint.Title" xml:space="preserve">
     <value>Restauração do Sistema</value>
@@ -905,7 +905,7 @@
 É uma medida de segurança para proteger seu Windows antes de aplicar alterações.</value>
   </data>
   <data name="RestorePointDialog.Help" xml:space="preserve">
-    <value>O aplicativo habilitará automaticamente a Restauração do Sistema e criará um checkpoint nomeado "optimizerDuck...".
+    <value>O aplicativo habilitará automaticamente a Restauração do Sistema e criará um checkpoint nomeado "Dadeum...".
 Isso garante que você possa sempre voltar se algo der errado.</value>
   </data>
   <data name="RestorePoint.Snackbar.Error.Title" xml:space="preserve">
@@ -963,7 +963,7 @@ Isso garante que você possa sempre voltar se algo der errado.</value>
     <value>Nenhum aplicativo inútil encontrado ¯\_(ツ)_/¯</value>
   </data>
   <data name="Bloatware.Empty.Description" xml:space="preserve">
-    <value>O optimizerDuck não encontrou nenhum pacote AppX removível. Está vazio como o vácuo...</value>
+    <value>O Dadeum não encontrou nenhum pacote AppX removível. Está vazio como o vácuo...</value>
   </data>
   <data name="Bloatware.Loading" xml:space="preserve">
     <value>Procurando aplicativos removíveis...</value>
@@ -993,7 +993,7 @@ Isso garante que você possa sempre voltar se algo der errado.</value>
     <value>Ao remover pacotes AppX instalados, também remova os pacotes Provisionados correspondentes para evitar a re-instalação automática para novos usuários.</value>
   </data>
   <data name="Dashboard.UpdateInfoBar.Message" xml:space="preserve">
-    <value>O optimizerDuck (v{0}) está disponível!
+    <value>O Dadeum (v{0}) está disponível!
 Atualize agora para desfrutar das últimas funcionalidades, melhorias e correções de bugs.</value>
   </data>
   <data name="Common.Search.Placeholder" xml:space="preserve">
@@ -1533,7 +1533,7 @@ Atualize agora para desfrutar das últimas funcionalidades, melhorias e correç�
     <value>Acordo Legal</value>
   </data>
   <data name="LegalDialog.Intro.Title" xml:space="preserve">
-    <value>Bem-vindo ao optimizerDuck!</value>
+    <value>Bem-vindo ao Dadeum!</value>
   </data>
   <data name="LegalDialog.Intro.Description" xml:space="preserve">
     <value>Escolha seu idioma e tema, reserve um momento para revisar nossos Termos, Política de Privacidade e Isenção de responsabilidade e você estará pronto para continuar.</value>
@@ -1785,7 +1785,7 @@ Atualize agora para desfrutar das últimas funcionalidades, melhorias e correç�
     <value>Falha na verificação de compatibilidade</value>
   </data>
   <data name="Condition.Error.Description" xml:space="preserve">
-    <value>O optimizerDuck não conseguiu determinar se este item é compatível com o seu sistema.</value>
+    <value>O Dadeum não conseguiu determinar se este item é compatível com o seu sistema.</value>
   </data>
   <data name="Condition.Windows11.Title" xml:space="preserve">
     <value>Windows 11 necessário</value>
@@ -1992,7 +1992,7 @@ Atualize agora para desfrutar das últimas funcionalidades, melhorias e correç�
     <value>Falha ao restaurar o plano de energia anterior: {0}.</value>
   </data>
   <data name="Revert.PowerPlan.Error.DeleteFailed" xml:space="preserve">
-    <value>Falha ao excluir o plano de energia do optimizerDuck: {0}</value>
+    <value>Falha ao excluir o plano de energia do Dadeum: {0}</value>
   </data>
   <data name="Revert.PowerPlan.Error.NothingToDo" xml:space="preserve">
     <value>Nada a reverter: nenhum plano de energia anterior ou instalado registrado.</value>
@@ -2442,7 +2442,7 @@ Atualize agora para desfrutar das últimas funcionalidades, melhorias e correç�
     <value>Mostrar o arquivo do registro</value>
   </data>
   <data name="OptimizationDetailsDialog.Other.OpenRecordFile.Description" xml:space="preserve">
-    <value>Abre o arquivo onde o optimizerDuck anota o que esta otimização fez. Ele permanece após reverter, para consulta.</value>
+    <value>Abre o arquivo onde o Dadeum anota o que esta otimização fez. Ele permanece após reverter, para consulta.</value>
   </data>
   <data name="Optimizer.Details.Provider.Registry" xml:space="preserve">
     <value>Registro</value>

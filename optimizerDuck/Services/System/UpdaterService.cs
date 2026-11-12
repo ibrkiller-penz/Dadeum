@@ -8,8 +8,9 @@ namespace optimizerDuck.Services.System;
 
 public class UpdaterService : IDisposable
 {
-    private const string Owner = "itsfatduck";
-    private const string Repo = "optimizerDuck";
+    // Dadeum checks its own releases, never the upstream optimizerDuck ones.
+    private const string Owner = "ibrkiller-penz";
+    private const string Repo = "Dadeum";
 
     /// <summary>The URL to the latest release page on GitHub.</summary>
     public const string LatestReleaseUrl = $"https://github.com/{Owner}/{Repo}/releases/latest";
@@ -32,7 +33,7 @@ public class UpdaterService : IDisposable
     /// <returns>The user agent header.</returns>
     internal static ProductInfoHeaderValue BuildUserAgentHeader()
     {
-        return new ProductInfoHeaderValue("optimizerDuck", Shared.FileVersion);
+        return new ProductInfoHeaderValue(Shared.AppName, Shared.FileVersion);
     }
 
     /// <summary>Parses the version a release tag names.</summary>
@@ -60,7 +61,7 @@ public class UpdaterService : IDisposable
     internal static GitHubAsset? FindExecutableAsset(GitHubRelease? release)
     {
         return release?.Assets.FirstOrDefault(asset =>
-            asset.Name.StartsWith("optimizerDuck", StringComparison.OrdinalIgnoreCase)
+            asset.Name.StartsWith(Shared.AppName, StringComparison.OrdinalIgnoreCase)
             && asset.Name.EndsWith(".exe", StringComparison.OrdinalIgnoreCase)
         );
     }

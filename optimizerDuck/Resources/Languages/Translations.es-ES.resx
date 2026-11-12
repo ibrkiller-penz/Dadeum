@@ -1809,7 +1809,7 @@
 
   <data name="Settings.About.Acknowledgements.Description" xml:space="preserve">
 
-    <value>optimizerDuck es posible gracias a los siguientes proyectos y recursos de código abierto.</value>
+    <value>Dadeum es posible gracias a los siguientes proyectos y recursos de código abierto.</value>
 
   </data>
 
@@ -1829,7 +1829,7 @@ Es una medida de seguridad para proteger Windows antes de aplicar cambios.</valu
 
   <data name="RestorePointDialog.Help" xml:space="preserve">
 
-    <value>La aplicación habilitará automáticamente Restaurar sistema y creará un punto de control llamado "optimizerDuck...".
+    <value>La aplicación habilitará automáticamente Restaurar sistema y creará un punto de control llamado "Dadeum...".
 
 Esto garantiza que siempre puedas volver atrás si algo sale mal.</value>
 
@@ -1946,7 +1946,7 @@ Esto garantiza que siempre puedas volver atrás si algo sale mal.</value>
 
   <data name="Bloatware.Empty.Description" xml:space="preserve">
 
-    <value>optimizerDuck no encontró paquetes AppX eliminables. Está completamente limpio...</value>
+    <value>Dadeum no encontró paquetes AppX eliminables. Está completamente limpio...</value>
 
   </data>
 
@@ -2007,7 +2007,7 @@ Esto garantiza que siempre puedas volver atrás si algo sale mal.</value>
 
   <data name="Dashboard.UpdateInfoBar.Message" xml:space="preserve">
 
-    <value>¡optimizerDuck (v{0}) está disponible!
+    <value>¡Dadeum (v{0}) está disponible!
 
 Actualiza ahora para disfrutar de las nuevas funciones y mejoras.</value>
 
@@ -3075,7 +3075,7 @@ Actualiza ahora para disfrutar de las nuevas funciones y mejoras.</value>
 
 
   <data name="LegalDialog.Intro.Title" xml:space="preserve">
-    <value>¡Bienvenido a optimizerDuck!</value>
+    <value>¡Bienvenido a Dadeum!</value>
   </data>
   <data name="LegalDialog.Intro.Description" xml:space="preserve">
     <value>Elige tu idioma y tema, tómate un momento para revisar nuestros Términos, Política de privacidad y Aviso legal, y estarás listo para continuar.</value>
@@ -3503,7 +3503,7 @@ Actualiza ahora para disfrutar de las nuevas funciones y mejoras.</value>
 
   <data name="Condition.Error.Description" xml:space="preserve">
 
-    <value>optimizerDuck no pudo determinar si este elemento es compatible con tu sistema.</value>
+    <value>Dadeum no pudo determinar si este elemento es compatible con tu sistema.</value>
 
   </data>
 
@@ -3797,7 +3797,7 @@ Actualiza ahora para disfrutar de las nuevas funciones y mejoras.</value>
     <value>No se pudo restaurar el plan de energía anterior: {0}.</value>
   </data>
   <data name="Revert.PowerPlan.Error.DeleteFailed" xml:space="preserve">
-    <value>No se pudo eliminar el plan de energía de optimizerDuck: {0}</value>
+    <value>No se pudo eliminar el plan de energía de Dadeum: {0}</value>
   </data>
   <data name="Revert.PowerPlan.Error.NothingToDo" xml:space="preserve">
     <value>Nada que revertir: no hay ningún plan de energía anterior o instalado registrado.</value>
@@ -4247,7 +4247,7 @@ Actualiza ahora para disfrutar de las nuevas funciones y mejoras.</value>
     <value>Mostrar el archivo del registro</value>
   </data>
   <data name="OptimizationDetailsDialog.Other.OpenRecordFile.Description" xml:space="preserve">
-    <value>Abre el archivo donde optimizerDuck anota lo que hizo esta optimización. Se conserva tras revertir, así que puedes consultarlo después.</value>
+    <value>Abre el archivo donde Dadeum anota lo que hizo esta optimización. Se conserva tras revertir, así que puedes consultarlo después.</value>
   </data>
   <data name="Optimizer.Details.Provider.Registry" xml:space="preserve">
     <value>Registro</value>

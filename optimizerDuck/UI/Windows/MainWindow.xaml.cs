@@ -65,8 +65,9 @@ public partial class MainWindow : IWindow
 
     internal void UpdatePendingIndicator(bool hasPending)
     {
-        AppTitleText.Text = hasPending ? "optimizerDuck*" : "optimizerDuck";
-        Title = hasPending ? "optimizerDuck*" : "optimizerDuck";
+        var title = hasPending ? $"{Shared.AppName}*" : Shared.AppName;
+        AppTitleText.Text = title;
+        Title = title;
     }
 
     private async void OnRootNavigationLoaded(object sender, RoutedEventArgs e)

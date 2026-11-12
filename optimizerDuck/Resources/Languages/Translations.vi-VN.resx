@@ -217,10 +217,10 @@
     <value>Không thể phát hiện power plan đang hoạt động hiện tại.</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ImportFailed" xml:space="preserve">
-    <value>Không thể nhập power plan của optimizerDuck.</value>
+    <value>Không thể nhập power plan của Dadeum.</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ActivateFailed" xml:space="preserve">
-    <value>Không thể kích hoạt power plan của optimizerDuck.</value>
+    <value>Không thể kích hoạt power plan của Dadeum.</value>
   </data>
   <data name="Optimizer.UI.Tags.System" xml:space="preserve">
     <value>Hệ thống</value>
@@ -805,7 +805,7 @@
     <value>Ghi nhận đóng góp</value>
   </data>
   <data name="Settings.About.Acknowledgements.Description" xml:space="preserve">
-    <value>optimizerDuck được xây dựng nhờ các phần mềm và tài nguyên nguồn mở.</value>
+    <value>Dadeum được xây dựng nhờ các phần mềm và tài nguyên nguồn mở.</value>
   </data>
   <data name="RestorePoint.Title" xml:space="preserve">
     <value>Phục hồi hệ thống</value>
@@ -815,7 +815,7 @@
 Đây là cách an toàn nhất để bảo vệ máy tính của bạn khi tối ưu hóa.</value>
   </data>
   <data name="RestorePointDialog.Help" xml:space="preserve">
-    <value>Ứng dụng sẽ tự động kích hoạt và tạo một điểm khôi phục mới mang tên "optimizerDuck...".
+    <value>Ứng dụng sẽ tự động kích hoạt và tạo một điểm khôi phục mới mang tên "Dadeum...".
 Hãy yên tâm rằng hệ thống của bạn luôn có đường lui nếu có sự cố xảy ra.</value>
   </data>
   <data name="RestorePoint.Snackbar.Error.Title" xml:space="preserve">
@@ -873,7 +873,7 @@ Hãy yên tâm rằng hệ thống của bạn luôn có đường lui nếu có
     <value>Không tìm thấy bất kì một ứng dụng nào ¯\_(ツ)_/¯</value>
   </data>
   <data name="Bloatware.Empty.Description" xml:space="preserve">
-    <value>optimizerDuck không tìm thấy gói AppX nào có thể xóa. mọi thứ trống không như hư vô...</value>
+    <value>Dadeum không tìm thấy gói AppX nào có thể xóa. mọi thứ trống không như hư vô...</value>
   </data>
   <data name="Bloatware.Loading" xml:space="preserve">
     <value>Đang tìm kiếm ứng dụng có thể gỡ...</value>
@@ -903,7 +903,7 @@ Hãy yên tâm rằng hệ thống của bạn luôn có đường lui nếu có
     <value>Khi xóa gói AppX đã cài đặt, cũng xóa luôn các gói Provisioned tương ứng để ngăn tự động cài lại cho người dùng mới.</value>
   </data>
   <data name="Dashboard.UpdateInfoBar.Message" xml:space="preserve">
-    <value>Đã có phiên bản optimizerDuck (v{0})!
+    <value>Đã có phiên bản Dadeum (v{0})!
 Cập nhật ngay để trải nghiệm các tính năng mới, cải tiến và sửa lỗi mới nhất.</value>
   </data>
   <data name="Common.Search.Placeholder" xml:space="preserve">
@@ -1456,7 +1456,7 @@ Cập nhật ngay để trải nghiệm các tính năng mới, cải tiến và
     <value>Thỏa thuận pháp lý</value>
   </data>
   <data name="LegalDialog.Intro.Title" xml:space="preserve">
-    <value>Chào mừng đến với optimizerDuck!</value>
+    <value>Chào mừng đến với Dadeum!</value>
   </data>
   <data name="LegalDialog.Intro.Description" xml:space="preserve">
     <value>Chọn ngôn ngữ và giao diện của bạn, dành chút thời gian xem qua Điều khoản, Chính sách Bảo mật và Tuyên bố miễn trừ trách nhiệm, sau đó bạn đã sẵn sàng.</value>
@@ -1777,7 +1777,7 @@ Cập nhật ngay để trải nghiệm các tính năng mới, cải tiến và
     <value>Kiểm tra tương thích không thành công</value>
   </data>
   <data name="Condition.Error.Description" xml:space="preserve">
-    <value>optimizerDuck không thể xác định mục này có được hỗ trợ trên hệ thống của bạn hay không.</value>
+    <value>Dadeum không thể xác định mục này có được hỗ trợ trên hệ thống của bạn hay không.</value>
   </data>
   <data name="Condition.Windows11.Title" xml:space="preserve">
     <value>Yêu cầu Windows 11</value>
@@ -1984,7 +1984,7 @@ Cập nhật ngay để trải nghiệm các tính năng mới, cải tiến và
     <value>Không khôi phục được Power Plan trước đó: {0}.</value>
   </data>
   <data name="Revert.PowerPlan.Error.DeleteFailed" xml:space="preserve">
-    <value>Không xóa được Power Plan optimizerDuck: {0}</value>
+    <value>Không xóa được Power Plan Dadeum: {0}</value>
   </data>
   <data name="Revert.PowerPlan.Error.NothingToDo" xml:space="preserve">
     <value>Không có gì để hoàn tác: chưa ghi nhận Power Plan trước đó hay đã cài đặt.</value>
@@ -2434,7 +2434,7 @@ Cập nhật ngay để trải nghiệm các tính năng mới, cải tiến và
     <value>Mở tệp bản ghi</value>
   </data>
   <data name="OptimizationDetailsDialog.Other.OpenRecordFile.Description" xml:space="preserve">
-    <value>Mở thư mục và chọn tệp nơi optimizerDuck ghi lại tối ưu này đã làm gì. Tệp vẫn còn sau khi hoàn tác, nên bạn xem lại được.</value>
+    <value>Mở thư mục và chọn tệp nơi Dadeum ghi lại tối ưu này đã làm gì. Tệp vẫn còn sau khi hoàn tác, nên bạn xem lại được.</value>
   </data>
   <data name="Optimizer.Details.Provider.Registry" xml:space="preserve">
     <value>Registry</value>

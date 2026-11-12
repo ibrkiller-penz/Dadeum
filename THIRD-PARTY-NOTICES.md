@@ -4,6 +4,11 @@
 
 # Third-Party Software Notices
 
+> **Dadeum (다듬)** is a modified version of **[optimizerDuck](https://github.com/itsfatduck/optimizerDuck)**,
+> Copyright (C) 2025–2026 fatDuck (itsfatduck), licensed under GPL-3.0. Dadeum is distributed under the
+> same license. See [NOTICE.md](./NOTICE.md) for what was changed. The notices below are inherited
+> from optimizerDuck and still apply.
+
 **optimizerDuck** is built upon the shoulders of the amazing open-source community. To deliver the best experience, I rely on several third-party libraries and resources. Please note that while these components are integrated into the software, they remain the property of their respective owners and are governed by their own specific licenses.
 
 > [!TIP]

@@ -214,10 +214,10 @@
     <value>Nie udało się wykryć aktualnie aktywnego planu zasilania.</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ImportFailed" xml:space="preserve">
-    <value>Nie udało się zaimportować planu zasilania optimizerDuck.</value>
+    <value>Nie udało się zaimportować planu zasilania Dadeum.</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ActivateFailed" xml:space="preserve">
-    <value>Nie udało się aktywować planu zasilania optimizerDuck.</value>
+    <value>Nie udało się aktywować planu zasilania Dadeum.</value>
   </data>
   <data name="Optimizer.UI.Tags.System" xml:space="preserve">
     <value>System</value>
@@ -895,7 +895,7 @@
     <value>Podziękowania</value>
   </data>
   <data name="Settings.About.Acknowledgements.Description" xml:space="preserve">
-    <value>optimizerDuck jest możliwy dzięki następującemu oprogramowaniu open-source i zasobom.</value>
+    <value>Dadeum jest możliwy dzięki następującemu oprogramowaniu open-source i zasobom.</value>
   </data>
   <data name="RestorePoint.Title" xml:space="preserve">
     <value>Przywracanie systemu</value>
@@ -905,7 +905,7 @@
 To środek bezpieczeństwa chroniący system Windows przed zastosowaniem zmian.</value>
   </data>
   <data name="RestorePointDialog.Help" xml:space="preserve">
-    <value>Aplikacja automatycznie włączy Przywracanie systemu i utworzy punkt kontrolny o nazwie „optimizerDuck...”.
+    <value>Aplikacja automatycznie włączy Przywracanie systemu i utworzy punkt kontrolny o nazwie „Dadeum...”.
 Dzięki temu zawsze możesz się cofnąć, jeśli coś pójdzie nie tak.</value>
   </data>
   <data name="RestorePoint.Snackbar.Error.Title" xml:space="preserve">
@@ -963,7 +963,7 @@ Dzięki temu zawsze możesz się cofnąć, jeśli coś pójdzie nie tak.</value>
     <value>Nie znaleziono zbędnych aplikacji ¯\_(ツ)_/¯</value>
   </data>
   <data name="Bloatware.Empty.Description" xml:space="preserve">
-    <value>optimizerDuck nie znalazł żadnych usuwalnych pakietów AppX. Pusto jak w próżni...</value>
+    <value>Dadeum nie znalazł żadnych usuwalnych pakietów AppX. Pusto jak w próżni...</value>
   </data>
   <data name="Bloatware.Loading" xml:space="preserve">
     <value>Wyszukiwanie usuwalnych aplikacji...</value>
@@ -993,7 +993,7 @@ Dzięki temu zawsze możesz się cofnąć, jeśli coś pójdzie nie tak.</value>
     <value>Podczas usuwania zainstalowanych pakietów AppX usuwaj również odpowiadające im pakiety provisioned, aby zapobiec automatycznej ponownej instalacji dla nowych użytkowników.</value>
   </data>
   <data name="Dashboard.UpdateInfoBar.Message" xml:space="preserve">
-    <value>Dostępny jest optimizerDuck (v{0})!
+    <value>Dostępny jest Dadeum (v{0})!
 Zaktualizuj teraz, aby korzystać z najnowszych funkcji, ulepszeń i poprawek błędów.</value>
   </data>
   <data name="Common.Search.Placeholder" xml:space="preserve">
@@ -1533,7 +1533,7 @@ Zaktualizuj teraz, aby korzystać z najnowszych funkcji, ulepszeń i poprawek b�
     <value>Umowa prawna</value>
   </data>
   <data name="LegalDialog.Intro.Title" xml:space="preserve">
-    <value>Witamy w optimizerDuck!</value>
+    <value>Witamy w Dadeum!</value>
   </data>
   <data name="LegalDialog.Intro.Description" xml:space="preserve">
     <value>Wybierz język i motyw, poświęć chwilę na zapoznanie się z Warunkami korzystania, Polityką prywatności i Zastrzeżeniem, a następnie możesz zaczynać.</value>
@@ -1785,7 +1785,7 @@ Zaktualizuj teraz, aby korzystać z najnowszych funkcji, ulepszeń i poprawek b�
     <value>Sprawdzenie zgodności nie powiodło się</value>
   </data>
   <data name="Condition.Error.Description" xml:space="preserve">
-    <value>optimizerDuck nie mógł ustalić, czy ten element jest obsługiwany w Twoim systemie.</value>
+    <value>Dadeum nie mógł ustalić, czy ten element jest obsługiwany w Twoim systemie.</value>
   </data>
   <data name="Condition.Windows11.Title" xml:space="preserve">
     <value>Wymagany system Windows 11</value>
@@ -1992,7 +1992,7 @@ Zaktualizuj teraz, aby korzystać z najnowszych funkcji, ulepszeń i poprawek b�
     <value>Nie można przywrócić poprzedniego planu zasilania: {0}.</value>
   </data>
   <data name="Revert.PowerPlan.Error.DeleteFailed" xml:space="preserve">
-    <value>Nie można usunąć planu zasilania optimizerDuck: {0}</value>
+    <value>Nie można usunąć planu zasilania Dadeum: {0}</value>
   </data>
   <data name="Revert.PowerPlan.Error.NothingToDo" xml:space="preserve">
     <value>Brak zmian do cofnięcia: nie zapisano poprzedniego ani zainstalowanego planu zasilania.</value>
@@ -2442,7 +2442,7 @@ Zaktualizuj teraz, aby korzystać z najnowszych funkcji, ulepszeń i poprawek b�
     <value>Pokaż plik zapisu</value>
   </data>
   <data name="OptimizationDetailsDialog.Other.OpenRecordFile.Description" xml:space="preserve">
-    <value>Otwiera plik, w którym optimizerDuck zapisuje, co zrobiła ta optymalizacja. Pozostaje po cofnięciu, więc możesz zajrzeć później.</value>
+    <value>Otwiera plik, w którym Dadeum zapisuje, co zrobiła ta optymalizacja. Pozostaje po cofnięciu, więc możesz zajrzeć później.</value>
   </data>
   <data name="Optimizer.Details.Provider.Registry" xml:space="preserve">
     <value>Rejestr</value>

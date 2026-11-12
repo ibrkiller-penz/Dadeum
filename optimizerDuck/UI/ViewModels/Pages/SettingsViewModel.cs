@@ -181,16 +181,9 @@ public partial class SettingsViewModel(
             switch (type)
             {
                 case "Documentation":
-                    logger.LogInformation(
-                        "Opening page: {Url}",
-                        Shared.WebsiteURL + "docs/guides/getting-started"
-                    );
+                    logger.LogInformation("Opening page: {Url}", Shared.DocsURL);
                     Process.Start(
-                        new ProcessStartInfo
-                        {
-                            FileName = Shared.WebsiteURL + "docs/guides/getting-started",
-                            UseShellExecute = true,
-                        }
+                        new ProcessStartInfo { FileName = Shared.DocsURL, UseShellExecute = true }
                     );
                     break;
 

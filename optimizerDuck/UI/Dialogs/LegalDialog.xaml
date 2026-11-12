@@ -100,7 +100,7 @@
                     Icon="{ui:SymbolIcon DocumentText24,
                                          FontSize=18,
                                          Filled=True}"
-                    NavigateUri="https://github.com/itsfatduck/optimizerDuck/blob/master/TERMS.md" />
+                    NavigateUri="https://github.com/ibrkiller-penz/Dadeum/blob/master/TERMS.md" />
                 <ui:HyperlinkButton
                     Margin="0,0,8,0"
                     Content="{ext:Loc LegalDialog.Link.PrivacyPolicy}"
@@ -108,14 +108,14 @@
                     Icon="{ui:SymbolIcon ShieldLock24,
                                          FontSize=18,
                                          Filled=True}"
-                    NavigateUri="https://github.com/itsfatduck/optimizerDuck/blob/master/PRIVACY.md" />
+                    NavigateUri="https://github.com/ibrkiller-penz/Dadeum/blob/master/PRIVACY.md" />
                 <ui:HyperlinkButton
                     Content="{ext:Loc LegalDialog.Link.Disclaimer}"
                     FontWeight="SemiBold"
                     Icon="{ui:SymbolIcon Warning24,
                                          FontSize=18,
                                          Filled=True}"
-                    NavigateUri="https://github.com/itsfatduck/optimizerDuck/blob/master/DISCLAIMER.md" />
+                    NavigateUri="https://github.com/ibrkiller-penz/Dadeum/blob/master/DISCLAIMER.md" />
             </WrapPanel>
         </Border>
 
@@ -186,7 +186,8 @@
                         Command="{Binding OpenWebsiteCommand}"
                         CommandParameter="Discord"
                         Cursor="Hand"
-                        IsChevronVisible="False">
+                        IsChevronVisible="False"
+                        Visibility="Collapsed">
                         <ui:CardAction.Icon>
                             <ui:ImageIcon Height="16" Source="pack://application:,,,/Resources/Images/DiscordLogo.png" />
                         </ui:CardAction.Icon>

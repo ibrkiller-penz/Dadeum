@@ -10,37 +10,46 @@ public static class Shared
 {
     /// <summary>The ASCII-art logo shown in the startup log banner.</summary>
     public const string RawLogo = """
-                      _   _           _              _____             _
-                     | | (_)         (_)            |  __ \           | |
-           ___  _ __ | |_ _ _ __ ___  _ _______ _ __| |  | |_   _  ___| | __
-          / _ \| '_ \| __| | '_ ` _ \| |_  / _ \ '__| |  | | | | |/ __| |/ /
-         | (_) | |_) | |_| | | | | | | |/ /  __/ |  | |__| | |_| | (__|   <
-          \___/| .__/ \__|_|_| |_| |_|_/___\___|_|  |_____/ \__,_|\___|_|\_\
-               | |
-               |_|
+         _____            _
+        |  __ \          | |
+        | |  | | __ _  __| | ___ _   _ _ __ ___
+        | |  | |/ _` |/ _` |/ _ \ | | | '_ ` _ \
+        | |__| | (_| | (_| |  __/ |_| | | | | | |
+        |_____/ \__,_|\__,_|\___|\__,_|_| |_| |_|
         """;
 
-    /// <summary>The invite link to the project's Discord server.</summary>
-    public const string DiscordInviteURL = "https://discord.gg/tDUBDCYw9Q";
+    /// <summary>The product name shown to users. Dadeum is a fork of optimizerDuck (GPL-3.0).</summary>
+    public const string AppName = "Dadeum";
 
-    /// <summary>The project documentation site.</summary>
-    public const string WebsiteURL = "https://optimizerduck.vercel.app/";
+    /// <summary>
+    ///     The invite link to a community chat. Dadeum has none yet, so it points at the issue
+    ///     tracker and the Discord buttons are hidden.
+    /// </summary>
+    public const string DiscordInviteURL = GitHubRepoURL + "/issues";
 
     /// <summary>The project's GitHub repository.</summary>
-    public const string GitHubRepoURL = "https://github.com/itsfatduck/optimizerDuck";
+    public const string GitHubRepoURL = "https://github.com/ibrkiller-penz/Dadeum";
 
-    /// <summary>The community page on the documentation site.</summary>
-    public const string CommunityURL = "https://optimizerduck.vercel.app/docs/community";
+    /// <summary>The project documentation (the README until a docs site exists).</summary>
+    public const string WebsiteURL = GitHubRepoURL + "#readme";
 
-    /// <summary>The contribution guide on the documentation site.</summary>
-    public const string ContributeURL = "https://optimizerduck.vercel.app/docs/contribute/overview";
+    /// <summary>The getting-started guide.</summary>
+    public const string DocsURL = GitHubRepoURL + "#readme";
+
+    /// <summary>The community page (the issue tracker).</summary>
+    public const string CommunityURL = GitHubRepoURL + "/issues";
+
+    /// <summary>The contribution guide.</summary>
+    public const string ContributeURL = GitHubRepoURL + "/blob/master/CONTRIBUTING.md";
 
     /// <summary>The third-party notices file on GitHub.</summary>
-    public const string AcknowledgementsURL =
-        "https://github.com/itsfatduck/optimizerDuck/blob/master/THIRD-PARTY-NOTICES.md";
+    public const string AcknowledgementsURL = GitHubRepoURL + "/blob/master/THIRD-PARTY-NOTICES.md";
+
+    /// <summary>The upstream project Dadeum is forked from.</summary>
+    public const string UpstreamRepoURL = "https://github.com/itsfatduck/optimizerDuck";
 
     /// <summary>The name given to the restore point created before an apply.</summary>
-    public const string RestorePointName = "optimizerDuck Restore Point";
+    public const string RestorePointName = AppName + " Restore Point";
 
     /// <summary>The GUID the bundled power plan is installed under.</summary>
     public const string PowerPlanGUID = "8ae61178-2c55-43f2-afb2-f83725823657";
@@ -256,7 +265,7 @@ public static class Shared
     public static string RootDirectory =>
         Path.Combine(
             Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
-            "optimizerDuck"
+            AppName
         );
 
     /// <summary>The directory that holds downloaded and bundled resources.</summary>

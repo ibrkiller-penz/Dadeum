@@ -235,8 +235,8 @@ public partial class App : Application
         await Application.Current.Dispatcher.InvokeAsync(() =>
         {
             System.Windows.MessageBox.Show(
-                $"Failed to start optimizerDuck.{Environment.NewLine}{Environment.NewLine}{ex.Message}",
-                "optimizerDuck",
+                $"Failed to start {Shared.AppName}.{Environment.NewLine}{Environment.NewLine}{ex.Message}",
+                Shared.AppName,
                 System.Windows.MessageBoxButton.OK,
                 MessageBoxImage.Error
             );
@@ -321,7 +321,7 @@ public partial class App : Application
         Directory.CreateDirectory(Shared.RevertDirectory);
         Directory.CreateDirectory(Shared.HistoryDirectory);
 
-        var logPath = Path.Combine(Shared.RootDirectory, "optimizerDuck.log");
+        var logPath = Path.Combine(Shared.RootDirectory, $"{Shared.AppName}.log");
         Log.Logger = new LoggerConfiguration()
             .MinimumLevel.Verbose()
             .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
