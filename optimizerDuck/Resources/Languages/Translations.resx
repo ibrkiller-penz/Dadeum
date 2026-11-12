@@ -2643,4 +2643,25 @@ Update now to enjoy the latest features, improvements, and bug fixes.</value>
   <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
     <value>{0} setting(s) this item set no longer hold that value, likely because of a Windows update: {1}. Turn it off and on again to reapply.</value>
   </data>
+  <data name="Settings.RevertAll.Title" xml:space="preserve">
+    <value>Revert all applied optimizations</value>
+  </data>
+  <data name="Settings.RevertAll.Description" xml:space="preserve">
+    <value>Puts every applied item back to the values it replaced, one item at a time.</value>
+  </data>
+  <data name="Settings.RevertAll.Confirm" xml:space="preserve">
+    <value>{0} applied item(s) will be reverted to the values they replaced. Continue?</value>
+  </data>
+  <data name="Settings.RevertAll.Button" xml:space="preserve">
+    <value>Revert all</value>
+  </data>
+  <data name="Settings.RevertAll.Nothing" xml:space="preserve">
+    <value>No optimization is applied, so there is nothing to revert.</value>
+  </data>
+  <data name="Settings.RevertAll.Done" xml:space="preserve">
+    <value>Reverted {0} item(s). Restart to make sure every change takes effect.</value>
+  </data>
+  <data name="Settings.RevertAll.Partial" xml:space="preserve">
+    <value>Reverted {0} item(s). These could not be reverted and stay applied: {1}</value>
+  </data>
 </root>

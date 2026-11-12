@@ -2585,4 +2585,25 @@ Mettez à jour pour profiter des dernières fonctionnalités, améliorations et 
   <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
     <value>{0} paramètre(s) défini(s) par cet élément n'ont plus cette valeur, probablement à cause d'une mise à jour de Windows : {1}. Désactivez-le puis réactivez-le pour l'appliquer à nouveau.</value>
   </data>
+  <data name="Settings.RevertAll.Title" xml:space="preserve">
+    <value>Annuler toutes les optimisations appliquées</value>
+  </data>
+  <data name="Settings.RevertAll.Description" xml:space="preserve">
+    <value>Remet chaque élément appliqué aux valeurs qu'il a remplacées, un par un.</value>
+  </data>
+  <data name="Settings.RevertAll.Confirm" xml:space="preserve">
+    <value>{0} élément(s) appliqué(s) seront remis aux valeurs qu'ils ont remplacées. Continuer ?</value>
+  </data>
+  <data name="Settings.RevertAll.Button" xml:space="preserve">
+    <value>Tout annuler</value>
+  </data>
+  <data name="Settings.RevertAll.Nothing" xml:space="preserve">
+    <value>Aucune optimisation n'est appliquée, il n'y a donc rien à annuler.</value>
+  </data>
+  <data name="Settings.RevertAll.Done" xml:space="preserve">
+    <value>{0} élément(s) annulé(s). Redémarrez pour que toutes les modifications prennent effet.</value>
+  </data>
+  <data name="Settings.RevertAll.Partial" xml:space="preserve">
+    <value>{0} élément(s) annulé(s). Ceux-ci n'ont pas pu être annulés et restent appliqués : {1}</value>
+  </data>
 </root>

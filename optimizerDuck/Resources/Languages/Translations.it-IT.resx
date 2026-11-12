@@ -2593,4 +2593,25 @@ Aggiorna ora per godere delle ultime funzionalità, miglioramenti e correzioni.<
   <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
     <value>{0} impostazioni definite da questa voce non hanno più quel valore, probabilmente a causa di un aggiornamento di Windows: {1}. Disattivala e riattivala per applicarla di nuovo.</value>
   </data>
+  <data name="Settings.RevertAll.Title" xml:space="preserve">
+    <value>Annulla tutte le ottimizzazioni applicate</value>
+  </data>
+  <data name="Settings.RevertAll.Description" xml:space="preserve">
+    <value>Riporta ogni voce applicata ai valori che aveva sostituito, una alla volta.</value>
+  </data>
+  <data name="Settings.RevertAll.Confirm" xml:space="preserve">
+    <value>{0} voci applicate verranno riportate ai valori che avevano sostituito. Continuare?</value>
+  </data>
+  <data name="Settings.RevertAll.Button" xml:space="preserve">
+    <value>Annulla tutto</value>
+  </data>
+  <data name="Settings.RevertAll.Nothing" xml:space="preserve">
+    <value>Nessuna ottimizzazione è applicata, quindi non c'è nulla da annullare.</value>
+  </data>
+  <data name="Settings.RevertAll.Done" xml:space="preserve">
+    <value>Annullate {0} voci. Riavvia perché tutte le modifiche abbiano effetto.</value>
+  </data>
+  <data name="Settings.RevertAll.Partial" xml:space="preserve">
+    <value>Annullate {0} voci. Queste non sono state annullate e restano applicate: {1}</value>
+  </data>
 </root>

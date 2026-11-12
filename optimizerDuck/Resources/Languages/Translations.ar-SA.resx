@@ -2627,5 +2627,26 @@
   <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
     <value>{0} من الإعدادات التي غيّرها هذا العنصر لم تعد تحمل تلك القيمة، على الأرجح بسبب تحديث Windows: {1}. أوقفه ثم شغّله مجددًا لإعادة التطبيق.</value>
   </data>
+  <data name="Settings.RevertAll.Title" xml:space="preserve">
+    <value>التراجع عن كل التحسينات المطبقة</value>
+  </data>
+  <data name="Settings.RevertAll.Description" xml:space="preserve">
+    <value>يعيد كل عنصر مطبق إلى القيم التي استبدلها، عنصرًا تلو الآخر.</value>
+  </data>
+  <data name="Settings.RevertAll.Confirm" xml:space="preserve">
+    <value>سيتم التراجع عن {0} من العناصر المطبقة إلى القيم التي استبدلتها. هل تريد المتابعة؟</value>
+  </data>
+  <data name="Settings.RevertAll.Button" xml:space="preserve">
+    <value>التراجع عن الكل</value>
+  </data>
+  <data name="Settings.RevertAll.Nothing" xml:space="preserve">
+    <value>لا يوجد تحسين مطبق، لذا لا يوجد ما يمكن التراجع عنه.</value>
+  </data>
+  <data name="Settings.RevertAll.Done" xml:space="preserve">
+    <value>تم التراجع عن {0} من العناصر. أعد التشغيل للتأكد من تطبيق كل التغييرات.</value>
+  </data>
+  <data name="Settings.RevertAll.Partial" xml:space="preserve">
+    <value>تم التراجع عن {0} من العناصر. تعذّر التراجع عن هذه العناصر وما زالت مطبقة: {1}</value>
+  </data>
 </root>
 

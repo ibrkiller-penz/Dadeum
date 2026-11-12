@@ -2593,4 +2593,25 @@
   <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
     <value>此项目设置的 {0} 项设置已不再是该值，可能是 Windows 更新所致：{1}。关闭后再打开即可重新应用。</value>
   </data>
+  <data name="Settings.RevertAll.Title" xml:space="preserve">
+    <value>还原所有已应用的优化</value>
+  </data>
+  <data name="Settings.RevertAll.Description" xml:space="preserve">
+    <value>将每个已应用的项目逐一恢复为其替换前的值。</value>
+  </data>
+  <data name="Settings.RevertAll.Confirm" xml:space="preserve">
+    <value>将把 {0} 个已应用的项目恢复为替换前的值。是否继续？</value>
+  </data>
+  <data name="Settings.RevertAll.Button" xml:space="preserve">
+    <value>全部还原</value>
+  </data>
+  <data name="Settings.RevertAll.Nothing" xml:space="preserve">
+    <value>没有已应用的优化，因此无需还原。</value>
+  </data>
+  <data name="Settings.RevertAll.Done" xml:space="preserve">
+    <value>已还原 {0} 个项目。请重新启动以确保所有更改生效。</value>
+  </data>
+  <data name="Settings.RevertAll.Partial" xml:space="preserve">
+    <value>已还原 {0} 个项目。以下项目无法还原，仍保持已应用状态：{1}</value>
+  </data>
 </root>

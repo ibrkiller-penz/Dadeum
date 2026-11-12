@@ -28,6 +28,7 @@ public partial class SettingsViewModel(
     ConfigManager configManager,
     IOptionsMonitor<AppSettings> appOptionsMonitor,
     OptimizationRegistry optimizationRegistry,
+    OptimizationService optimizationService,
     IContentDialogService contentDialogService,
     ISnackbarService snackbarService,
     ILogger<SettingsViewModel> logger
@@ -156,6 +157,87 @@ public partial class SettingsViewModel(
         );
         if (result == ContentDialogResult.Primary)
             OptimizationService.ClearDownloads(logger);
+    }
+
+    /// <summary>
+    ///     Dadeum: puts every applied item back the way it was before its apply, one at a time,
+    ///     through the same revert each toggle uses. Items that fail stay applied and are named.
+    /// </summary>
+    [RelayCommand]
+    private async Task RevertAllApplied()
+    {
+        var applied = optimizationRegistry
+            .OptimizationCategories.SelectMany(c => c.Optimizations)
+            .Where(o => o.State.IsApplied)
+            .ToList();
+
+        if (applied.Count == 0)
+        {
+            snackbarService.Show(
+                Loc.Instance["Settings.RevertAll.Title"],
+                Loc.Instance["Settings.RevertAll.Nothing"],
+                ControlAppearance.Info,
+                new SymbolIcon { Symbol = SymbolRegular.Info24 },
+                TimeSpan.FromSeconds(4)
+            );
+            return;
+        }
+
+        var dialog = new ContentDialog
+        {
+            Title = Loc.Instance["Settings.RevertAll.Title"],
+            Content = Loc.Instance["Settings.RevertAll.Confirm", applied.Count],
+            PrimaryButtonText = Loc.Instance["Settings.RevertAll.Button"],
+            PrimaryButtonAppearance = ControlAppearance.Caution,
+            CloseButtonText = Loc.Instance["Button.Cancel"],
+            DefaultButton = ContentDialogButton.Close,
+            MaxWidth = 500,
+        };
+        if (
+            await contentDialogService.ShowAsync(dialog, CancellationToken.None)
+            != ContentDialogResult.Primary
+        )
+            return;
+
+        var reverted = 0;
+        var failed = new List<string>();
+        foreach (var optimization in applied)
+        {
+            try
+            {
+                var result = await optimizationService.RevertAsync(optimization);
+                if (result.Success)
+                    reverted++;
+                else
+                    failed.Add(optimization.Name);
+            }
+            catch (Exception ex)
+            {
+                logger.LogError(ex, "Revert-all failed for {Key}", optimization.OptimizationKey);
+                failed.Add(optimization.Name);
+            }
+        }
+
+        await OptimizationService.UpdateOptimizationStateAsync([.. applied]);
+        if (Application.Current is App app)
+            app.HasPendingChanges = true;
+
+        if (failed.Count == 0)
+            snackbarService.Show(
+                Loc.Instance["Settings.RevertAll.Title"],
+                Loc.Instance["Settings.RevertAll.Done", reverted],
+                ControlAppearance.Success,
+                new SymbolIcon { Symbol = SymbolRegular.CheckmarkCircle24, Filled = true },
+                TimeSpan.FromSeconds(5)
+            );
+        else
+            snackbarService.Show(
+                Loc.Instance["Settings.RevertAll.Title"],
+                Loc.Instance["Settings.RevertAll.Partial", reverted, string.Join(", ", failed)],
+                ControlAppearance.Caution,
+                new SymbolIcon { Symbol = SymbolRegular.Warning24, Filled = true },
+                TimeSpan.FromSeconds(8)
+            );
     }
 
     [RelayCommand]

@@ -2637,4 +2637,25 @@ Aktualisiere jetzt, um die neuesten Funktionen, Verbesserungen und Fehlerbehebun
   <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
     <value>{0} Einstellung(en), die dieser Eintrag gesetzt hat, haben diesen Wert nicht mehr, vermutlich wegen eines Windows-Updates: {1}. Schalte ihn aus und wieder ein, um ihn erneut anzuwenden.</value>
   </data>
+  <data name="Settings.RevertAll.Title" xml:space="preserve">
+    <value>Alle angewendeten Optimierungen zurücksetzen</value>
+  </data>
+  <data name="Settings.RevertAll.Description" xml:space="preserve">
+    <value>Setzt jeden angewendeten Eintrag nacheinander auf die Werte zurück, die er ersetzt hat.</value>
+  </data>
+  <data name="Settings.RevertAll.Confirm" xml:space="preserve">
+    <value>{0} angewendete Einträge werden auf die ersetzten Werte zurückgesetzt. Fortfahren?</value>
+  </data>
+  <data name="Settings.RevertAll.Button" xml:space="preserve">
+    <value>Alle zurücksetzen</value>
+  </data>
+  <data name="Settings.RevertAll.Nothing" xml:space="preserve">
+    <value>Keine Optimierung ist angewendet, daher gibt es nichts zurückzusetzen.</value>
+  </data>
+  <data name="Settings.RevertAll.Done" xml:space="preserve">
+    <value>{0} Einträge zurückgesetzt. Starte neu, damit alle Änderungen wirksam werden.</value>
+  </data>
+  <data name="Settings.RevertAll.Partial" xml:space="preserve">
+    <value>{0} Einträge zurückgesetzt. Diese konnten nicht zurückgesetzt werden und bleiben angewendet: {1}</value>
+  </data>
 </root>

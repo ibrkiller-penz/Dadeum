@@ -62,3 +62,8 @@ A summary:
 - A restore point is now created even when one already exists inside Windows' creation
   window (24 hours by default): `SystemRestorePointCreationFrequency` is set to 0 for that one
   call and then put back exactly as it was, or removed when it was absent.
+- New "Revert all applied optimizations" in Settings: reverts every applied item to the values
+  it replaced, one at a time through the normal revert, and names any item that could not be
+  reverted. A true "reset to Windows defaults" is not offered yet: it needs verified
+  per-build default values, and only about a fifth of the values Dadeum writes have a
+  trustworthy default source so far.

@@ -2642,4 +2642,25 @@ Perbarui sekarang untuk menikmati fitur terbaru, peningkatan, dan perbaikan bug.
   <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
     <value>{0} pengaturan yang diubah item ini tidak lagi bernilai demikian, kemungkinan karena pembaruan Windows: {1}. Matikan lalu nyalakan lagi untuk menerapkan ulang.</value>
   </data>
+  <data name="Settings.RevertAll.Title" xml:space="preserve">
+    <value>Kembalikan semua optimasi yang diterapkan</value>
+  </data>
+  <data name="Settings.RevertAll.Description" xml:space="preserve">
+    <value>Mengembalikan setiap item yang diterapkan ke nilai yang digantikannya, satu per satu.</value>
+  </data>
+  <data name="Settings.RevertAll.Confirm" xml:space="preserve">
+    <value>{0} item yang diterapkan akan dikembalikan ke nilai yang digantikannya. Lanjutkan?</value>
+  </data>
+  <data name="Settings.RevertAll.Button" xml:space="preserve">
+    <value>Kembalikan semua</value>
+  </data>
+  <data name="Settings.RevertAll.Nothing" xml:space="preserve">
+    <value>Tidak ada optimasi yang diterapkan, jadi tidak ada yang perlu dikembalikan.</value>
+  </data>
+  <data name="Settings.RevertAll.Done" xml:space="preserve">
+    <value>{0} item dikembalikan. Mulai ulang agar semua perubahan berlaku.</value>
+  </data>
+  <data name="Settings.RevertAll.Partial" xml:space="preserve">
+    <value>{0} item dikembalikan. Item berikut tidak dapat dikembalikan dan tetap diterapkan: {1}</value>
+  </data>
 </root>
