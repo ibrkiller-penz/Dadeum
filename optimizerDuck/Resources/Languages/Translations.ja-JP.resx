@@ -2571,4 +2571,31 @@
   <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
     <value>この項目の根拠資料はまだ確認されていません。効果は未検証として扱ってください。</value>
   </data>
+  <data name="Optimizer.UI.State.Drifted" xml:space="preserve">
+    <value>その後変更</value>
+  </data>
+  <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
+    <value>この項目が変更した設定のうち {0} 件が別の値に戻っています。Windows Update が原因の可能性があります: {1}。オフにしてからもう一度オンにすると再適用されます。</value>
+  </data>
+  <data name="Settings.RevertAll.Title" xml:space="preserve">
+    <value>適用した最適化をすべて元に戻す</value>
+  </data>
+  <data name="Settings.RevertAll.Description" xml:space="preserve">
+    <value>適用した各項目を、置き換える前の値に 1 つずつ戻します。</value>
+  </data>
+  <data name="Settings.RevertAll.Confirm" xml:space="preserve">
+    <value>適用した {0} 件の項目を置き換える前の値に戻します。続行しますか?</value>
+  </data>
+  <data name="Settings.RevertAll.Button" xml:space="preserve">
+    <value>すべて元に戻す</value>
+  </data>
+  <data name="Settings.RevertAll.Nothing" xml:space="preserve">
+    <value>適用されている最適化がないため、元に戻すものはありません。</value>
+  </data>
+  <data name="Settings.RevertAll.Done" xml:space="preserve">
+    <value>{0} 件の項目を元に戻しました。すべての変更を反映するには再起動してください。</value>
+  </data>
+  <data name="Settings.RevertAll.Partial" xml:space="preserve">
+    <value>{0} 件の項目を元に戻しました。次の項目は元に戻せず、適用されたままです: {1}</value>
+  </data>
 </root>

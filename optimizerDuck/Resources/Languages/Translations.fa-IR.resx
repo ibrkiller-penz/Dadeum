@@ -2636,4 +2636,31 @@
   <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
     <value>هنوز هیچ منبعی برای این مورد تأیید نشده است. اثر آن را اثبات‌نشده در نظر بگیرید.</value>
   </data>
+  <data name="Optimizer.UI.State.Drifted" xml:space="preserve">
+    <value>از آن زمان تغییر کرده</value>
+  </data>
+  <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
+    <value>{0} تنظیمی که این مورد تغییر داده بود دیگر آن مقدار را ندارد، احتمالاً به‌خاطر به‌روزرسانی Windows: {1}. برای اعمال دوباره، آن را خاموش و دوباره روشن کنید.</value>
+  </data>
+  <data name="Settings.RevertAll.Title" xml:space="preserve">
+    <value>بازگرداندن همه بهینه‌سازی‌های اعمال‌شده</value>
+  </data>
+  <data name="Settings.RevertAll.Description" xml:space="preserve">
+    <value>هر مورد اعمال‌شده را یکی‌یکی به مقادیری که جایگزین کرده بود برمی‌گرداند.</value>
+  </data>
+  <data name="Settings.RevertAll.Confirm" xml:space="preserve">
+    <value>{0} مورد اعمال‌شده به مقادیری که جایگزین کرده بودند بازگردانده می‌شوند. ادامه می‌دهید؟</value>
+  </data>
+  <data name="Settings.RevertAll.Button" xml:space="preserve">
+    <value>بازگرداندن همه</value>
+  </data>
+  <data name="Settings.RevertAll.Nothing" xml:space="preserve">
+    <value>هیچ بهینه‌سازی اعمال نشده است، پس چیزی برای بازگرداندن نیست.</value>
+  </data>
+  <data name="Settings.RevertAll.Done" xml:space="preserve">
+    <value>{0} مورد بازگردانده شد. برای اعمال همه تغییرات، رایانه را دوباره راه‌اندازی کنید.</value>
+  </data>
+  <data name="Settings.RevertAll.Partial" xml:space="preserve">
+    <value>{0} مورد بازگردانده شد. این موارد بازگردانده نشدند و همچنان اعمال‌شده هستند: {1}</value>
+  </data>
 </root>

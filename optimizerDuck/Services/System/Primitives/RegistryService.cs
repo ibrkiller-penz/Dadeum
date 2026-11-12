@@ -1199,7 +1199,7 @@ public static class RegistryService
     /// <summary>
     ///     A value as it is shown to the user, never localized. Nothing to show stays null.
     /// </summary>
-    private static string? DescribeValue(object? value) =>
+    internal static string? DescribeValue(object? value) =>
         value switch
         {
             null => null,

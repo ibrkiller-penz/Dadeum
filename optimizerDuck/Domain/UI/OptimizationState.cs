@@ -72,6 +72,17 @@ public partial class OptimizationState : ObservableObject
 
     partial void OnAppliedSummaryChanged(string value) => OnPropertyChanged(nameof(AppliedTooltip));
 
+    /// <summary>
+    ///     Dadeum: true when the item is applied but at least one setting it wrote no longer holds
+    ///     that value, typically because a Windows update set it back.
+    /// </summary>
+    [ObservableProperty]
+    private bool isDrifted;
+
+    /// <summary>The changed-settings tooltip, empty when nothing drifted.</summary>
+    [ObservableProperty]
+    private string driftSummary = string.Empty;
+
     [ObservableProperty]
     private OptimizationRisk risk;
 

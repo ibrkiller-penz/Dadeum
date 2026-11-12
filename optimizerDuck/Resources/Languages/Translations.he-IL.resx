@@ -2636,4 +2636,31 @@
   <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
     <value>עדיין לא אומת מקור עבור פריט זה. יש להתייחס להשפעתו כלא מוכחת.</value>
   </data>
+  <data name="Optimizer.UI.State.Drifted" xml:space="preserve">
+    <value>השתנה מאז</value>
+  </data>
+  <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
+    <value>{0} הגדרות שפריט זה קבע כבר לא מחזיקות בערך הזה, כנראה בגלל עדכון Windows: {1}. כבה והפעל מחדש כדי להחיל שוב.</value>
+  </data>
+  <data name="Settings.RevertAll.Title" xml:space="preserve">
+    <value>ביטול כל האופטימיזציות שהוחלו</value>
+  </data>
+  <data name="Settings.RevertAll.Description" xml:space="preserve">
+    <value>מחזיר כל פריט שהוחל לערכים שהחליף, פריט אחר פריט.</value>
+  </data>
+  <data name="Settings.RevertAll.Confirm" xml:space="preserve">
+    <value>{0} פריטים שהוחלו יוחזרו לערכים שהחליפו. להמשיך?</value>
+  </data>
+  <data name="Settings.RevertAll.Button" xml:space="preserve">
+    <value>בטל הכול</value>
+  </data>
+  <data name="Settings.RevertAll.Nothing" xml:space="preserve">
+    <value>אין אופטימיזציה שהוחלה, ולכן אין מה לבטל.</value>
+  </data>
+  <data name="Settings.RevertAll.Done" xml:space="preserve">
+    <value>בוטלו {0} פריטים. הפעל מחדש כדי שכל השינויים ייכנסו לתוקף.</value>
+  </data>
+  <data name="Settings.RevertAll.Partial" xml:space="preserve">
+    <value>בוטלו {0} פריטים. את אלה לא ניתן היה לבטל והם נשארים מוחלים: {1}</value>
+  </data>
 </root>

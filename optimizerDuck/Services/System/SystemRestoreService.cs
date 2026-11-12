@@ -1,6 +1,7 @@
 using System.Management;
 using System.Runtime.Versioning;
 using Microsoft.Extensions.Logging;
+using Microsoft.Win32;
 using optimizerDuck.Domain.Optimizations.Models.Services;
 using optimizerDuck.Services.System.Primitives;
 
@@ -25,6 +26,9 @@ public class SystemRestoreService
 
     private const string FrequencyKey =
         @"HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRestore";
+
+    private const string FrequencySubKey =
+        @"SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRestore";
 
     private const string FrequencyValueName = "SystemRestorePointCreationFrequency";
 
@@ -183,6 +187,65 @@ public class SystemRestoreService
                 parameters["EventType"] = eventType;
             }
         );
+    }
+
+    /// <summary>
+    ///     Dadeum: creates a restore point even inside the creation-frequency window, so there is
+    ///     always a point taken right before an apply. The documented frequency value is set to 0
+    ///     for this one call and then put back exactly as it was (or removed when it was absent).
+    ///     Needs elevation.
+    /// </summary>
+    public virtual SystemRestoreResult CreateRestorePointIgnoringThrottle(string description)
+    {
+        object? previous = null;
+        var previousKind = RegistryValueKind.Unknown;
+        var lowered = false;
+
+        try
+        {
+            using var key = Registry.LocalMachine.CreateSubKey(FrequencySubKey, writable: true);
+            previous = key.GetValue(FrequencyValueName);
+            if (previous is not null)
+                previousKind = key.GetValueKind(FrequencyValueName);
+            key.SetValue(FrequencyValueName, 0, RegistryValueKind.DWord);
+            lowered = true;
+        }
+        catch (Exception ex)
+        {
+            // Without the lowered value Windows may skip the point; the create below still runs
+            // and reports whatever Windows decides.
+            _logger.LogWarning(ex, "Could not lower the restore point creation frequency.");
+        }
+
+        try
+        {
+            return CreateRestorePoint(description);
+        }
+        finally
+        {
+            if (lowered)
+                RestoreFrequency(previous, previousKind);
+        }
+    }
+
+    private void RestoreFrequency(object? previous, RegistryValueKind previousKind)
+    {
+        try
+        {
+            using var key = Registry.LocalMachine.CreateSubKey(FrequencySubKey, writable: true);
+            if (previous is null)
+                key.DeleteValue(FrequencyValueName, throwOnMissingValue: false);
+            else
+                key.SetValue(FrequencyValueName, previous, previousKind);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(
+                ex,
+                "Could not put the restore point creation frequency back to {Previous}.",
+                previous ?? "(absent)"
+            );
+        }
     }
 
     /// <summary>

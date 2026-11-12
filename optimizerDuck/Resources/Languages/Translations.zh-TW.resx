@@ -2574,4 +2574,31 @@
   <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
     <value>此項目尚無經過核實的依據。請將其效果視為未經證實。</value>
   </data>
+  <data name="Optimizer.UI.State.Drifted" xml:space="preserve">
+    <value>已被變更</value>
+  </data>
+  <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
+    <value>此項目設定的 {0} 項設定已不再是該值，可能是 Windows 更新所致：{1}。關閉後再開啟即可重新套用。</value>
+  </data>
+  <data name="Settings.RevertAll.Title" xml:space="preserve">
+    <value>還原所有已套用的最佳化</value>
+  </data>
+  <data name="Settings.RevertAll.Description" xml:space="preserve">
+    <value>將每個已套用的項目逐一還原為其取代前的值。</value>
+  </data>
+  <data name="Settings.RevertAll.Confirm" xml:space="preserve">
+    <value>將把 {0} 個已套用的項目還原為取代前的值。是否繼續？</value>
+  </data>
+  <data name="Settings.RevertAll.Button" xml:space="preserve">
+    <value>全部還原</value>
+  </data>
+  <data name="Settings.RevertAll.Nothing" xml:space="preserve">
+    <value>沒有已套用的最佳化，因此無需還原。</value>
+  </data>
+  <data name="Settings.RevertAll.Done" xml:space="preserve">
+    <value>已還原 {0} 個項目。請重新啟動以確保所有變更生效。</value>
+  </data>
+  <data name="Settings.RevertAll.Partial" xml:space="preserve">
+    <value>已還原 {0} 個項目。以下項目無法還原，仍保持已套用狀態：{1}</value>
+  </data>
 </root>

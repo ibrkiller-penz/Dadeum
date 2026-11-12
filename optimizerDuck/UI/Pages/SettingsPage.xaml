@@ -201,6 +201,28 @@
                         </StackPanel>
                     </ui:CardAction>
 
+                    <!--  Dadeum: one click back to the state before every apply.  -->
+                    <ui:CardAction
+                        Margin="0,0,0,4"
+                        Padding="16,14"
+                        Command="{Binding ViewModel.RevertAllAppliedCommand}"
+                        Cursor="Hand">
+                        <ui:CardAction.Icon>
+                            <ui:SymbolIcon Foreground="{DynamicResource SystemFillColorCautionBrush}" Symbol="ArrowUndo24" />
+                        </ui:CardAction.Icon>
+                        <StackPanel>
+                            <ui:TextBlock
+                                Margin="0"
+                                FontTypography="BodyStrong"
+                                Text="{ext:Loc Settings.RevertAll.Title}"
+                                TextWrapping="Wrap" />
+                            <ui:TextBlock
+                                Foreground="{DynamicResource TextFillColorSecondaryBrush}"
+                                Text="{ext:Loc Settings.RevertAll.Description}"
+                                TextWrapping="Wrap" />
+                        </StackPanel>
+                    </ui:CardAction>
+
                     <ui:CardAction
                         Margin="0,0,0,4"
                         Padding="16,14"

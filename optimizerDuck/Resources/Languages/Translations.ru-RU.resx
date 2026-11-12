@@ -2579,4 +2579,31 @@
   <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
     <value>Для этого пункта пока не проверен ни один источник. Считайте его эффект недоказанным.</value>
   </data>
+  <data name="Optimizer.UI.State.Drifted" xml:space="preserve">
+    <value>Изменено с тех пор</value>
+  </data>
+  <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
+    <value>{0} настроек, заданных этим пунктом, больше не имеют этого значения, вероятно из-за обновления Windows: {1}. Выключите и снова включите его, чтобы применить заново.</value>
+  </data>
+  <data name="Settings.RevertAll.Title" xml:space="preserve">
+    <value>Отменить все применённые оптимизации</value>
+  </data>
+  <data name="Settings.RevertAll.Description" xml:space="preserve">
+    <value>Возвращает каждый применённый пункт к значениям, которые он заменил, по одному.</value>
+  </data>
+  <data name="Settings.RevertAll.Confirm" xml:space="preserve">
+    <value>{0} применённых пунктов будут возвращены к заменённым значениям. Продолжить?</value>
+  </data>
+  <data name="Settings.RevertAll.Button" xml:space="preserve">
+    <value>Отменить все</value>
+  </data>
+  <data name="Settings.RevertAll.Nothing" xml:space="preserve">
+    <value>Нет применённых оптимизаций, поэтому отменять нечего.</value>
+  </data>
+  <data name="Settings.RevertAll.Done" xml:space="preserve">
+    <value>Отменено пунктов: {0}. Перезагрузите компьютер, чтобы все изменения вступили в силу.</value>
+  </data>
+  <data name="Settings.RevertAll.Partial" xml:space="preserve">
+    <value>Отменено пунктов: {0}. Эти пункты не удалось отменить, они остаются применёнными: {1}</value>
+  </data>
 </root>

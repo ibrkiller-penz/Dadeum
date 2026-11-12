@@ -361,6 +361,17 @@
                                                     Text="{ext:Loc Optimizer.UI.State.AlreadyOptimal}"
                                                     ToolTip="{ext:Loc Optimizer.UI.State.AlreadyOptimal.Tooltip}"
                                                     Visibility="{Binding State.IsAlreadyOptimal, Converter={StaticResource BooleanToVisibilityConverter}}" />
+                                                <!--  Dadeum: applied, but Windows or another program set a setting back.  -->
+                                                <controls:StateBadge
+                                                    Margin="6,0,0,0"
+                                                    Background="{DynamicResource CardBackgroundFillColorSecondaryBrush}"
+                                                    Command="{Binding DataContext.ViewModel.ShowDetailsCommand, RelativeSource={RelativeSource AncestorType=Page}}"
+                                                    CommandParameter="{Binding}"
+                                                    Icon="Warning24"
+                                                    IconBrush="{DynamicResource SystemFillColorCautionBrush}"
+                                                    Text="{ext:Loc Optimizer.UI.State.Drifted}"
+                                                    ToolTip="{Binding State.DriftSummary}"
+                                                    Visibility="{Binding State.IsDrifted, Converter={StaticResource BooleanToVisibilityConverter}}" />
                                             </StackPanel>
 
                                             <controls:StateBadge

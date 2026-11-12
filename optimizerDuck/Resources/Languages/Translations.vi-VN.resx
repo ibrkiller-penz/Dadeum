@@ -2571,4 +2571,31 @@ Cập nhật ngay để trải nghiệm các tính năng mới, cải tiến và
   <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
     <value>Chưa có nguồn nào được xác minh cho mục này. Hãy coi hiệu quả của nó là chưa được chứng minh.</value>
   </data>
+  <data name="Optimizer.UI.State.Drifted" xml:space="preserve">
+    <value>Đã bị thay đổi</value>
+  </data>
+  <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
+    <value>{0} cài đặt mà mục này đã đặt không còn giữ giá trị đó, có thể do bản cập nhật Windows: {1}. Tắt rồi bật lại để áp dụng lại.</value>
+  </data>
+  <data name="Settings.RevertAll.Title" xml:space="preserve">
+    <value>Hoàn tác tất cả tối ưu đã áp dụng</value>
+  </data>
+  <data name="Settings.RevertAll.Description" xml:space="preserve">
+    <value>Đưa từng mục đã áp dụng về giá trị mà nó đã thay thế, lần lượt từng mục.</value>
+  </data>
+  <data name="Settings.RevertAll.Confirm" xml:space="preserve">
+    <value>{0} mục đã áp dụng sẽ được đưa về giá trị đã thay thế. Tiếp tục?</value>
+  </data>
+  <data name="Settings.RevertAll.Button" xml:space="preserve">
+    <value>Hoàn tác tất cả</value>
+  </data>
+  <data name="Settings.RevertAll.Nothing" xml:space="preserve">
+    <value>Không có tối ưu nào được áp dụng nên không có gì để hoàn tác.</value>
+  </data>
+  <data name="Settings.RevertAll.Done" xml:space="preserve">
+    <value>Đã hoàn tác {0} mục. Khởi động lại để mọi thay đổi có hiệu lực.</value>
+  </data>
+  <data name="Settings.RevertAll.Partial" xml:space="preserve">
+    <value>Đã hoàn tác {0} mục. Các mục sau không thể hoàn tác và vẫn được áp dụng: {1}</value>
+  </data>
 </root>
