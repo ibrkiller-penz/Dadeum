@@ -2507,4 +2507,76 @@ Mettez à jour pour profiter des dernières fonctionnalités, améliorations et 
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>Les détails se trouvent dans le fichier journal.</value>
   </data>
+  <data name="Optimizer.AI.DisableRecall.Consequence" xml:space="preserve">
+    <value>Vous ne pouvez plus rechercher dans les anciennes captures d'écran, et les captures enregistrées sont supprimées. Réactiver Recall ne les restaure pas.</value>
+  </data>
+  <data name="Optimizer.BloatwareAndServices.ConfigureServices.Consequence" xml:space="preserve">
+    <value>Modifie le type de démarrage d'environ 200 services en une seule fois. Les fonctionnalités qui dépendent d'un service modifié, comme le Bureau à distance, les scanners, les cartes à puce ou les capteurs, peuvent cesser de fonctionner jusqu'à l'annulation.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableUlps.Consequence" xml:space="preserve">
+    <value>Le GPU n'économise plus d'énergie au repos, ce qui augmente la consommation et la chaleur, surtout sur les ordinateurs portables. Le gain de performances n'a pas été mesuré.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisablePowerGating.Consequence" xml:space="preserve">
+    <value>Le GPU n'économise plus d'énergie au repos, ce qui augmente la consommation et la chaleur, surtout sur les ordinateurs portables. Le gain de performances n'a pas été mesuré.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableAspm.Consequence" xml:space="preserve">
+    <value>Le GPU n'économise plus d'énergie au repos, ce qui augmente la consommation et la chaleur, surtout sur les ordinateurs portables. Le gain de performances n'a pas été mesuré.</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableDynamicPstate.Consequence" xml:space="preserve">
+    <value>Le GPU n'économise plus d'énergie au repos, ce qui augmente la consommation et la chaleur, surtout sur les ordinateurs portables. Le gain de performances n'a pas été mesuré.</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableAsyncPstates.Consequence" xml:space="preserve">
+    <value>Le GPU n'économise plus d'énergie au repos, ce qui augmente la consommation et la chaleur, surtout sur les ordinateurs portables. Le gain de performances n'a pas été mesuré.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableVideoClockGating.Consequence" xml:space="preserve">
+    <value>Les moteurs vidéo restent alimentés, ce qui augmente la consommation pendant la lecture ou l'enregistrement de vidéos. Le gain de stabilité n'a pas été mesuré.</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAsyncFlips.Consequence" xml:space="preserve">
+    <value>Forcer les basculements synchrones peut réduire la fréquence d'images dans certains jeux. Le gain de latence n'a pas été mesuré.</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAdaptiveVsync.Consequence" xml:space="preserve">
+    <value>Avec la V-Sync fixe, l'image peut saccader lorsque la fréquence d'images descend sous la fréquence de rafraîchissement. Le gain n'a pas été mesuré.</value>
+  </data>
+  <data name="Optimizer.Performance.DisableBackgroundApps.Consequence" xml:space="preserve">
+    <value>Les applications comme Courrier, Calendrier ou les messageries ne se mettent plus à jour et n'envoient plus de notifications lorsqu'elles sont fermées.</value>
+  </data>
+  <data name="Optimizer.Performance.ConsolidateServiceHosts.Consequence" xml:space="preserve">
+    <value>Les services partagent moins de processus, donc un service défaillant peut entraîner d'autres services avec lui. Les services de la manette Xbox ont déjà cessé de fonctionner avec ce réglage.</value>
+  </data>
+  <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Consequence" xml:space="preserve">
+    <value>Les touches rémanentes, les touches filtres et les touches bascules ne peuvent plus être activées avec leurs raccourcis clavier. Elles restent disponibles dans Paramètres.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableHibernateAndFastStartup.Consequence" xml:space="preserve">
+    <value>La mise en veille prolongée n'est plus disponible, et le démarrage du PC peut prendre quelques secondes de plus sans le démarrage rapide.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableUSBPowerSaving.Consequence" xml:space="preserve">
+    <value>Les périphériques USB restent alimentés, ce qui réduit l'autonomie de la batterie des ordinateurs portables.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisablePowerSaving.Consequence" xml:space="preserve">
+    <value>Windows ne peut plus ralentir les tâches en arrière-plan pour économiser l'énergie, ce qui augmente la consommation et la chaleur, surtout sur les ordinateurs portables. Le gain varie d'un PC à l'autre et n'a pas été mesuré.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableTelemetry.Consequence" xml:space="preserve">
+    <value>Microsoft reçoit moins de données de diagnostic, ce qui peut ralentir la correction des problèmes de votre PC. Windows Insider et certaines fonctionnalités de commentaires nécessitent les données de diagnostic facultatives et peuvent cesser de fonctionner.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableErrorReporting.Consequence" xml:space="preserve">
+    <value>Les rapports d'erreurs ne sont plus envoyés, donc Windows ne peut plus proposer de solutions aux plantages d'applications et de pilotes, et l'Assistant Compatibilité des programmes n'avertit plus des applications incompatibles.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableAutoLogger.Consequence" xml:space="preserve">
+    <value>Certaines traces de diagnostic ne sont plus enregistrées au démarrage, ce qui rend certains problèmes plus difficiles à diagnostiquer. Les logiciels de sécurité peuvent signaler cette modification.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCortana.Consequence" xml:space="preserve">
+    <value>Windows Search n'affiche plus de résultats web, et l'assistant vocal Cortana n'est plus disponible.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCopilot.Consequence" xml:space="preserve">
+    <value>L'assistant Copilot n'est plus accessible depuis la barre des tâches ni avec son raccourci clavier.</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Consequence" xml:space="preserve">
+    <value>Ce que vous perdez</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
+    <value>Aucune source n'a encore été vérifiée pour cet élément. Considérez son effet comme non prouvé.</value>
+  </data>
 </root>

@@ -2498,4 +2498,76 @@
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>자세한 내용은 로그 파일에 있습니다.</value>
   </data>
+  <data name="Optimizer.AI.DisableRecall.Consequence" xml:space="preserve">
+    <value>지난 화면 기록을 검색할 수 없게 되고, 저장된 스냅샷은 삭제됩니다. Recall을 다시 켜도 삭제된 스냅샷은 돌아오지 않습니다.</value>
+  </data>
+  <data name="Optimizer.BloatwareAndServices.ConfigureServices.Consequence" xml:space="preserve">
+    <value>약 200개 서비스의 시작 유형을 한꺼번에 바꿉니다. 바뀐 서비스에 기대는 기능(예: 원격 데스크톱, 스캐너, 스마트 카드, 센서)은 되돌리기 전까지 동작하지 않을 수 있습니다.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableUlps.Consequence" xml:space="preserve">
+    <value>그래픽카드가 쉬는 동안 전력을 아끼지 않아 전력 소비와 발열이 늘어납니다. 노트북에서 특히 큽니다. 성능 향상 효과는 측정되지 않았습니다.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisablePowerGating.Consequence" xml:space="preserve">
+    <value>그래픽카드가 쉬는 동안 전력을 아끼지 않아 전력 소비와 발열이 늘어납니다. 노트북에서 특히 큽니다. 성능 향상 효과는 측정되지 않았습니다.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableAspm.Consequence" xml:space="preserve">
+    <value>그래픽카드가 쉬는 동안 전력을 아끼지 않아 전력 소비와 발열이 늘어납니다. 노트북에서 특히 큽니다. 성능 향상 효과는 측정되지 않았습니다.</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableDynamicPstate.Consequence" xml:space="preserve">
+    <value>그래픽카드가 쉬는 동안 전력을 아끼지 않아 전력 소비와 발열이 늘어납니다. 노트북에서 특히 큽니다. 성능 향상 효과는 측정되지 않았습니다.</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableAsyncPstates.Consequence" xml:space="preserve">
+    <value>그래픽카드가 쉬는 동안 전력을 아끼지 않아 전력 소비와 발열이 늘어납니다. 노트북에서 특히 큽니다. 성능 향상 효과는 측정되지 않았습니다.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableVideoClockGating.Consequence" xml:space="preserve">
+    <value>영상 처리 장치가 계속 켜져 있어 영상 재생·녹화 중 전력 소비가 늘어납니다. 안정성 향상 효과는 측정되지 않았습니다.</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAsyncFlips.Consequence" xml:space="preserve">
+    <value>동기 화면 전환을 강제하면 일부 게임에서 프레임이 떨어질 수 있습니다. 지연 감소 효과는 측정되지 않았습니다.</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAdaptiveVsync.Consequence" xml:space="preserve">
+    <value>고정 V-Sync에서는 프레임이 주사율 아래로 떨어질 때 끊김이 생길 수 있습니다. 효과는 측정되지 않았습니다.</value>
+  </data>
+  <data name="Optimizer.Performance.DisableBackgroundApps.Consequence" xml:space="preserve">
+    <value>메일, 일정, 메신저 같은 앱이 닫혀 있는 동안 새 소식을 받지 못하고 알림도 오지 않습니다.</value>
+  </data>
+  <data name="Optimizer.Performance.ConsolidateServiceHosts.Consequence" xml:space="preserve">
+    <value>서비스들이 더 적은 프로세스를 나눠 쓰므로, 한 서비스가 멈추면 다른 서비스도 함께 멈출 수 있습니다. 이 설정으로 Xbox 컨트롤러 서비스가 고장 난 사례가 있습니다.</value>
+  </data>
+  <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Consequence" xml:space="preserve">
+    <value>고정 키, 필터 키, 토글 키를 단축키로 켤 수 없게 됩니다. 설정 앱에서는 계속 켤 수 있습니다.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableHibernateAndFastStartup.Consequence" xml:space="preserve">
+    <value>최대 절전 모드를 쓸 수 없고, 빠른 시작이 꺼져 전원을 켤 때 몇 초 더 걸릴 수 있습니다.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableUSBPowerSaving.Consequence" xml:space="preserve">
+    <value>USB 장치에 전원이 계속 공급되어 노트북 배터리 사용 시간이 줄어듭니다.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisablePowerSaving.Consequence" xml:space="preserve">
+    <value>윈도우가 백그라운드 작업을 늦춰 전력을 아끼지 못해 전력 소비와 발열이 늘어납니다. 노트북에서 특히 큽니다. 효과는 PC마다 다르고 측정되지 않았습니다.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableTelemetry.Consequence" xml:space="preserve">
+    <value>마이크로소프트로 가는 진단 데이터가 줄어 내 PC 문제의 수정이 늦어질 수 있습니다. Windows 참가자 프로그램과 일부 피드백 기능은 선택적 진단 데이터가 필요해 동작하지 않을 수 있습니다.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableErrorReporting.Consequence" xml:space="preserve">
+    <value>충돌 보고서가 전송되지 않아 앱·드라이버 충돌에 대한 해결책을 받을 수 없고, 프로그램 호환성 관리자도 호환되지 않는 앱을 알려 주지 않습니다.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableAutoLogger.Consequence" xml:space="preserve">
+    <value>부팅 때 일부 진단 기록이 남지 않아 특정 문제의 원인을 찾기 어려워집니다. 보안 프로그램이 이 변경을 경고할 수 있습니다.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCortana.Consequence" xml:space="preserve">
+    <value>윈도우 검색에 웹 결과가 나오지 않고, Cortana 음성 비서를 쓸 수 없습니다.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCopilot.Consequence" xml:space="preserve">
+    <value>작업 표시줄이나 단축키로 Copilot을 쓸 수 없게 됩니다.</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Consequence" xml:space="preserve">
+    <value>적용하면 달라지는 점</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence" xml:space="preserve">
+    <value>근거 자료</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
+    <value>아직 확인된 근거 자료가 없습니다. 효과가 검증되지 않은 항목으로 보세요.</value>
+  </data>
 </root>

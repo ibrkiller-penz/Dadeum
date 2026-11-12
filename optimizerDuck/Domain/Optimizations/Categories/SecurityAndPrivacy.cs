@@ -26,7 +26,8 @@ public class SecurityAndPrivacy : LocalizedObject, IOptimizationCategory
     [Optimization(
         Id = "74DC8DAC-1F90-4BBD-ACF7-7E626749D71C",
         Risk = OptimizationRisk.Moderate,
-        Tags = OptimizationTags.Security | OptimizationTags.Privacy | OptimizationTags.System
+        Tags = OptimizationTags.Security | OptimizationTags.Privacy | OptimizationTags.System,
+        EvidenceUrl = "https://learn.microsoft.com/en-us/windows/privacy/configure-windows-diagnostic-data-in-your-organization"
     )]
     public class DisableTelemetry : BaseOptimization
     {
@@ -178,7 +179,8 @@ public class SecurityAndPrivacy : LocalizedObject, IOptimizationCategory
     [Optimization(
         Id = "097B1C61-F372-4B9E-A1C9-D5E6F7A8B9C0",
         Risk = OptimizationRisk.Moderate,
-        Tags = OptimizationTags.System | OptimizationTags.Privacy
+        Tags = OptimizationTags.System | OptimizationTags.Privacy,
+        EvidenceUrl = "https://learn.microsoft.com/en-us/windows/win32/wer/windows-error-reporting"
     )]
     public class DisableErrorReporting : BaseOptimization
     {
@@ -234,7 +236,8 @@ public class SecurityAndPrivacy : LocalizedObject, IOptimizationCategory
     [Optimization(
         Id = "B1C2D3E4-F5A6-4B7C-8D9E-0F1A2B3C4D5E",
         Risk = OptimizationRisk.Safe,
-        Tags = OptimizationTags.Privacy | OptimizationTags.System
+        Tags = OptimizationTags.Privacy | OptimizationTags.System,
+        EvidenceUrl = "https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-experience"
     )]
     public class DisableAdvertisingAndSuggestions : BaseOptimization
     {
@@ -377,7 +380,8 @@ public class SecurityAndPrivacy : LocalizedObject, IOptimizationCategory
     [Optimization(
         Id = "A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D",
         Risk = OptimizationRisk.Safe,
-        Tags = OptimizationTags.Privacy | OptimizationTags.System
+        Tags = OptimizationTags.Privacy | OptimizationTags.System,
+        EvidenceUrl = "https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-privacy"
     )]
     public class DisableActivityHistory : BaseOptimization
     {
@@ -418,7 +422,8 @@ public class SecurityAndPrivacy : LocalizedObject, IOptimizationCategory
     [Optimization(
         Id = "C1D2E3F4-A5B6-4C7D-8E9F-0A1B2C3D4E5F",
         Risk = OptimizationRisk.Safe,
-        Tags = OptimizationTags.Privacy | OptimizationTags.System
+        Tags = OptimizationTags.Privacy | OptimizationTags.System,
+        EvidenceUrl = "https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-system"
     )]
     public class DisableLocationAndSensors : BaseOptimization
     {
@@ -492,7 +497,8 @@ public class SecurityAndPrivacy : LocalizedObject, IOptimizationCategory
     [Optimization(
         Id = "4107430C-0074-4380-90E7-3662572E4720",
         Risk = OptimizationRisk.Moderate,
-        Tags = OptimizationTags.Privacy | OptimizationTags.System | OptimizationTags.Performance
+        Tags = OptimizationTags.Privacy | OptimizationTags.System | OptimizationTags.Performance,
+        EvidenceUrl = "https://learn.microsoft.com/en-us/windows/win32/etw/configuring-and-starting-an-autologger-session"
     )]
     public class DisableAutoLogger : BaseOptimization
     {
@@ -563,7 +569,8 @@ public class SecurityAndPrivacy : LocalizedObject, IOptimizationCategory
         Id = "6856782A-B530-4623-BD89-942D73FB82FD",
         Risk = OptimizationRisk.Moderate,
         Tags = OptimizationTags.Privacy | OptimizationTags.System | OptimizationTags.Windows10Only,
-        Condition = typeof(Windows10Condition)
+        Condition = typeof(Windows10Condition),
+        EvidenceUrl = "https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-experience"
     )]
     public class DisableCortana : BaseOptimization
     {
@@ -622,7 +629,8 @@ public class SecurityAndPrivacy : LocalizedObject, IOptimizationCategory
             | OptimizationTags.System
             | OptimizationTags.Windows11Only
             | OptimizationTags.Visual,
-        Condition = typeof(Windows11Condition)
+        Condition = typeof(Windows11Condition),
+        EvidenceUrl = "https://learn.microsoft.com/en-us/windows/client-management/manage-windows-copilot"
     )]
     public class DisableCopilot : BaseOptimization
     {
@@ -663,7 +671,8 @@ public class SecurityAndPrivacy : LocalizedObject, IOptimizationCategory
     [Optimization(
         Id = "00C997FE-1CB7-41BD-B473-65A81333AEE9",
         Risk = OptimizationRisk.Safe,
-        Tags = OptimizationTags.System | OptimizationTags.Performance | OptimizationTags.Privacy
+        Tags = OptimizationTags.System | OptimizationTags.Performance | OptimizationTags.Privacy,
+        EvidenceUrl = "https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-experience"
     )]
     public class DisableContentDeliveryManager : BaseOptimization
     {
@@ -713,7 +722,8 @@ public class SecurityAndPrivacy : LocalizedObject, IOptimizationCategory
     [Optimization(
         Id = "A4823C34-0BDD-4418-83A0-4968102D1771",
         Risk = OptimizationRisk.Safe,
-        Tags = OptimizationTags.Privacy | OptimizationTags.System
+        Tags = OptimizationTags.Privacy | OptimizationTags.System,
+        EvidenceUrl = "https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-experience"
     )]
     public class DisableFindMyDevice : BaseOptimization
     {
@@ -738,7 +748,8 @@ public class SecurityAndPrivacy : LocalizedObject, IOptimizationCategory
     [Optimization(
         Id = "6F242AD6-4717-4161-A7BF-A2AF5F0C9BDD",
         Risk = OptimizationRisk.Safe,
-        Tags = OptimizationTags.Network | OptimizationTags.Privacy
+        Tags = OptimizationTags.Network | OptimizationTags.Privacy,
+        EvidenceUrl = "https://learn.microsoft.com/en-us/windows/deployment/do/waas-delivery-optimization-reference"
     )]
     public class DisableDeliveryOptimization : BaseOptimization
     {

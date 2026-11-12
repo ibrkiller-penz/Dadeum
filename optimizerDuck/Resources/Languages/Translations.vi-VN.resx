@@ -2499,4 +2499,76 @@ Cập nhật ngay để trải nghiệm các tính năng mới, cải tiến và
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>Chi tiết có trong tệp log.</value>
   </data>
+  <data name="Optimizer.AI.DisableRecall.Consequence" xml:space="preserve">
+    <value>Bạn không thể tìm kiếm các ảnh chụp màn hình trước đây nữa và các ảnh đã lưu sẽ bị xóa. Bật lại Recall cũng không khôi phục được chúng.</value>
+  </data>
+  <data name="Optimizer.BloatwareAndServices.ConfigureServices.Consequence" xml:space="preserve">
+    <value>Thay đổi kiểu khởi động của khoảng 200 dịch vụ cùng lúc. Các tính năng phụ thuộc vào dịch vụ bị thay đổi, như Máy tính Từ xa, máy quét, thẻ thông minh hoặc cảm biến, có thể ngừng hoạt động cho đến khi bạn hoàn tác.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableUlps.Consequence" xml:space="preserve">
+    <value>GPU không còn tiết kiệm điện khi nhàn rỗi, nên mức tiêu thụ điện và nhiệt độ tăng, nhất là trên máy tính xách tay. Mức cải thiện hiệu năng chưa được đo.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisablePowerGating.Consequence" xml:space="preserve">
+    <value>GPU không còn tiết kiệm điện khi nhàn rỗi, nên mức tiêu thụ điện và nhiệt độ tăng, nhất là trên máy tính xách tay. Mức cải thiện hiệu năng chưa được đo.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableAspm.Consequence" xml:space="preserve">
+    <value>GPU không còn tiết kiệm điện khi nhàn rỗi, nên mức tiêu thụ điện và nhiệt độ tăng, nhất là trên máy tính xách tay. Mức cải thiện hiệu năng chưa được đo.</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableDynamicPstate.Consequence" xml:space="preserve">
+    <value>GPU không còn tiết kiệm điện khi nhàn rỗi, nên mức tiêu thụ điện và nhiệt độ tăng, nhất là trên máy tính xách tay. Mức cải thiện hiệu năng chưa được đo.</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableAsyncPstates.Consequence" xml:space="preserve">
+    <value>GPU không còn tiết kiệm điện khi nhàn rỗi, nên mức tiêu thụ điện và nhiệt độ tăng, nhất là trên máy tính xách tay. Mức cải thiện hiệu năng chưa được đo.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableVideoClockGating.Consequence" xml:space="preserve">
+    <value>Các bộ xử lý video luôn được cấp điện, nên mức tiêu thụ điện tăng khi phát hoặc quay video. Mức cải thiện độ ổn định chưa được đo.</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAsyncFlips.Consequence" xml:space="preserve">
+    <value>Buộc lật khung hình đồng bộ có thể làm giảm tốc độ khung hình trong một số trò chơi. Mức cải thiện độ trễ chưa được đo.</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAdaptiveVsync.Consequence" xml:space="preserve">
+    <value>Khi cố định V-Sync, hình ảnh có thể bị giật khi tốc độ khung hình giảm xuống dưới tần số quét. Mức cải thiện chưa được đo.</value>
+  </data>
+  <data name="Optimizer.Performance.DisableBackgroundApps.Consequence" xml:space="preserve">
+    <value>Các ứng dụng như Thư, Lịch hoặc ứng dụng nhắn tin sẽ ngừng cập nhật và gửi thông báo khi đã đóng.</value>
+  </data>
+  <data name="Optimizer.Performance.ConsolidateServiceHosts.Consequence" xml:space="preserve">
+    <value>Các dịch vụ dùng chung ít tiến trình hơn, nên một dịch vụ bị lỗi có thể kéo theo các dịch vụ khác. Dịch vụ tay cầm Xbox từng bị hỏng với cài đặt này.</value>
+  </data>
+  <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Consequence" xml:space="preserve">
+    <value>Phím Dính, Phím Lọc và Phím Bật tắt không thể bật bằng phím tắt nữa. Chúng vẫn có trong Cài đặt.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableHibernateAndFastStartup.Consequence" xml:space="preserve">
+    <value>Chế độ ngủ đông không còn khả dụng và việc bật máy có thể lâu hơn vài giây khi không có Khởi động nhanh.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableUSBPowerSaving.Consequence" xml:space="preserve">
+    <value>Các thiết bị USB luôn được cấp điện, làm giảm thời lượng pin trên máy tính xách tay.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisablePowerSaving.Consequence" xml:space="preserve">
+    <value>Windows không thể làm chậm các tác vụ nền để tiết kiệm điện nữa, nên mức tiêu thụ điện và nhiệt độ tăng, nhất là trên máy tính xách tay. Mức cải thiện khác nhau tùy máy và chưa được đo.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableTelemetry.Consequence" xml:space="preserve">
+    <value>Microsoft nhận ít dữ liệu chẩn đoán hơn, điều này có thể làm chậm việc khắc phục sự cố trên máy của bạn. Windows Insider và một số tính năng phản hồi cần dữ liệu chẩn đoán tùy chọn và có thể ngừng hoạt động.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableErrorReporting.Consequence" xml:space="preserve">
+    <value>Báo cáo sự cố không còn được gửi, nên Windows không thể đưa ra giải pháp cho sự cố ứng dụng và trình điều khiển, và Trình hỗ trợ tương thích chương trình ngừng cảnh báo về ứng dụng không tương thích.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableAutoLogger.Consequence" xml:space="preserve">
+    <value>Một số dấu vết chẩn đoán không còn được ghi lại khi khởi động, khiến một số sự cố khó chẩn đoán hơn. Phần mềm bảo mật có thể gắn cờ thay đổi này.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCortana.Consequence" xml:space="preserve">
+    <value>Windows Search không còn hiển thị kết quả web và trợ lý giọng nói Cortana không còn khả dụng.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCopilot.Consequence" xml:space="preserve">
+    <value>Trợ lý Copilot không còn khả dụng từ thanh tác vụ hoặc phím tắt của nó.</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Consequence" xml:space="preserve">
+    <value>Những gì bạn đánh đổi</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence" xml:space="preserve">
+    <value>Nguồn</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
+    <value>Chưa có nguồn nào được xác minh cho mục này. Hãy coi hiệu quả của nó là chưa được chứng minh.</value>
+  </data>
 </root>

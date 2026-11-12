@@ -25,7 +25,8 @@ public class AI : LocalizedObject, IOptimizationCategory
         Id = "8462E718-42CA-4BE6-940C-3620BF52A533",
         Risk = OptimizationRisk.Moderate,
         Tags = OptimizationTags.Privacy | OptimizationTags.System | OptimizationTags.Windows11Only,
-        Condition = typeof(RecallInstalledCondition)
+        Condition = typeof(RecallInstalledCondition),
+        EvidenceUrl = "https://learn.microsoft.com/en-us/windows/client-management/manage-recall"
     )]
     public class DisableRecall : BaseOptimization
     {

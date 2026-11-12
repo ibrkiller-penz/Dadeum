@@ -31,7 +31,8 @@ public class PowerManagement : LocalizedObject, IOptimizationCategory
     [Optimization(
         Id = "C7A97DDE-6631-48BF-A0A8-590D447A81AB",
         Risk = OptimizationRisk.Moderate,
-        Tags = OptimizationTags.System | OptimizationTags.Power | OptimizationTags.Performance
+        Tags = OptimizationTags.System | OptimizationTags.Power | OptimizationTags.Performance,
+        EvidenceUrl = "https://learn.microsoft.com/en-us/troubleshoot/windows-client/setup-upgrade-and-drivers/disable-and-re-enable-hibernation"
     )]
     public class DisableHibernateAndFastStartup : BaseOptimization
     {
@@ -129,7 +130,8 @@ public class PowerManagement : LocalizedObject, IOptimizationCategory
     [Optimization(
         Id = "805F993F-67F9-4F5A-8606-998EA9087CF0",
         Risk = OptimizationRisk.Moderate,
-        Tags = OptimizationTags.Latency | OptimizationTags.Performance
+        Tags = OptimizationTags.Latency | OptimizationTags.Performance,
+        EvidenceUrl = "https://learn.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-selective-suspend"
     )]
     public class DisableUSBPowerSaving : BaseOptimization
     {
@@ -252,7 +254,8 @@ public class PowerManagement : LocalizedObject, IOptimizationCategory
     [Optimization(
         Id = "EE71E993-EE41-4449-8856-84B09B2B0C46",
         Risk = OptimizationRisk.Safe,
-        Tags = OptimizationTags.Latency | OptimizationTags.Performance | OptimizationTags.Power
+        Tags = OptimizationTags.Latency | OptimizationTags.Performance | OptimizationTags.Power,
+        EvidenceUrl = "https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/powercfg-command-line-options"
     )]
     public class InstallOptimizerDuckPowerPlan : BaseOptimization
     {
@@ -325,7 +328,8 @@ public class PowerManagement : LocalizedObject, IOptimizationCategory
     [Optimization(
         Id = "D2392F86-2B35-4BA2-939B-6FF38EE18EE6",
         Risk = OptimizationRisk.Risky,
-        Tags = OptimizationTags.Power | OptimizationTags.Performance | OptimizationTags.System
+        Tags = OptimizationTags.Power | OptimizationTags.Performance | OptimizationTags.System,
+        EvidenceUrl = "https://learn.microsoft.com/en-us/windows/win32/procthread/quality-of-service"
     )]
     public class DisablePowerSaving : BaseOptimization
     {

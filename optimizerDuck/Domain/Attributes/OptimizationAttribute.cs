@@ -25,4 +25,11 @@ public sealed class OptimizationAttribute : Attribute
     ///     When <see langword="null" />, the optimization is always available.
     /// </summary>
     public Type? Condition { get; init; }
+
+    /// <summary>
+    ///     An absolute https link to the documentation that backs this optimization, preferably
+    ///     Microsoft's own. <see langword="null" /> means no source has been verified yet, and the
+    ///     details dialog says so.
+    /// </summary>
+    public string? EvidenceUrl { get; init; }
 }

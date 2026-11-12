@@ -12,6 +12,8 @@ public abstract class StubOptimization : IOptimization
     public virtual string OptimizationKey { get; init; } = "TestOptimization";
     public virtual string Name { get; init; } = "Test Optimization";
     public virtual string ShortDescription { get; init; } = "Test optimization";
+    public virtual string? Consequence { get; init; }
+    public virtual string? EvidenceUrl { get; init; }
     public virtual OptimizationState State { get; set; } = new();
     public virtual Type? ConditionType { get; init; }
     public virtual ConditionResult ConditionResult { get; set; } = ConditionResult.Available;

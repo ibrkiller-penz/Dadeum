@@ -4304,4 +4304,76 @@ Actualiza ahora para disfrutar de las nuevas funciones y mejoras.</value>
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>Los detalles están en el archivo de registro.</value>
   </data>
+  <data name="Optimizer.AI.DisableRecall.Consequence" xml:space="preserve">
+    <value>Ya no podrás buscar en capturas de pantalla anteriores y las capturas guardadas se eliminarán. Volver a activar Recall no las recupera.</value>
+  </data>
+  <data name="Optimizer.BloatwareAndServices.ConfigureServices.Consequence" xml:space="preserve">
+    <value>Cambia el tipo de inicio de unos 200 servicios a la vez. Las funciones que dependen de un servicio cambiado, como Escritorio remoto, los escáneres, las tarjetas inteligentes o los sensores, pueden dejar de funcionar hasta que reviertas el cambio.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableUlps.Consequence" xml:space="preserve">
+    <value>La GPU deja de ahorrar energía en reposo, por lo que aumentan el consumo y el calor, sobre todo en portátiles. La mejora de rendimiento no se ha medido.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisablePowerGating.Consequence" xml:space="preserve">
+    <value>La GPU deja de ahorrar energía en reposo, por lo que aumentan el consumo y el calor, sobre todo en portátiles. La mejora de rendimiento no se ha medido.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableAspm.Consequence" xml:space="preserve">
+    <value>La GPU deja de ahorrar energía en reposo, por lo que aumentan el consumo y el calor, sobre todo en portátiles. La mejora de rendimiento no se ha medido.</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableDynamicPstate.Consequence" xml:space="preserve">
+    <value>La GPU deja de ahorrar energía en reposo, por lo que aumentan el consumo y el calor, sobre todo en portátiles. La mejora de rendimiento no se ha medido.</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableAsyncPstates.Consequence" xml:space="preserve">
+    <value>La GPU deja de ahorrar energía en reposo, por lo que aumentan el consumo y el calor, sobre todo en portátiles. La mejora de rendimiento no se ha medido.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableVideoClockGating.Consequence" xml:space="preserve">
+    <value>Los motores de vídeo permanecen encendidos, por lo que el consumo aumenta al reproducir o grabar vídeo. La mejora de estabilidad no se ha medido.</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAsyncFlips.Consequence" xml:space="preserve">
+    <value>Forzar los cambios de búfer síncronos puede reducir la velocidad de fotogramas en algunos juegos. La mejora de latencia no se ha medido.</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAdaptiveVsync.Consequence" xml:space="preserve">
+    <value>Con V-Sync fijo, puede haber tirones cuando la velocidad de fotogramas baja de la frecuencia de actualización. La mejora no se ha medido.</value>
+  </data>
+  <data name="Optimizer.Performance.DisableBackgroundApps.Consequence" xml:space="preserve">
+    <value>Aplicaciones como Correo, Calendario o las de mensajería dejan de actualizarse y de enviar notificaciones mientras están cerradas.</value>
+  </data>
+  <data name="Optimizer.Performance.ConsolidateServiceHosts.Consequence" xml:space="preserve">
+    <value>Los servicios comparten menos procesos, por lo que un servicio que falle puede arrastrar a otros. Los servicios del mando de Xbox ya han fallado antes con esta opción.</value>
+  </data>
+  <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Consequence" xml:space="preserve">
+    <value>Las teclas especiales, las teclas filtro y las teclas de alternancia ya no se pueden activar con sus métodos abreviados de teclado. Siguen disponibles en Configuración.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableHibernateAndFastStartup.Consequence" xml:space="preserve">
+    <value>La hibernación deja de estar disponible y encender el equipo puede tardar unos segundos más sin el inicio rápido.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableUSBPowerSaving.Consequence" xml:space="preserve">
+    <value>Los dispositivos USB permanecen alimentados, lo que reduce la duración de la batería en portátiles.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisablePowerSaving.Consequence" xml:space="preserve">
+    <value>Windows ya no puede ralentizar el trabajo en segundo plano para ahorrar energía, por lo que aumentan el consumo y el calor, sobre todo en portátiles. La mejora varía según el equipo y no se ha medido.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableTelemetry.Consequence" xml:space="preserve">
+    <value>Microsoft recibe menos datos de diagnóstico, lo que puede retrasar la solución de problemas en tu equipo. Windows Insider y algunas funciones de comentarios necesitan los datos de diagnóstico opcionales y pueden dejar de funcionar.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableErrorReporting.Consequence" xml:space="preserve">
+    <value>Ya no se envían informes de errores, por lo que Windows no puede ofrecer soluciones para bloqueos de aplicaciones y controladores, y el Asistente para la compatibilidad de programas deja de avisar sobre aplicaciones incompatibles.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableAutoLogger.Consequence" xml:space="preserve">
+    <value>Algunos seguimientos de diagnóstico dejan de registrarse al arrancar, lo que dificulta diagnosticar ciertos problemas. El software de seguridad puede marcar este cambio.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCortana.Consequence" xml:space="preserve">
+    <value>Windows Search deja de mostrar resultados web y el asistente de voz Cortana no está disponible.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCopilot.Consequence" xml:space="preserve">
+    <value>El asistente Copilot deja de estar disponible desde la barra de tareas o su método abreviado de teclado.</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Consequence" xml:space="preserve">
+    <value>Lo que pierdes</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence" xml:space="preserve">
+    <value>Fuente</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
+    <value>Aún no se ha verificado ninguna fuente para este elemento. Considera su efecto como no demostrado.</value>
+  </data>
 </root>

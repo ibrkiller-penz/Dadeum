@@ -2564,4 +2564,76 @@
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>הפרטים נמצאים בקובץ היומן.</value>
   </data>
+  <data name="Optimizer.AI.DisableRecall.Consequence" xml:space="preserve">
+    <value>לא תוכל עוד לחפש בצילומי מסך קודמים, וצילומים שמורים יימחקו. הפעלה מחדש של Recall לא תחזיר אותם.</value>
+  </data>
+  <data name="Optimizer.BloatwareAndServices.ConfigureServices.Consequence" xml:space="preserve">
+    <value>משנה את סוג ההפעלה של כ-200 שירותים בבת אחת. תכונות שתלויות בשירות שהשתנה, כמו שולחן עבודה מרוחק, סורקים, כרטיסים חכמים או חיישנים, עלולות להפסיק לעבוד עד שתבטל את השינוי.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableUlps.Consequence" xml:space="preserve">
+    <value>ה-GPU כבר לא חוסך חשמל במצב סרק, ולכן צריכת החשמל והחום עולים, במיוחד במחשבים ניידים. שיפור הביצועים לא נמדד.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisablePowerGating.Consequence" xml:space="preserve">
+    <value>ה-GPU כבר לא חוסך חשמל במצב סרק, ולכן צריכת החשמל והחום עולים, במיוחד במחשבים ניידים. שיפור הביצועים לא נמדד.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableAspm.Consequence" xml:space="preserve">
+    <value>ה-GPU כבר לא חוסך חשמל במצב סרק, ולכן צריכת החשמל והחום עולים, במיוחד במחשבים ניידים. שיפור הביצועים לא נמדד.</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableDynamicPstate.Consequence" xml:space="preserve">
+    <value>ה-GPU כבר לא חוסך חשמל במצב סרק, ולכן צריכת החשמל והחום עולים, במיוחד במחשבים ניידים. שיפור הביצועים לא נמדד.</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableAsyncPstates.Consequence" xml:space="preserve">
+    <value>ה-GPU כבר לא חוסך חשמל במצב סרק, ולכן צריכת החשמל והחום עולים, במיוחד במחשבים ניידים. שיפור הביצועים לא נמדד.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableVideoClockGating.Consequence" xml:space="preserve">
+    <value>מנועי הווידאו נשארים פעילים, ולכן צריכת החשמל עולה בזמן ניגון או הקלטה של וידאו. שיפור היציבות לא נמדד.</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAsyncFlips.Consequence" xml:space="preserve">
+    <value>אילוץ החלפות מסונכרנות עלול להוריד את קצב הפריימים בחלק מהמשחקים. שיפור זמן התגובה לא נמדד.</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAdaptiveVsync.Consequence" xml:space="preserve">
+    <value>עם V-Sync קבוע, התמונה עלולה לגמגם כשקצב הפריימים יורד מתחת לקצב הרענון. השיפור לא נמדד.</value>
+  </data>
+  <data name="Optimizer.Performance.DisableBackgroundApps.Consequence" xml:space="preserve">
+    <value>אפליקציות כמו דואר, לוח שנה או אפליקציות הודעות מפסיקות להתעדכן ולשלוח התראות כשהן סגורות.</value>
+  </data>
+  <data name="Optimizer.Performance.ConsolidateServiceHosts.Consequence" xml:space="preserve">
+    <value>השירותים חולקים פחות תהליכים, כך ששירות אחד שנכשל עלול להפיל איתו שירותים אחרים. שירותי בקר Xbox כבר הפסיקו לעבוד בעבר עם הגדרה זו.</value>
+  </data>
+  <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Consequence" xml:space="preserve">
+    <value>לא ניתן עוד להפעיל מקשים דביקים, מקשי סינון ומקשי מיתוג באמצעות קיצורי המקלדת שלהם. הם נשארים זמינים בהגדרות.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableHibernateAndFastStartup.Consequence" xml:space="preserve">
+    <value>מצב תרדמה כבר לא זמין, והדלקת המחשב עשויה להימשך כמה שניות יותר ללא הפעלה מהירה.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableUSBPowerSaving.Consequence" xml:space="preserve">
+    <value>התקני USB נשארים מחוברים לחשמל, מה שמקצר את חיי הסוללה במחשבים ניידים.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisablePowerSaving.Consequence" xml:space="preserve">
+    <value>Windows כבר לא יכול להאט עבודה ברקע כדי לחסוך בחשמל, ולכן צריכת החשמל והחום עולים, במיוחד במחשבים ניידים. השיפור משתנה ממחשב למחשב ולא נמדד.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableTelemetry.Consequence" xml:space="preserve">
+    <value>Microsoft מקבלת פחות נתוני אבחון, מה שעלול להאט תיקון בעיות במחשב שלך. Windows Insider וחלק מתכונות המשוב זקוקים לנתוני אבחון אופציונליים ועלולים להפסיק לעבוד.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableErrorReporting.Consequence" xml:space="preserve">
+    <value>דוחות קריסה כבר לא נשלחים, ולכן Windows לא יכול להציע פתרונות לקריסות של אפליקציות ומנהלי התקנים, ומסייע תאימות התוכניות מפסיק להזהיר מפני אפליקציות לא תואמות.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableAutoLogger.Consequence" xml:space="preserve">
+    <value>חלק ממעקבי האבחון כבר לא נרשמים בזמן האתחול, מה שמקשה לאבחן בעיות מסוימות. תוכנות אבטחה עשויות לסמן את השינוי.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCortana.Consequence" xml:space="preserve">
+    <value>חיפוש Windows כבר לא מציג תוצאות מהאינטרנט, והעוזרת הקולית Cortana אינה זמינה.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCopilot.Consequence" xml:space="preserve">
+    <value>העוזר Copilot כבר לא זמין משורת המשימות או מקיצור המקלדת שלו.</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Consequence" xml:space="preserve">
+    <value>על מה מוותרים</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence" xml:space="preserve">
+    <value>מקור</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
+    <value>עדיין לא אומת מקור עבור פריט זה. יש להתייחס להשפעתו כלא מוכחת.</value>
+  </data>
 </root>

@@ -2515,4 +2515,76 @@
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>详细信息已写入日志文件。</value>
   </data>
+  <data name="Optimizer.AI.DisableRecall.Consequence" xml:space="preserve">
+    <value>你将无法再搜索过去的屏幕快照，已保存的快照会被删除。重新打开 Recall 也无法恢复它们。</value>
+  </data>
+  <data name="Optimizer.BloatwareAndServices.ConfigureServices.Consequence" xml:space="preserve">
+    <value>一次性更改约 200 个服务的启动类型。依赖于已更改服务的功能，例如远程桌面、扫描仪、智能卡或传感器，可能在你还原之前无法正常工作。</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableUlps.Consequence" xml:space="preserve">
+    <value>GPU 空闲时不再节能，因此功耗和发热会增加，笔记本电脑尤为明显。性能提升尚未经过测量。</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisablePowerGating.Consequence" xml:space="preserve">
+    <value>GPU 空闲时不再节能，因此功耗和发热会增加，笔记本电脑尤为明显。性能提升尚未经过测量。</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableAspm.Consequence" xml:space="preserve">
+    <value>GPU 空闲时不再节能，因此功耗和发热会增加，笔记本电脑尤为明显。性能提升尚未经过测量。</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableDynamicPstate.Consequence" xml:space="preserve">
+    <value>GPU 空闲时不再节能，因此功耗和发热会增加，笔记本电脑尤为明显。性能提升尚未经过测量。</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableAsyncPstates.Consequence" xml:space="preserve">
+    <value>GPU 空闲时不再节能，因此功耗和发热会增加，笔记本电脑尤为明显。性能提升尚未经过测量。</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableVideoClockGating.Consequence" xml:space="preserve">
+    <value>视频引擎保持通电，因此播放或录制视频时功耗会增加。稳定性提升尚未经过测量。</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAsyncFlips.Consequence" xml:space="preserve">
+    <value>强制同步翻转可能会降低某些游戏的帧率。延迟改善尚未经过测量。</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAdaptiveVsync.Consequence" xml:space="preserve">
+    <value>使用固定 V-Sync 时，帧率低于刷新率时可能出现卡顿。效果尚未经过测量。</value>
+  </data>
+  <data name="Optimizer.Performance.DisableBackgroundApps.Consequence" xml:space="preserve">
+    <value>邮件、日历或聊天软件等应用在关闭后将停止更新，也不再发送通知。</value>
+  </data>
+  <data name="Optimizer.Performance.ConsolidateServiceHosts.Consequence" xml:space="preserve">
+    <value>服务共享的进程变少，一个服务出错可能会连带其他服务一起停止。此前已有 Xbox 控制器服务因该设置而失效。</value>
+  </data>
+  <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Consequence" xml:space="preserve">
+    <value>粘滞键、筛选键和切换键无法再通过键盘快捷方式打开。它们在设置中仍然可用。</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableHibernateAndFastStartup.Consequence" xml:space="preserve">
+    <value>休眠将不可用，并且没有快速启动后，开机可能会多花几秒钟。</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableUSBPowerSaving.Consequence" xml:space="preserve">
+    <value>USB 设备保持通电，会缩短笔记本电脑的电池续航时间。</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisablePowerSaving.Consequence" xml:space="preserve">
+    <value>Windows 无法再为节能而降低后台任务的速度，因此功耗和发热会增加，笔记本电脑尤为明显。效果因电脑而异，且尚未经过测量。</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableTelemetry.Consequence" xml:space="preserve">
+    <value>Microsoft 收到的诊断数据会减少，这可能会延缓你电脑上问题的修复。Windows 预览体验计划和部分反馈功能需要可选诊断数据，可能无法正常工作。</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableErrorReporting.Consequence" xml:space="preserve">
+    <value>不再发送崩溃报告，因此 Windows 无法为应用和驱动程序崩溃提供解决方案，程序兼容性助手也不再对不兼容的应用发出警告。</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableAutoLogger.Consequence" xml:space="preserve">
+    <value>启动时不再记录部分诊断跟踪，某些问题会更难诊断。安全软件可能会标记此更改。</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCortana.Consequence" xml:space="preserve">
+    <value>Windows 搜索不再显示网页结果，Cortana 语音助手也将不可用。</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCopilot.Consequence" xml:space="preserve">
+    <value>无法再从任务栏或键盘快捷方式使用 Copilot 助手。</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Consequence" xml:space="preserve">
+    <value>代价</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence" xml:space="preserve">
+    <value>依据</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
+    <value>此项目尚无经过核实的依据。请将其效果视为未经证实。</value>
+  </data>
 </root>

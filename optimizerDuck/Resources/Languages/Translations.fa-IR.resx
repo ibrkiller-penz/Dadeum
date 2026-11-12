@@ -2564,4 +2564,76 @@
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>جزئیات در فایل لاگ ثبت شده است.</value>
   </data>
+  <data name="Optimizer.AI.DisableRecall.Consequence" xml:space="preserve">
+    <value>دیگر نمی‌توانید در عکس‌های قبلی صفحه جستجو کنید و عکس‌های ذخیره‌شده حذف می‌شوند. روشن کردن دوباره Recall آن‌ها را برنمی‌گرداند.</value>
+  </data>
+  <data name="Optimizer.BloatwareAndServices.ConfigureServices.Consequence" xml:space="preserve">
+    <value>نوع راه‌اندازی حدود 200 سرویس را یک‌جا تغییر می‌دهد. قابلیت‌هایی که به سرویس تغییریافته وابسته‌اند، مانند دسکتاپ از راه دور، اسکنرها، کارت‌های هوشمند یا حسگرها، ممکن است تا زمان بازگردانی کار نکنند.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableUlps.Consequence" xml:space="preserve">
+    <value>GPU دیگر در حالت بیکاری در مصرف انرژی صرفه‌جویی نمی‌کند، بنابراین مصرف برق و گرما بیشتر می‌شود، به‌ویژه در لپ‌تاپ‌ها. بهبود کارایی اندازه‌گیری نشده است.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisablePowerGating.Consequence" xml:space="preserve">
+    <value>GPU دیگر در حالت بیکاری در مصرف انرژی صرفه‌جویی نمی‌کند، بنابراین مصرف برق و گرما بیشتر می‌شود، به‌ویژه در لپ‌تاپ‌ها. بهبود کارایی اندازه‌گیری نشده است.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableAspm.Consequence" xml:space="preserve">
+    <value>GPU دیگر در حالت بیکاری در مصرف انرژی صرفه‌جویی نمی‌کند، بنابراین مصرف برق و گرما بیشتر می‌شود، به‌ویژه در لپ‌تاپ‌ها. بهبود کارایی اندازه‌گیری نشده است.</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableDynamicPstate.Consequence" xml:space="preserve">
+    <value>GPU دیگر در حالت بیکاری در مصرف انرژی صرفه‌جویی نمی‌کند، بنابراین مصرف برق و گرما بیشتر می‌شود، به‌ویژه در لپ‌تاپ‌ها. بهبود کارایی اندازه‌گیری نشده است.</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableAsyncPstates.Consequence" xml:space="preserve">
+    <value>GPU دیگر در حالت بیکاری در مصرف انرژی صرفه‌جویی نمی‌کند، بنابراین مصرف برق و گرما بیشتر می‌شود، به‌ویژه در لپ‌تاپ‌ها. بهبود کارایی اندازه‌گیری نشده است.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableVideoClockGating.Consequence" xml:space="preserve">
+    <value>موتورهای ویدیو روشن می‌مانند، بنابراین هنگام پخش یا ضبط ویدیو مصرف برق بیشتر می‌شود. بهبود پایداری اندازه‌گیری نشده است.</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAsyncFlips.Consequence" xml:space="preserve">
+    <value>اجبار به جابه‌جایی همگام ممکن است نرخ فریم را در برخی بازی‌ها کاهش دهد. بهبود تأخیر اندازه‌گیری نشده است.</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAdaptiveVsync.Consequence" xml:space="preserve">
+    <value>با V-Sync ثابت، وقتی نرخ فریم از نرخ تازه‌سازی پایین‌تر بیاید ممکن است تصویر لگ بزند. این بهبود اندازه‌گیری نشده است.</value>
+  </data>
+  <data name="Optimizer.Performance.DisableBackgroundApps.Consequence" xml:space="preserve">
+    <value>برنامه‌هایی مانند Mail، Calendar یا پیام‌رسان‌ها وقتی بسته هستند به‌روزرسانی نمی‌شوند و اعلان نمی‌فرستند.</value>
+  </data>
+  <data name="Optimizer.Performance.ConsolidateServiceHosts.Consequence" xml:space="preserve">
+    <value>سرویس‌ها در فرایندهای کمتری مشترک می‌شوند، بنابراین خرابی یک سرویس ممکن است سرویس‌های دیگر را هم از کار بیندازد. سرویس‌های دسته Xbox پیش‌تر با این تنظیم خراب شده‌اند.</value>
+  </data>
+  <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Consequence" xml:space="preserve">
+    <value>کلیدهای چسبان، کلیدهای فیلتر و کلیدهای تغییر وضعیت دیگر با میان‌برهای صفحه‌کلید روشن نمی‌شوند. این گزینه‌ها همچنان در تنظیمات در دسترس هستند.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableHibernateAndFastStartup.Consequence" xml:space="preserve">
+    <value>حالت Hibernate دیگر در دسترس نیست و بدون راه‌اندازی سریع، روشن شدن رایانه ممکن است چند ثانیه بیشتر طول بکشد.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableUSBPowerSaving.Consequence" xml:space="preserve">
+    <value>دستگاه‌های USB روشن می‌مانند و این عمر باتری لپ‌تاپ را کوتاه‌تر می‌کند.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisablePowerSaving.Consequence" xml:space="preserve">
+    <value>Windows دیگر نمی‌تواند کارهای پس‌زمینه را برای صرفه‌جویی در انرژی کند کند، بنابراین مصرف برق و گرما بیشتر می‌شود، به‌ویژه در لپ‌تاپ‌ها. میزان بهبود در هر رایانه متفاوت است و اندازه‌گیری نشده است.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableTelemetry.Consequence" xml:space="preserve">
+    <value>Microsoft داده‌های عیب‌یابی کمتری دریافت می‌کند و این ممکن است رفع مشکلات رایانه شما را کند کند. Windows Insider و برخی قابلیت‌های بازخورد به داده‌های عیب‌یابی اختیاری نیاز دارند و ممکن است کار نکنند.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableErrorReporting.Consequence" xml:space="preserve">
+    <value>گزارش‌های خرابی دیگر ارسال نمی‌شوند، بنابراین Windows نمی‌تواند برای خرابی برنامه‌ها و درایورها راه‌حل ارائه دهد و دستیار سازگاری برنامه دیگر درباره برنامه‌های ناسازگار هشدار نمی‌دهد.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableAutoLogger.Consequence" xml:space="preserve">
+    <value>برخی ردگیری‌های عیب‌یابی دیگر هنگام راه‌اندازی ثبت نمی‌شوند و این عیب‌یابی برخی مشکلات را سخت‌تر می‌کند. نرم‌افزارهای امنیتی ممکن است این تغییر را علامت‌گذاری کنند.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCortana.Consequence" xml:space="preserve">
+    <value>جستجوی Windows دیگر نتایج وب را نشان نمی‌دهد و دستیار صوتی Cortana در دسترس نیست.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCopilot.Consequence" xml:space="preserve">
+    <value>دستیار Copilot دیگر از نوار وظیفه یا میان‌بر صفحه‌کلید آن در دسترس نیست.</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Consequence" xml:space="preserve">
+    <value>چه چیزی را از دست می‌دهید</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence" xml:space="preserve">
+    <value>منبع</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
+    <value>هنوز هیچ منبعی برای این مورد تأیید نشده است. اثر آن را اثبات‌نشده در نظر بگیرید.</value>
+  </data>
 </root>

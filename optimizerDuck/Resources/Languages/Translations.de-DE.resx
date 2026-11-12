@@ -2559,4 +2559,76 @@ Aktualisiere jetzt, um die neuesten Funktionen, Verbesserungen und Fehlerbehebun
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>Details stehen in der Protokolldatei.</value>
   </data>
+  <data name="Optimizer.AI.DisableRecall.Consequence" xml:space="preserve">
+    <value>Du kannst frühere Bildschirmaufnahmen nicht mehr durchsuchen, und gespeicherte Aufnahmen werden gelöscht. Wenn du Recall wieder einschaltest, kommen sie nicht zurück.</value>
+  </data>
+  <data name="Optimizer.BloatwareAndServices.ConfigureServices.Consequence" xml:space="preserve">
+    <value>Ändert den Starttyp von etwa 200 Diensten auf einmal. Funktionen, die von einem geänderten Dienst abhängen, etwa Remotedesktop, Scanner, Smartcards oder Sensoren, können bis zum Zurücksetzen ausfallen.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableUlps.Consequence" xml:space="preserve">
+    <value>Die GPU spart im Leerlauf keinen Strom mehr, daher steigen Stromverbrauch und Wärme, besonders bei Laptops. Der Leistungsgewinn wurde nicht gemessen.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisablePowerGating.Consequence" xml:space="preserve">
+    <value>Die GPU spart im Leerlauf keinen Strom mehr, daher steigen Stromverbrauch und Wärme, besonders bei Laptops. Der Leistungsgewinn wurde nicht gemessen.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableAspm.Consequence" xml:space="preserve">
+    <value>Die GPU spart im Leerlauf keinen Strom mehr, daher steigen Stromverbrauch und Wärme, besonders bei Laptops. Der Leistungsgewinn wurde nicht gemessen.</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableDynamicPstate.Consequence" xml:space="preserve">
+    <value>Die GPU spart im Leerlauf keinen Strom mehr, daher steigen Stromverbrauch und Wärme, besonders bei Laptops. Der Leistungsgewinn wurde nicht gemessen.</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableAsyncPstates.Consequence" xml:space="preserve">
+    <value>Die GPU spart im Leerlauf keinen Strom mehr, daher steigen Stromverbrauch und Wärme, besonders bei Laptops. Der Leistungsgewinn wurde nicht gemessen.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableVideoClockGating.Consequence" xml:space="preserve">
+    <value>Die Video-Engines bleiben eingeschaltet, daher steigt der Stromverbrauch beim Abspielen oder Aufnehmen von Videos. Der Stabilitätsgewinn wurde nicht gemessen.</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAsyncFlips.Consequence" xml:space="preserve">
+    <value>Erzwungene synchrone Flips können in manchen Spielen die Bildrate senken. Der Latenzgewinn wurde nicht gemessen.</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAdaptiveVsync.Consequence" xml:space="preserve">
+    <value>Mit festem V-Sync kann es ruckeln, wenn die Bildrate unter die Bildwiederholrate fällt. Der Gewinn wurde nicht gemessen.</value>
+  </data>
+  <data name="Optimizer.Performance.DisableBackgroundApps.Consequence" xml:space="preserve">
+    <value>Apps wie Mail, Kalender oder Messenger aktualisieren sich nicht mehr und senden keine Benachrichtigungen, solange sie geschlossen sind.</value>
+  </data>
+  <data name="Optimizer.Performance.ConsolidateServiceHosts.Consequence" xml:space="preserve">
+    <value>Dienste teilen sich weniger Prozesse, daher kann ein fehlerhafter Dienst andere mit sich reißen. Dienste für Xbox-Controller sind mit dieser Einstellung schon ausgefallen.</value>
+  </data>
+  <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Consequence" xml:space="preserve">
+    <value>Einrastfunktion, Anschlagverzögerung und Umschalttasten lassen sich nicht mehr per Tastenkombination einschalten. In den Einstellungen bleiben sie verfügbar.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableHibernateAndFastStartup.Consequence" xml:space="preserve">
+    <value>Der Ruhezustand ist nicht mehr verfügbar, und ohne Schnellstart kann das Einschalten des PCs einige Sekunden länger dauern.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableUSBPowerSaving.Consequence" xml:space="preserve">
+    <value>USB-Geräte bleiben mit Strom versorgt, was die Akkulaufzeit von Laptops verkürzt.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisablePowerSaving.Consequence" xml:space="preserve">
+    <value>Windows kann Hintergrundarbeit nicht mehr drosseln, um Strom zu sparen, daher steigen Stromverbrauch und Wärme, besonders bei Laptops. Der Gewinn ist von PC zu PC verschieden und wurde nicht gemessen.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableTelemetry.Consequence" xml:space="preserve">
+    <value>Microsoft erhält weniger Diagnosedaten, was die Behebung von Problemen auf deinem PC verzögern kann. Windows-Insider und einige Feedbackfunktionen benötigen optionale Diagnosedaten und funktionieren eventuell nicht mehr.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableErrorReporting.Consequence" xml:space="preserve">
+    <value>Absturzberichte werden nicht mehr gesendet, daher kann Windows keine Lösungen für App- und Treiberabstürze anbieten, und der Programmkompatibilitäts-Assistent warnt nicht mehr vor inkompatiblen Apps.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableAutoLogger.Consequence" xml:space="preserve">
+    <value>Einige Diagnoseprotokolle werden beim Start nicht mehr aufgezeichnet, wodurch bestimmte Probleme schwerer zu analysieren sind. Sicherheitssoftware kann die Änderung melden.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCortana.Consequence" xml:space="preserve">
+    <value>Die Windows-Suche zeigt keine Webergebnisse mehr an, und der Sprachassistent Cortana ist nicht verfügbar.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCopilot.Consequence" xml:space="preserve">
+    <value>Der Copilot-Assistent ist über die Taskleiste und seine Tastenkombination nicht mehr verfügbar.</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Consequence" xml:space="preserve">
+    <value>Was du aufgibst</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence" xml:space="preserve">
+    <value>Quelle</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
+    <value>Für diesen Eintrag wurde noch keine Quelle geprüft. Betrachte seine Wirkung als unbewiesen.</value>
+  </data>
 </root>

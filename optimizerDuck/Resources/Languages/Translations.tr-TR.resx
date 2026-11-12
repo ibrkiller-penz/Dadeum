@@ -2498,4 +2498,76 @@ En son özelliklerden, iyileştirmelerden ve hata düzeltmelerinden yararlanmak 
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>Ayrıntılar günlük dosyasında.</value>
   </data>
+  <data name="Optimizer.AI.DisableRecall.Consequence" xml:space="preserve">
+    <value>Geçmiş ekran görüntülerinde artık arama yapamazsınız ve kayıtlı görüntüler silinir. Recall'u yeniden açmak onları geri getirmez.</value>
+  </data>
+  <data name="Optimizer.BloatwareAndServices.ConfigureServices.Consequence" xml:space="preserve">
+    <value>Yaklaşık 200 hizmetin başlangıç türünü aynı anda değiştirir. Uzak Masaüstü, tarayıcılar, akıllı kartlar veya sensörler gibi değiştirilen bir hizmete bağlı özellikler, geri alana kadar çalışmayabilir.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableUlps.Consequence" xml:space="preserve">
+    <value>GPU boştayken artık güç tasarrufu yapmaz, bu nedenle güç tüketimi ve ısı artar, özellikle dizüstü bilgisayarlarda. Performans kazancı ölçülmedi.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisablePowerGating.Consequence" xml:space="preserve">
+    <value>GPU boştayken artık güç tasarrufu yapmaz, bu nedenle güç tüketimi ve ısı artar, özellikle dizüstü bilgisayarlarda. Performans kazancı ölçülmedi.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableAspm.Consequence" xml:space="preserve">
+    <value>GPU boştayken artık güç tasarrufu yapmaz, bu nedenle güç tüketimi ve ısı artar, özellikle dizüstü bilgisayarlarda. Performans kazancı ölçülmedi.</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableDynamicPstate.Consequence" xml:space="preserve">
+    <value>GPU boştayken artık güç tasarrufu yapmaz, bu nedenle güç tüketimi ve ısı artar, özellikle dizüstü bilgisayarlarda. Performans kazancı ölçülmedi.</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableAsyncPstates.Consequence" xml:space="preserve">
+    <value>GPU boştayken artık güç tasarrufu yapmaz, bu nedenle güç tüketimi ve ısı artar, özellikle dizüstü bilgisayarlarda. Performans kazancı ölçülmedi.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableVideoClockGating.Consequence" xml:space="preserve">
+    <value>Video motorları açık kalır, bu nedenle video oynatırken veya kaydederken güç tüketimi artar. Kararlılık kazancı ölçülmedi.</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAsyncFlips.Consequence" xml:space="preserve">
+    <value>Eşzamanlı çevirmeleri zorlamak bazı oyunlarda kare hızını düşürebilir. Gecikme kazancı ölçülmedi.</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAdaptiveVsync.Consequence" xml:space="preserve">
+    <value>Sabit V-Sync ile kare hızı yenileme hızının altına düştüğünde görüntü takılabilir. Kazanç ölçülmedi.</value>
+  </data>
+  <data name="Optimizer.Performance.DisableBackgroundApps.Consequence" xml:space="preserve">
+    <value>Posta, Takvim veya mesajlaşma uygulamaları gibi uygulamalar kapalıyken güncellenmeyi ve bildirim göndermeyi bırakır.</value>
+  </data>
+  <data name="Optimizer.Performance.ConsolidateServiceHosts.Consequence" xml:space="preserve">
+    <value>Hizmetler daha az işlemi paylaşır, bu yüzden bir hizmetin çökmesi diğerlerini de beraberinde götürebilir. Xbox denetleyicisi hizmetleri bu ayarla daha önce bozulmuştur.</value>
+  </data>
+  <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Consequence" xml:space="preserve">
+    <value>Yapışkan Tuşlar, Filtre Tuşları ve Geçiş Tuşları artık klavye kısayollarıyla açılamaz. Ayarlar'da kullanılabilir olmaya devam eder.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableHibernateAndFastStartup.Consequence" xml:space="preserve">
+    <value>Hazırda bekletme artık kullanılamaz ve Hızlı Başlangıç olmadan bilgisayarın açılması birkaç saniye daha uzun sürebilir.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableUSBPowerSaving.Consequence" xml:space="preserve">
+    <value>USB cihazlarına güç verilmeye devam eder, bu da dizüstü bilgisayarlarda pil ömrünü kısaltır.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisablePowerSaving.Consequence" xml:space="preserve">
+    <value>Windows artık güç tasarrufu için arka plan işlerini yavaşlatamaz, bu nedenle güç tüketimi ve ısı artar, özellikle dizüstü bilgisayarlarda. Kazanç bilgisayardan bilgisayara değişir ve ölçülmedi.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableTelemetry.Consequence" xml:space="preserve">
+    <value>Microsoft daha az tanılama verisi alır, bu da bilgisayarınızdaki sorunların düzeltilmesini yavaşlatabilir. Windows Insider ve bazı geri bildirim özellikleri isteğe bağlı tanılama verilerine ihtiyaç duyar ve çalışmayabilir.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableErrorReporting.Consequence" xml:space="preserve">
+    <value>Kilitlenme raporları artık gönderilmez, bu nedenle Windows uygulama ve sürücü kilitlenmeleri için çözüm sunamaz ve Program Uyumluluk Yardımcısı uyumsuz uygulamalar hakkında uyarmayı bırakır.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableAutoLogger.Consequence" xml:space="preserve">
+    <value>Bazı tanılama izleri artık açılışta kaydedilmez, bu da belirli sorunların tanılanmasını zorlaştırır. Güvenlik yazılımları bu değişikliği işaretleyebilir.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCortana.Consequence" xml:space="preserve">
+    <value>Windows Arama artık web sonuçlarını göstermez ve Cortana sesli asistanı kullanılamaz.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCopilot.Consequence" xml:space="preserve">
+    <value>Copilot asistanı artık görev çubuğundan veya klavye kısayoluyla kullanılamaz.</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Consequence" xml:space="preserve">
+    <value>Nelerden vazgeçersiniz</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence" xml:space="preserve">
+    <value>Kaynak</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
+    <value>Bu öğe için henüz doğrulanmış bir kaynak yok. Etkisini kanıtlanmamış kabul edin.</value>
+  </data>
 </root>

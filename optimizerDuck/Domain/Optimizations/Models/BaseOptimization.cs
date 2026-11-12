@@ -150,6 +150,23 @@ public abstract partial class BaseOptimization : LocalizedObject, IOptimization
     /// <summary>Gets the localized short description of what this optimization does.</summary>
     public virtual string ShortDescription => Loc.Instance[$"{Prefix}.ShortDescription"];
 
+    /// <summary>
+    ///     Gets the localized trade-off sentence from the <c>.Consequence</c> key, or
+    ///     <see langword="null" /> when the key is absent.
+    /// </summary>
+    public virtual string? Consequence
+    {
+        get
+        {
+            var key = $"{Prefix}.Consequence";
+            var value = Loc.Instance[key];
+            return value == key ? null : value;
+        }
+    }
+
+    /// <summary>Gets the documentation link declared in <see cref="OptimizationAttribute.EvidenceUrl" />.</summary>
+    public string? EvidenceUrl => Meta.EvidenceUrl;
+
     /// <summary>Gets the English name written to the log.</summary>
     public virtual string LogName => Loc.Invariant[$"Optimizer.{OwnerKey}.{OptimizationKey}.Name"];
 

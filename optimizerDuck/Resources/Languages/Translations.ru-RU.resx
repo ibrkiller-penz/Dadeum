@@ -2507,4 +2507,76 @@
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>Подробности в файле журнала.</value>
   </data>
+  <data name="Optimizer.AI.DisableRecall.Consequence" xml:space="preserve">
+    <value>Вы больше не сможете искать по прошлым снимкам экрана, а сохраненные снимки будут удалены. Повторное включение Recall их не вернет.</value>
+  </data>
+  <data name="Optimizer.BloatwareAndServices.ConfigureServices.Consequence" xml:space="preserve">
+    <value>Меняет тип запуска сразу примерно 200 служб. Функции, зависящие от измененной службы, например удаленный рабочий стол, сканеры, смарт-карты или датчики, могут перестать работать до отмены изменений.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableUlps.Consequence" xml:space="preserve">
+    <value>GPU больше не экономит энергию в простое, поэтому растут энергопотребление и нагрев, особенно на ноутбуках. Прирост производительности не измерялся.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisablePowerGating.Consequence" xml:space="preserve">
+    <value>GPU больше не экономит энергию в простое, поэтому растут энергопотребление и нагрев, особенно на ноутбуках. Прирост производительности не измерялся.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableAspm.Consequence" xml:space="preserve">
+    <value>GPU больше не экономит энергию в простое, поэтому растут энергопотребление и нагрев, особенно на ноутбуках. Прирост производительности не измерялся.</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableDynamicPstate.Consequence" xml:space="preserve">
+    <value>GPU больше не экономит энергию в простое, поэтому растут энергопотребление и нагрев, особенно на ноутбуках. Прирост производительности не измерялся.</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableAsyncPstates.Consequence" xml:space="preserve">
+    <value>GPU больше не экономит энергию в простое, поэтому растут энергопотребление и нагрев, особенно на ноутбуках. Прирост производительности не измерялся.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableVideoClockGating.Consequence" xml:space="preserve">
+    <value>Видеодвижки остаются включенными, поэтому энергопотребление растет при воспроизведении или записи видео. Прирост стабильности не измерялся.</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAsyncFlips.Consequence" xml:space="preserve">
+    <value>Принудительное синхронное переключение кадров может снизить частоту кадров в некоторых играх. Снижение задержки не измерялось.</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAdaptiveVsync.Consequence" xml:space="preserve">
+    <value>При фиксированном V-Sync изображение может подтормаживать, когда частота кадров падает ниже частоты обновления. Выигрыш не измерялся.</value>
+  </data>
+  <data name="Optimizer.Performance.DisableBackgroundApps.Consequence" xml:space="preserve">
+    <value>Приложения вроде Почты, Календаря или мессенджеров перестают обновляться и присылать уведомления, пока они закрыты.</value>
+  </data>
+  <data name="Optimizer.Performance.ConsolidateServiceHosts.Consequence" xml:space="preserve">
+    <value>Службы делят между собой меньше процессов, поэтому сбой одной службы может вывести из строя и другие. С этим параметром уже переставали работать службы контроллера Xbox.</value>
+  </data>
+  <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Consequence" xml:space="preserve">
+    <value>Залипание клавиш, фильтрацию ввода и озвучивание переключения больше нельзя включить сочетаниями клавиш. Они остаются доступными в Параметрах.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableHibernateAndFastStartup.Consequence" xml:space="preserve">
+    <value>Режим гибернации становится недоступен, а без быстрого запуска включение компьютера может занимать на несколько секунд дольше.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableUSBPowerSaving.Consequence" xml:space="preserve">
+    <value>USB-устройства остаются под питанием, что сокращает время работы ноутбука от батареи.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisablePowerSaving.Consequence" xml:space="preserve">
+    <value>Windows больше не может замедлять фоновую работу ради экономии энергии, поэтому растут энергопотребление и нагрев, особенно на ноутбуках. Выигрыш зависит от компьютера и не измерялся.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableTelemetry.Consequence" xml:space="preserve">
+    <value>Microsoft получает меньше диагностических данных, что может замедлить исправление проблем на вашем компьютере. Программа предварительной оценки Windows и некоторые функции отзывов требуют необязательных диагностических данных и могут перестать работать.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableErrorReporting.Consequence" xml:space="preserve">
+    <value>Отчеты о сбоях больше не отправляются, поэтому Windows не может предлагать решения для сбоев приложений и драйверов, а Помощник по совместимости программ перестает предупреждать о несовместимых приложениях.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableAutoLogger.Consequence" xml:space="preserve">
+    <value>Некоторые диагностические трассировки больше не записываются при загрузке, из-за чего отдельные проблемы сложнее диагностировать. Защитное ПО может отметить это изменение.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCortana.Consequence" xml:space="preserve">
+    <value>Поиск Windows больше не показывает результаты из интернета, а голосовой помощник Cortana недоступен.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCopilot.Consequence" xml:space="preserve">
+    <value>Помощник Copilot больше недоступен на панели задач и по сочетанию клавиш.</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Consequence" xml:space="preserve">
+    <value>Чем вы жертвуете</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence" xml:space="preserve">
+    <value>Источник</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
+    <value>Для этого пункта пока не проверен ни один источник. Считайте его эффект недоказанным.</value>
+  </data>
 </root>

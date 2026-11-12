@@ -2564,4 +2564,76 @@ Perbarui sekarang untuk menikmati fitur terbaru, peningkatan, dan perbaikan bug.
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>Detailnya ada di file log.</value>
   </data>
+  <data name="Optimizer.AI.DisableRecall.Consequence" xml:space="preserve">
+    <value>Anda tidak bisa lagi mencari cuplikan layar sebelumnya, dan cuplikan yang tersimpan akan dihapus. Menyalakan Recall kembali tidak akan memulihkannya.</value>
+  </data>
+  <data name="Optimizer.BloatwareAndServices.ConfigureServices.Consequence" xml:space="preserve">
+    <value>Mengubah jenis startup sekitar 200 layanan sekaligus. Fitur yang bergantung pada layanan yang diubah, seperti Desktop Jarak Jauh, pemindai, kartu pintar, atau sensor, bisa berhenti berfungsi sampai Anda mengembalikannya.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableUlps.Consequence" xml:space="preserve">
+    <value>GPU tidak lagi menghemat daya saat diam, sehingga konsumsi daya dan panas meningkat, terutama di laptop. Peningkatan performanya belum diukur.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisablePowerGating.Consequence" xml:space="preserve">
+    <value>GPU tidak lagi menghemat daya saat diam, sehingga konsumsi daya dan panas meningkat, terutama di laptop. Peningkatan performanya belum diukur.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableAspm.Consequence" xml:space="preserve">
+    <value>GPU tidak lagi menghemat daya saat diam, sehingga konsumsi daya dan panas meningkat, terutama di laptop. Peningkatan performanya belum diukur.</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableDynamicPstate.Consequence" xml:space="preserve">
+    <value>GPU tidak lagi menghemat daya saat diam, sehingga konsumsi daya dan panas meningkat, terutama di laptop. Peningkatan performanya belum diukur.</value>
+  </data>
+  <data name="Optimizer.Gpu.NvidiaDisableAsyncPstates.Consequence" xml:space="preserve">
+    <value>GPU tidak lagi menghemat daya saat diam, sehingga konsumsi daya dan panas meningkat, terutama di laptop. Peningkatan performanya belum diukur.</value>
+  </data>
+  <data name="Optimizer.Gpu.AmdDisableVideoClockGating.Consequence" xml:space="preserve">
+    <value>Mesin video tetap menyala, sehingga konsumsi daya meningkat saat memutar atau merekam video. Peningkatan stabilitasnya belum diukur.</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAsyncFlips.Consequence" xml:space="preserve">
+    <value>Memaksa flip sinkron dapat menurunkan frame rate di beberapa game. Peningkatan latensinya belum diukur.</value>
+  </data>
+  <data name="Optimizer.Gpu.IntelDisableAdaptiveVsync.Consequence" xml:space="preserve">
+    <value>Dengan V-Sync tetap, gambar bisa tersendat saat frame rate turun di bawah refresh rate. Peningkatannya belum diukur.</value>
+  </data>
+  <data name="Optimizer.Performance.DisableBackgroundApps.Consequence" xml:space="preserve">
+    <value>Aplikasi seperti Mail, Kalender, atau aplikasi pesan berhenti memperbarui dan mengirim notifikasi saat ditutup.</value>
+  </data>
+  <data name="Optimizer.Performance.ConsolidateServiceHosts.Consequence" xml:space="preserve">
+    <value>Layanan berbagi lebih sedikit proses, sehingga satu layanan yang gagal dapat ikut menjatuhkan layanan lain. Layanan controller Xbox pernah rusak karena pengaturan ini.</value>
+  </data>
+  <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Consequence" xml:space="preserve">
+    <value>Tombol Lekat, Tombol Filter, dan Tombol Alih tidak bisa lagi dinyalakan dengan pintasan keyboard. Fitur ini tetap tersedia di Pengaturan.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableHibernateAndFastStartup.Consequence" xml:space="preserve">
+    <value>Hibernasi tidak lagi tersedia, dan menyalakan PC bisa memakan waktu beberapa detik lebih lama tanpa Fast Startup.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisableUSBPowerSaving.Consequence" xml:space="preserve">
+    <value>Perangkat USB tetap mendapat daya, sehingga masa pakai baterai laptop menjadi lebih pendek.</value>
+  </data>
+  <data name="Optimizer.PowerManagement.DisablePowerSaving.Consequence" xml:space="preserve">
+    <value>Windows tidak bisa lagi memperlambat pekerjaan latar belakang untuk menghemat daya, sehingga konsumsi daya dan panas meningkat, terutama di laptop. Peningkatannya berbeda di setiap PC dan belum diukur.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableTelemetry.Consequence" xml:space="preserve">
+    <value>Microsoft menerima lebih sedikit data diagnostik, yang dapat memperlambat perbaikan masalah di PC Anda. Windows Insider dan beberapa fitur umpan balik memerlukan data diagnostik opsional dan mungkin berhenti berfungsi.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableErrorReporting.Consequence" xml:space="preserve">
+    <value>Laporan crash tidak lagi dikirim, sehingga Windows tidak dapat menawarkan solusi untuk crash aplikasi dan driver, dan Asisten Kompatibilitas Program berhenti memperingatkan tentang aplikasi yang tidak kompatibel.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableAutoLogger.Consequence" xml:space="preserve">
+    <value>Beberapa jejak diagnostik tidak lagi direkam saat boot, sehingga masalah tertentu lebih sulit didiagnosis. Perangkat lunak keamanan mungkin menandai perubahan ini.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCortana.Consequence" xml:space="preserve">
+    <value>Windows Search tidak lagi menampilkan hasil web, dan asisten suara Cortana tidak tersedia.</value>
+  </data>
+  <data name="Optimizer.SecurityAndPrivacy.DisableCopilot.Consequence" xml:space="preserve">
+    <value>Asisten Copilot tidak lagi tersedia dari taskbar atau pintasan keyboard-nya.</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Consequence" xml:space="preserve">
+    <value>Yang Anda korbankan</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence" xml:space="preserve">
+    <value>Sumber</value>
+  </data>
+  <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
+    <value>Belum ada sumber yang diverifikasi untuk item ini. Anggap efeknya belum terbukti.</value>
+  </data>
 </root>
