@@ -2707,24 +2707,6 @@ namespace optimizerDuck.Resources.Languages {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Prefetch Files.
-        /// </summary>
-        internal static string DiskCleanup_Item_Prefetch {
-            get {
-                return ResourceManager.GetString("DiskCleanup.Item.Prefetch", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Application prefetch data used to speed up loading.
-        /// </summary>
-        internal static string DiskCleanup_Item_Prefetch_Description {
-            get {
-                return ResourceManager.GetString("DiskCleanup.Item.Prefetch.Description", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Recycle Bin.
         /// </summary>
         internal static string DiskCleanup_Item_RecycleBin {
@@ -4768,29 +4750,11 @@ namespace optimizerDuck.Resources.Languages {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Configures the Multimedia Class Scheduler Service (MMCSS) for gaming and low latency by prioritizing multimedia workloads and disabling network throttling..
+        ///   Looks up a localized string similar to Configures the Multimedia Class Scheduler Service (MMCSS) for gaming and low latency by prioritizing multimedia workloads..
         /// </summary>
         internal static string Optimizer_Performance_OptimizeMultimediaScheduler_ShortDescription {
             get {
                 return ResourceManager.GetString("Optimizer.Performance.OptimizeMultimediaScheduler.ShortDescription", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Prioritize Active Applications.
-        /// </summary>
-        internal static string Optimizer_Performance_ProcessPriority_Name {
-            get {
-                return ResourceManager.GetString("Optimizer.Performance.ProcessPriority.Name", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Allocates more CPU resources to the application you are currently using for a faster, more responsive experience..
-        /// </summary>
-        internal static string Optimizer_Performance_ProcessPriority_ShortDescription {
-            get {
-                return ResourceManager.GetString("Optimizer.Performance.ProcessPriority.ShortDescription", resourceCulture);
             }
         }
         

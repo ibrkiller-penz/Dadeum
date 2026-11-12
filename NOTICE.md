@@ -30,3 +30,15 @@ A summary:
   CODEOWNERS entry.
 - The internal C# namespace and project/solution file names stay `optimizerDuck` on purpose,
   to keep merging upstream changes simple.
+
+### 2026-11-12: prune ineffective tweaks, raise risk levels
+- Removed "Prioritize Active Applications" (`Win32PrioritySeparation = 38`): 38 (0x26) is
+  already the Windows client default, so it changed nothing.
+- Removed the Prefetch disk-cleanup item: Windows rebuilds those files and clearing them slows
+  the next launch of each program.
+- "Optimize Multimedia Scheduler" no longer sets `NetworkThrottlingIndex = 0xFFFFFFFF`
+  (other projects reverted it to the default of 10); the description no longer mentions it.
+- Risk raised from Safe: "Disable System Power Throttling" (`PowerThrottlingOff`) to Risky,
+  "Disable USB power saving" to Moderate, and five GPU driver tweaks (AMD ULPS, AMD ASPM,
+  NVIDIA dynamic P-state, Intel async flips, Intel adaptive vsync) to Moderate. They trade
+  idle power and heat for unmeasured gains.

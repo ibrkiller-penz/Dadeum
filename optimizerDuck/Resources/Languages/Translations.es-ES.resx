@@ -980,17 +980,7 @@
 
   </data>
 
-  <data name="Optimizer.Performance.ProcessPriority.Name" xml:space="preserve">
 
-    <value>Priorizar aplicaciones activas</value>
-
-  </data>
-
-  <data name="Optimizer.Performance.ProcessPriority.ShortDescription" xml:space="preserve">
-
-    <value>Asigna más recursos de CPU a la aplicación que estás usando actualmente para una experiencia más rápida y con mayor respuesta.</value>
-
-  </data>
 
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.Name" xml:space="preserve">
 
@@ -1000,7 +990,7 @@
 
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.ShortDescription" xml:space="preserve">
 
-    <value>Configura el Servicio del Programador de clases multimedia (MMCSS) para juegos y baja latencia, priorizando las tareas multimedia y desactivando la limitación de red.</value>
+    <value>Configura el Servicio del Programador de clases multimedia (MMCSS) para juegos y baja latencia, priorizando las tareas multimedia.</value>
 
   </data>
 
@@ -2211,17 +2201,7 @@ Actualiza ahora para disfrutar de las nuevas funciones y mejoras.</value>
 
   </data>
 
-  <data name="DiskCleanup.Item.Prefetch" xml:space="preserve">
 
-    <value>Archivos Prefetch</value>
-
-  </data>
-
-  <data name="DiskCleanup.Item.Prefetch.Description" xml:space="preserve">
-
-    <value>Datos de prefetch de aplicaciones usados para acelerar la carga</value>
-
-  </data>
 
   <data name="DiskCleanup.Item.Thumbnails" xml:space="preserve">
 

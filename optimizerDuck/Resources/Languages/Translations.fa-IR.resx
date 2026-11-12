@@ -558,17 +558,11 @@
   <data name="Optimizer.Performance.ConsolidateServiceHosts.Error.InvalidRAM" xml:space="preserve">
     <value>میزان رم نامعتبر است: {0}</value>
   </data>
-  <data name="Optimizer.Performance.ProcessPriority.Name" xml:space="preserve">
-    <value>اولویت‌دهی به برنامه‌های فعال</value>
-  </data>
-  <data name="Optimizer.Performance.ProcessPriority.ShortDescription" xml:space="preserve">
-    <value>منابع پردازنده بیشتری را به برنامه‌ای که در حال استفاده از آن هستید اختصاص می‌دهد تا سرعت پاسخ‌گویی افزایش یابد.</value>
-  </data>
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.Name" xml:space="preserve">
     <value>بهینه‌سازی زمان‌بندی برنامه‌های چندرسانه‌ای</value>
   </data>
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.ShortDescription" xml:space="preserve">
-    <value>سرویس MMCSS را برای بازی و کاهش تأخیر تنظیم می‌کند؛ پردازش‌های چندرسانه‌ای را در اولویت قرار داده و محدودیت سرعت شبکه را برمی‌دارد.</value>
+    <value>سرویس MMCSS را برای بازی و کاهش تأخیر تنظیم می‌کند و پردازش‌های چندرسانه‌ای را در اولویت قرار می‌دهد.</value>
   </data>
   <data name="Optimizer.Performance.LiftWebDavFileSizeLimit.Name" xml:space="preserve">
     <value>حذف محدودیت 50 مگابایتی WebDAV</value>
@@ -1245,12 +1239,6 @@
   </data>
   <data name="DiskCleanup.Item.WindowsUpdate.Description" xml:space="preserve">
     <value>فایل‌های دانلودشده آپدیت ویندوز که دیگر مورد نیاز نیستند</value>
-  </data>
-  <data name="DiskCleanup.Item.Prefetch" xml:space="preserve">
-    <value>فایل‌های Prefetch</value>
-  </data>
-  <data name="DiskCleanup.Item.Prefetch.Description" xml:space="preserve">
-    <value>داده‌های Prefetch برنامه‌ها جهت افزایش سرعت بارگذاری</value>
   </data>
   <data name="DiskCleanup.Item.Thumbnails" xml:space="preserve">
     <value>کش تصاویر بندانگشتی (Thumbnail)</value>

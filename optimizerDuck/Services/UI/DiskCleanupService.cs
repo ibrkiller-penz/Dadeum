@@ -54,14 +54,8 @@ public class DiskCleanupService(ILogger<DiskCleanupService> logger)
                 Path = Path.Combine(windowsDir, @"SoftwareDistribution\Download"),
                 Icon = SymbolRegular.ArrowDownload24,
             },
-            new CleanupItem
-            {
-                Id = "Prefetch",
-                NameKey = "DiskCleanup.Item.Prefetch",
-                DescriptionKey = "DiskCleanup.Item.Prefetch.Description",
-                Path = Path.Combine(windowsDir, "Prefetch"),
-                Icon = SymbolRegular.Flash24,
-            },
+            // Dadeum: no Prefetch item. Windows rebuilds those files, and clearing them only
+            // slows the next launch of each program.
             new CleanupItem
             {
                 Id = "Thumbnails",

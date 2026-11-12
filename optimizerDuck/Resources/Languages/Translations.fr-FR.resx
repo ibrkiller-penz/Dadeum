@@ -482,17 +482,11 @@
   <data name="Optimizer.Performance.ConsolidateServiceHosts.Error.InvalidRAM" xml:space="preserve">
     <value>RAM invalide : {0}</value>
   </data>
-  <data name="Optimizer.Performance.ProcessPriority.Name" xml:space="preserve">
-    <value>Prioriser les applications actives</value>
-  </data>
-  <data name="Optimizer.Performance.ProcessPriority.ShortDescription" xml:space="preserve">
-    <value>Accorde davantage de temps processeur à l'application que vous utilisez, pour une expérience plus rapide et plus réactive.</value>
-  </data>
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.Name" xml:space="preserve">
     <value>Optimiser le planificateur multimédia</value>
   </data>
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.ShortDescription" xml:space="preserve">
-    <value>Configure le service MMCSS (Multimedia Class Scheduler) pour le jeu et la faible latence, en donnant la priorité aux tâches multimédias et en désactivant la limitation réseau.</value>
+    <value>Configure le service MMCSS (Multimedia Class Scheduler) pour le jeu et la faible latence, en donnant la priorité aux tâches multimédias.</value>
   </data>
   <data name="Optimizer.Performance.KeyboardLatencyOptimization.Name" xml:space="preserve">
     <value>Optimiser la répétition du clavier</value>
@@ -1086,12 +1080,6 @@ Mettez à jour pour profiter des dernières fonctionnalités, améliorations et 
   </data>
   <data name="DiskCleanup.Item.WindowsUpdate.Description" xml:space="preserve">
     <value>Fichiers Windows Update téléchargés qui ne sont plus nécessaires</value>
-  </data>
-  <data name="DiskCleanup.Item.Prefetch" xml:space="preserve">
-    <value>Fichiers de prélecture</value>
-  </data>
-  <data name="DiskCleanup.Item.Prefetch.Description" xml:space="preserve">
-    <value>Données de prélecture utilisées pour accélérer le lancement des applications</value>
   </data>
   <data name="DiskCleanup.Item.Thumbnails" xml:space="preserve">
     <value>Cache des miniatures</value>

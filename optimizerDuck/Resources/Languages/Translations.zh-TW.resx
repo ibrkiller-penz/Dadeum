@@ -441,17 +441,11 @@
   <data name="Optimizer.Performance.ConsolidateServiceHosts.Error.InvalidRAM" xml:space="preserve">
     <value>無效的 RAM：{0}</value>
   </data>
-  <data name="Optimizer.Performance.ProcessPriority.Name" xml:space="preserve">
-    <value>優先處理活躍中的應用程式</value>
-  </data>
-  <data name="Optimizer.Performance.ProcessPriority.ShortDescription" xml:space="preserve">
-    <value>將更多 CPU 資源分配給您目前正在使用的應用程式，以獲得更快、反應更靈敏的體驗。</value>
-  </data>
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.Name" xml:space="preserve">
     <value>最佳化多媒體排程器</value>
   </data>
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.ShortDescription" xml:space="preserve">
-    <value>設定多媒體類別排程器服務 (MMCSS) 以優化遊戲和低延遲，透過優先處理多媒體工作負載和停用網路節流。</value>
+    <value>設定多媒體類別排程器服務 (MMCSS) 以優化遊戲和低延遲，透過優先處理多媒體工作負載。</value>
   </data>
   <data name="Optimizer.Performance.LiftWebDavFileSizeLimit.Name" xml:space="preserve">
     <value>解除 WebDAV 50MB 限制</value>
@@ -805,12 +799,6 @@
   </data>
   <data name="DiskCleanup.Item.WindowsUpdate.Description" xml:space="preserve">
     <value>已下載但不再需要的 Windows Update 檔案</value>
-  </data>
-  <data name="DiskCleanup.Item.Prefetch" xml:space="preserve">
-    <value>預先擷取檔案</value>
-  </data>
-  <data name="DiskCleanup.Item.Prefetch.Description" xml:space="preserve">
-    <value>用於加快載入速度的應用程式預先擷取資料</value>
   </data>
   <data name="DiskCleanup.Item.Thumbnails" xml:space="preserve">
     <value>縮圖快取</value>
