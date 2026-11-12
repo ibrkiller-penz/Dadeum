@@ -2503,67 +2503,67 @@
     <value>詳細資料已寫入記錄檔。</value>
   </data>
   <data name="Optimizer.AI.DisableRecall.Consequence" xml:space="preserve">
-    <value>You can no longer search past screen snapshots, and saved snapshots are deleted. Turning Recall back on does not bring them back.</value>
+    <value>你將無法再搜尋過去的螢幕快照，已儲存的快照會被刪除。重新開啟 Recall 也無法復原它們。</value>
   </data>
   <data name="Optimizer.BloatwareAndServices.ConfigureServices.Consequence" xml:space="preserve">
-    <value>Changes the startup type of many services at once. Features that depend on a changed service, such as printing, Bluetooth, Xbox or remote access, can stop working until you revert.</value>
+    <value>一次變更約 200 個服務的啟動類型。依賴已變更服務的功能，例如遠端桌面、掃描器、智慧卡或感應器，可能在你還原之前無法正常運作。</value>
   </data>
   <data name="Optimizer.Gpu.AmdDisableUlps.Consequence" xml:space="preserve">
-    <value>The GPU no longer saves power when idle, so power draw and heat rise, especially on laptops. The performance gain has not been measured.</value>
+    <value>GPU 閒置時不再省電，因此耗電量和發熱會增加，筆記型電腦尤其明顯。效能提升尚未經過測量。</value>
   </data>
   <data name="Optimizer.Gpu.AmdDisablePowerGating.Consequence" xml:space="preserve">
-    <value>The GPU no longer saves power when idle, so power draw and heat rise, especially on laptops. The performance gain has not been measured.</value>
+    <value>GPU 閒置時不再省電，因此耗電量和發熱會增加，筆記型電腦尤其明顯。效能提升尚未經過測量。</value>
   </data>
   <data name="Optimizer.Gpu.AmdDisableAspm.Consequence" xml:space="preserve">
-    <value>The GPU no longer saves power when idle, so power draw and heat rise, especially on laptops. The performance gain has not been measured.</value>
+    <value>GPU 閒置時不再省電，因此耗電量和發熱會增加，筆記型電腦尤其明顯。效能提升尚未經過測量。</value>
   </data>
   <data name="Optimizer.Gpu.NvidiaDisableDynamicPstate.Consequence" xml:space="preserve">
-    <value>The GPU no longer saves power when idle, so power draw and heat rise, especially on laptops. The performance gain has not been measured.</value>
+    <value>GPU 閒置時不再省電，因此耗電量和發熱會增加，筆記型電腦尤其明顯。效能提升尚未經過測量。</value>
   </data>
   <data name="Optimizer.Gpu.NvidiaDisableAsyncPstates.Consequence" xml:space="preserve">
-    <value>The GPU no longer saves power when idle, so power draw and heat rise, especially on laptops. The performance gain has not been measured.</value>
+    <value>GPU 閒置時不再省電，因此耗電量和發熱會增加，筆記型電腦尤其明顯。效能提升尚未經過測量。</value>
   </data>
   <data name="Optimizer.Gpu.AmdDisableVideoClockGating.Consequence" xml:space="preserve">
-    <value>The video engines stay powered, so power draw rises while playing or recording video. The stability gain has not been measured.</value>
+    <value>視訊引擎保持通電，因此播放或錄製影片時耗電量會增加。穩定性提升尚未經過測量。</value>
   </data>
   <data name="Optimizer.Gpu.IntelDisableAsyncFlips.Consequence" xml:space="preserve">
-    <value>Forcing synchronous flips can lower the frame rate in some games. The latency gain has not been measured.</value>
+    <value>強制同步翻轉可能會降低某些遊戲的畫面更新率。延遲改善尚未經過測量。</value>
   </data>
   <data name="Optimizer.Gpu.IntelDisableAdaptiveVsync.Consequence" xml:space="preserve">
-    <value>With fixed V-Sync, frame rates that drop below the refresh rate can stutter. The gain has not been measured.</value>
+    <value>使用固定 V-Sync 時，畫面更新率低於螢幕重新整理頻率時可能會出現卡頓。效果尚未經過測量。</value>
   </data>
   <data name="Optimizer.Performance.DisableBackgroundApps.Consequence" xml:space="preserve">
-    <value>Apps such as Mail, Calendar or messengers stop updating and sending notifications while they are closed.</value>
+    <value>郵件、行事曆或通訊軟體等應用程式在關閉後將停止更新，也不再傳送通知。</value>
   </data>
   <data name="Optimizer.Performance.ConsolidateServiceHosts.Consequence" xml:space="preserve">
-    <value>Services share fewer processes, so one failing service can take others down with it. Xbox controller services have broken with this setting before.</value>
+    <value>服務共用的處理程序變少，一個服務出錯可能會連帶其他服務一起停止。先前已有 Xbox 控制器服務因此設定而失效。</value>
   </data>
   <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Consequence" xml:space="preserve">
-    <value>Sticky Keys, Filter Keys and Toggle Keys can no longer be turned on with their keyboard shortcuts. They stay available in Settings.</value>
+    <value>相黏鍵、篩選鍵和切換鍵無法再透過鍵盤快速鍵開啟。它們在設定中仍可使用。</value>
   </data>
   <data name="Optimizer.PowerManagement.DisableHibernateAndFastStartup.Consequence" xml:space="preserve">
-    <value>Hibernate is no longer available, and turning the PC on can take a few seconds longer without Fast Startup.</value>
+    <value>休眠將無法使用，而且沒有快速啟動後，開機可能會多花幾秒鐘。</value>
   </data>
   <data name="Optimizer.PowerManagement.DisableUSBPowerSaving.Consequence" xml:space="preserve">
-    <value>USB devices stay powered, which shortens battery life on laptops.</value>
+    <value>USB 裝置保持通電，會縮短筆記型電腦的電池續航力。</value>
   </data>
   <data name="Optimizer.PowerManagement.DisablePowerSaving.Consequence" xml:space="preserve">
-    <value>Windows can no longer slow down background work to save power, so power draw and heat rise, especially on laptops. The gain differs from PC to PC and has not been measured.</value>
+    <value>Windows 無法再為了省電而降低背景工作的速度，因此耗電量和發熱會增加，筆記型電腦尤其明顯。效果因電腦而異，且尚未經過測量。</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableTelemetry.Consequence" xml:space="preserve">
-    <value>Microsoft receives less diagnostic data, which can slow down fixes for problems on your PC. Windows Insider and some feedback features need optional diagnostic data and may stop working.</value>
+    <value>Microsoft 收到的診斷資料會減少，這可能會延緩你電腦上問題的修正。Windows 測試人員計畫和部分意見反應功能需要選用診斷資料，可能無法正常運作。</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableErrorReporting.Consequence" xml:space="preserve">
-    <value>Crash reports are no longer sent, so Windows cannot offer solutions for app and driver crashes, and the Program Compatibility Assistant stops warning about incompatible apps.</value>
+    <value>不再傳送當機報告，因此 Windows 無法為應用程式和驅動程式當機提供解決方案，程式相容性助理也不再對不相容的應用程式發出警告。</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableAutoLogger.Consequence" xml:space="preserve">
-    <value>Some diagnostic traces are no longer recorded at boot, which makes certain problems harder to diagnose. Security software may flag the change.</value>
+    <value>開機時不再記錄部分診斷追蹤，某些問題會更難診斷。安全性軟體可能會標記此變更。</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableCortana.Consequence" xml:space="preserve">
-    <value>Windows Search no longer shows web results, and the Cortana voice assistant is unavailable.</value>
+    <value>Windows 搜尋不再顯示網頁結果，Cortana 語音助理也將無法使用。</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableCopilot.Consequence" xml:space="preserve">
-    <value>The Copilot assistant is no longer available from the taskbar or its keyboard shortcut.</value>
+    <value>無法再從工作列或鍵盤快速鍵使用 Copilot 助理。</value>
   </data>
   <data name="OptimizationDetailsDialog.Consequence" xml:space="preserve">
     <value>代價</value>

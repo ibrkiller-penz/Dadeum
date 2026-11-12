@@ -2560,67 +2560,67 @@ Aktualisiere jetzt, um die neuesten Funktionen, Verbesserungen und Fehlerbehebun
     <value>Details stehen in der Protokolldatei.</value>
   </data>
   <data name="Optimizer.AI.DisableRecall.Consequence" xml:space="preserve">
-    <value>You can no longer search past screen snapshots, and saved snapshots are deleted. Turning Recall back on does not bring them back.</value>
+    <value>Du kannst frühere Bildschirmaufnahmen nicht mehr durchsuchen, und gespeicherte Aufnahmen werden gelöscht. Wenn du Recall wieder einschaltest, kommen sie nicht zurück.</value>
   </data>
   <data name="Optimizer.BloatwareAndServices.ConfigureServices.Consequence" xml:space="preserve">
-    <value>Changes the startup type of many services at once. Features that depend on a changed service, such as printing, Bluetooth, Xbox or remote access, can stop working until you revert.</value>
+    <value>Ändert den Starttyp von etwa 200 Diensten auf einmal. Funktionen, die von einem geänderten Dienst abhängen, etwa Remotedesktop, Scanner, Smartcards oder Sensoren, können bis zum Zurücksetzen ausfallen.</value>
   </data>
   <data name="Optimizer.Gpu.AmdDisableUlps.Consequence" xml:space="preserve">
-    <value>The GPU no longer saves power when idle, so power draw and heat rise, especially on laptops. The performance gain has not been measured.</value>
+    <value>Die GPU spart im Leerlauf keinen Strom mehr, daher steigen Stromverbrauch und Wärme, besonders bei Laptops. Der Leistungsgewinn wurde nicht gemessen.</value>
   </data>
   <data name="Optimizer.Gpu.AmdDisablePowerGating.Consequence" xml:space="preserve">
-    <value>The GPU no longer saves power when idle, so power draw and heat rise, especially on laptops. The performance gain has not been measured.</value>
+    <value>Die GPU spart im Leerlauf keinen Strom mehr, daher steigen Stromverbrauch und Wärme, besonders bei Laptops. Der Leistungsgewinn wurde nicht gemessen.</value>
   </data>
   <data name="Optimizer.Gpu.AmdDisableAspm.Consequence" xml:space="preserve">
-    <value>The GPU no longer saves power when idle, so power draw and heat rise, especially on laptops. The performance gain has not been measured.</value>
+    <value>Die GPU spart im Leerlauf keinen Strom mehr, daher steigen Stromverbrauch und Wärme, besonders bei Laptops. Der Leistungsgewinn wurde nicht gemessen.</value>
   </data>
   <data name="Optimizer.Gpu.NvidiaDisableDynamicPstate.Consequence" xml:space="preserve">
-    <value>The GPU no longer saves power when idle, so power draw and heat rise, especially on laptops. The performance gain has not been measured.</value>
+    <value>Die GPU spart im Leerlauf keinen Strom mehr, daher steigen Stromverbrauch und Wärme, besonders bei Laptops. Der Leistungsgewinn wurde nicht gemessen.</value>
   </data>
   <data name="Optimizer.Gpu.NvidiaDisableAsyncPstates.Consequence" xml:space="preserve">
-    <value>The GPU no longer saves power when idle, so power draw and heat rise, especially on laptops. The performance gain has not been measured.</value>
+    <value>Die GPU spart im Leerlauf keinen Strom mehr, daher steigen Stromverbrauch und Wärme, besonders bei Laptops. Der Leistungsgewinn wurde nicht gemessen.</value>
   </data>
   <data name="Optimizer.Gpu.AmdDisableVideoClockGating.Consequence" xml:space="preserve">
-    <value>The video engines stay powered, so power draw rises while playing or recording video. The stability gain has not been measured.</value>
+    <value>Die Video-Engines bleiben eingeschaltet, daher steigt der Stromverbrauch beim Abspielen oder Aufnehmen von Videos. Der Stabilitätsgewinn wurde nicht gemessen.</value>
   </data>
   <data name="Optimizer.Gpu.IntelDisableAsyncFlips.Consequence" xml:space="preserve">
-    <value>Forcing synchronous flips can lower the frame rate in some games. The latency gain has not been measured.</value>
+    <value>Erzwungene synchrone Flips können in manchen Spielen die Bildrate senken. Der Latenzgewinn wurde nicht gemessen.</value>
   </data>
   <data name="Optimizer.Gpu.IntelDisableAdaptiveVsync.Consequence" xml:space="preserve">
-    <value>With fixed V-Sync, frame rates that drop below the refresh rate can stutter. The gain has not been measured.</value>
+    <value>Mit festem V-Sync kann es ruckeln, wenn die Bildrate unter die Bildwiederholrate fällt. Der Gewinn wurde nicht gemessen.</value>
   </data>
   <data name="Optimizer.Performance.DisableBackgroundApps.Consequence" xml:space="preserve">
-    <value>Apps such as Mail, Calendar or messengers stop updating and sending notifications while they are closed.</value>
+    <value>Apps wie Mail, Kalender oder Messenger aktualisieren sich nicht mehr und senden keine Benachrichtigungen, solange sie geschlossen sind.</value>
   </data>
   <data name="Optimizer.Performance.ConsolidateServiceHosts.Consequence" xml:space="preserve">
-    <value>Services share fewer processes, so one failing service can take others down with it. Xbox controller services have broken with this setting before.</value>
+    <value>Dienste teilen sich weniger Prozesse, daher kann ein fehlerhafter Dienst andere mit sich reißen. Dienste für Xbox-Controller sind mit dieser Einstellung schon ausgefallen.</value>
   </data>
   <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Consequence" xml:space="preserve">
-    <value>Sticky Keys, Filter Keys and Toggle Keys can no longer be turned on with their keyboard shortcuts. They stay available in Settings.</value>
+    <value>Einrastfunktion, Anschlagverzögerung und Umschalttasten lassen sich nicht mehr per Tastenkombination einschalten. In den Einstellungen bleiben sie verfügbar.</value>
   </data>
   <data name="Optimizer.PowerManagement.DisableHibernateAndFastStartup.Consequence" xml:space="preserve">
-    <value>Hibernate is no longer available, and turning the PC on can take a few seconds longer without Fast Startup.</value>
+    <value>Der Ruhezustand ist nicht mehr verfügbar, und ohne Schnellstart kann das Einschalten des PCs einige Sekunden länger dauern.</value>
   </data>
   <data name="Optimizer.PowerManagement.DisableUSBPowerSaving.Consequence" xml:space="preserve">
-    <value>USB devices stay powered, which shortens battery life on laptops.</value>
+    <value>USB-Geräte bleiben mit Strom versorgt, was die Akkulaufzeit von Laptops verkürzt.</value>
   </data>
   <data name="Optimizer.PowerManagement.DisablePowerSaving.Consequence" xml:space="preserve">
-    <value>Windows can no longer slow down background work to save power, so power draw and heat rise, especially on laptops. The gain differs from PC to PC and has not been measured.</value>
+    <value>Windows kann Hintergrundarbeit nicht mehr drosseln, um Strom zu sparen, daher steigen Stromverbrauch und Wärme, besonders bei Laptops. Der Gewinn ist von PC zu PC verschieden und wurde nicht gemessen.</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableTelemetry.Consequence" xml:space="preserve">
-    <value>Microsoft receives less diagnostic data, which can slow down fixes for problems on your PC. Windows Insider and some feedback features need optional diagnostic data and may stop working.</value>
+    <value>Microsoft erhält weniger Diagnosedaten, was die Behebung von Problemen auf deinem PC verzögern kann. Windows-Insider und einige Feedbackfunktionen benötigen optionale Diagnosedaten und funktionieren eventuell nicht mehr.</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableErrorReporting.Consequence" xml:space="preserve">
-    <value>Crash reports are no longer sent, so Windows cannot offer solutions for app and driver crashes, and the Program Compatibility Assistant stops warning about incompatible apps.</value>
+    <value>Absturzberichte werden nicht mehr gesendet, daher kann Windows keine Lösungen für App- und Treiberabstürze anbieten, und der Programmkompatibilitäts-Assistent warnt nicht mehr vor inkompatiblen Apps.</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableAutoLogger.Consequence" xml:space="preserve">
-    <value>Some diagnostic traces are no longer recorded at boot, which makes certain problems harder to diagnose. Security software may flag the change.</value>
+    <value>Einige Diagnoseprotokolle werden beim Start nicht mehr aufgezeichnet, wodurch bestimmte Probleme schwerer zu analysieren sind. Sicherheitssoftware kann die Änderung melden.</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableCortana.Consequence" xml:space="preserve">
-    <value>Windows Search no longer shows web results, and the Cortana voice assistant is unavailable.</value>
+    <value>Die Windows-Suche zeigt keine Webergebnisse mehr an, und der Sprachassistent Cortana ist nicht verfügbar.</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableCopilot.Consequence" xml:space="preserve">
-    <value>The Copilot assistant is no longer available from the taskbar or its keyboard shortcut.</value>
+    <value>Der Copilot-Assistent ist über die Taskleiste und seine Tastenkombination nicht mehr verfügbar.</value>
   </data>
   <data name="OptimizationDetailsDialog.Consequence" xml:space="preserve">
     <value>Was du aufgibst</value>

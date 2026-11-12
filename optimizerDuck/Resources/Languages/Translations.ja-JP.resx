@@ -2500,67 +2500,67 @@
     <value>詳細はログ ファイルに記録されています。</value>
   </data>
   <data name="Optimizer.AI.DisableRecall.Consequence" xml:space="preserve">
-    <value>You can no longer search past screen snapshots, and saved snapshots are deleted. Turning Recall back on does not bring them back.</value>
+    <value>過去の画面スナップショットを検索できなくなり、保存済みのスナップショットは削除されます。Recall をオンに戻しても復元されません。</value>
   </data>
   <data name="Optimizer.BloatwareAndServices.ConfigureServices.Consequence" xml:space="preserve">
-    <value>Changes the startup type of many services at once. Features that depend on a changed service, such as printing, Bluetooth, Xbox or remote access, can stop working until you revert.</value>
+    <value>約 200 個のサービスのスタートアップの種類を一度に変更します。リモート デスクトップ、スキャナー、スマート カード、センサーなど、変更されたサービスに依存する機能は、元に戻すまで動作しなくなる場合があります。</value>
   </data>
   <data name="Optimizer.Gpu.AmdDisableUlps.Consequence" xml:space="preserve">
-    <value>The GPU no longer saves power when idle, so power draw and heat rise, especially on laptops. The performance gain has not been measured.</value>
+    <value>アイドル時に GPU が省電力にならないため、特にノート PC で消費電力と発熱が増えます。性能の向上は測定されていません。</value>
   </data>
   <data name="Optimizer.Gpu.AmdDisablePowerGating.Consequence" xml:space="preserve">
-    <value>The GPU no longer saves power when idle, so power draw and heat rise, especially on laptops. The performance gain has not been measured.</value>
+    <value>アイドル時に GPU が省電力にならないため、特にノート PC で消費電力と発熱が増えます。性能の向上は測定されていません。</value>
   </data>
   <data name="Optimizer.Gpu.AmdDisableAspm.Consequence" xml:space="preserve">
-    <value>The GPU no longer saves power when idle, so power draw and heat rise, especially on laptops. The performance gain has not been measured.</value>
+    <value>アイドル時に GPU が省電力にならないため、特にノート PC で消費電力と発熱が増えます。性能の向上は測定されていません。</value>
   </data>
   <data name="Optimizer.Gpu.NvidiaDisableDynamicPstate.Consequence" xml:space="preserve">
-    <value>The GPU no longer saves power when idle, so power draw and heat rise, especially on laptops. The performance gain has not been measured.</value>
+    <value>アイドル時に GPU が省電力にならないため、特にノート PC で消費電力と発熱が増えます。性能の向上は測定されていません。</value>
   </data>
   <data name="Optimizer.Gpu.NvidiaDisableAsyncPstates.Consequence" xml:space="preserve">
-    <value>The GPU no longer saves power when idle, so power draw and heat rise, especially on laptops. The performance gain has not been measured.</value>
+    <value>アイドル時に GPU が省電力にならないため、特にノート PC で消費電力と発熱が増えます。性能の向上は測定されていません。</value>
   </data>
   <data name="Optimizer.Gpu.AmdDisableVideoClockGating.Consequence" xml:space="preserve">
-    <value>The video engines stay powered, so power draw rises while playing or recording video. The stability gain has not been measured.</value>
+    <value>ビデオ エンジンが常に電源オンのままになるため、動画の再生や録画中の消費電力が増えます。安定性の向上は測定されていません。</value>
   </data>
   <data name="Optimizer.Gpu.IntelDisableAsyncFlips.Consequence" xml:space="preserve">
-    <value>Forcing synchronous flips can lower the frame rate in some games. The latency gain has not been measured.</value>
+    <value>同期フリップを強制すると、一部のゲームでフレーム レートが下がる場合があります。遅延の改善は測定されていません。</value>
   </data>
   <data name="Optimizer.Gpu.IntelDisableAdaptiveVsync.Consequence" xml:space="preserve">
-    <value>With fixed V-Sync, frame rates that drop below the refresh rate can stutter. The gain has not been measured.</value>
+    <value>V-Sync を固定すると、フレーム レートがリフレッシュ レートを下回ったときにカクつくことがあります。効果は測定されていません。</value>
   </data>
   <data name="Optimizer.Performance.DisableBackgroundApps.Consequence" xml:space="preserve">
-    <value>Apps such as Mail, Calendar or messengers stop updating and sending notifications while they are closed.</value>
+    <value>メール、カレンダー、メッセンジャーなどのアプリは、閉じている間は更新も通知もしなくなります。</value>
   </data>
   <data name="Optimizer.Performance.ConsolidateServiceHosts.Consequence" xml:space="preserve">
-    <value>Services share fewer processes, so one failing service can take others down with it. Xbox controller services have broken with this setting before.</value>
+    <value>サービスが共有するプロセスが減るため、1 つのサービスの障害が他のサービスを巻き込む場合があります。この設定で Xbox コントローラーのサービスが動作しなくなった例があります。</value>
   </data>
   <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Consequence" xml:space="preserve">
-    <value>Sticky Keys, Filter Keys and Toggle Keys can no longer be turned on with their keyboard shortcuts. They stay available in Settings.</value>
+    <value>固定キー、フィルター キー、切り替えキーをキーボード ショートカットでオンにできなくなります。設定からは引き続き利用できます。</value>
   </data>
   <data name="Optimizer.PowerManagement.DisableHibernateAndFastStartup.Consequence" xml:space="preserve">
-    <value>Hibernate is no longer available, and turning the PC on can take a few seconds longer without Fast Startup.</value>
+    <value>休止状態が使えなくなり、高速スタートアップがないため PC の起動に数秒長くかかる場合があります。</value>
   </data>
   <data name="Optimizer.PowerManagement.DisableUSBPowerSaving.Consequence" xml:space="preserve">
-    <value>USB devices stay powered, which shortens battery life on laptops.</value>
+    <value>USB デバイスへの給電が続くため、ノート PC のバッテリー駆動時間が短くなります。</value>
   </data>
   <data name="Optimizer.PowerManagement.DisablePowerSaving.Consequence" xml:space="preserve">
-    <value>Windows can no longer slow down background work to save power, so power draw and heat rise, especially on laptops. The gain differs from PC to PC and has not been measured.</value>
+    <value>Windows が省電力のためにバックグラウンド処理を抑えられなくなるため、特にノート PC で消費電力と発熱が増えます。効果は PC によって異なり、測定されていません。</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableTelemetry.Consequence" xml:space="preserve">
-    <value>Microsoft receives less diagnostic data, which can slow down fixes for problems on your PC. Windows Insider and some feedback features need optional diagnostic data and may stop working.</value>
+    <value>Microsoft に送られる診断データが減るため、お使いの PC の問題の修正が遅れる場合があります。Windows Insider や一部のフィードバック機能はオプションの診断データが必要なため、動作しなくなる場合があります。</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableErrorReporting.Consequence" xml:space="preserve">
-    <value>Crash reports are no longer sent, so Windows cannot offer solutions for app and driver crashes, and the Program Compatibility Assistant stops warning about incompatible apps.</value>
+    <value>クラッシュ レポートが送信されなくなるため、Windows はアプリやドライバーのクラッシュに対する解決策を提示できず、プログラム互換性アシスタントも互換性のないアプリについて警告しなくなります。</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableAutoLogger.Consequence" xml:space="preserve">
-    <value>Some diagnostic traces are no longer recorded at boot, which makes certain problems harder to diagnose. Security software may flag the change.</value>
+    <value>起動時に一部の診断トレースが記録されなくなり、特定の問題の診断が難しくなります。セキュリティ ソフトがこの変更を検出する場合があります。</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableCortana.Consequence" xml:space="preserve">
-    <value>Windows Search no longer shows web results, and the Cortana voice assistant is unavailable.</value>
+    <value>Windows Search に Web の検索結果が表示されなくなり、音声アシスタントの Cortana も使えなくなります。</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableCopilot.Consequence" xml:space="preserve">
-    <value>The Copilot assistant is no longer available from the taskbar or its keyboard shortcut.</value>
+    <value>タスク バーやキーボード ショートカットから Copilot アシスタントを使えなくなります。</value>
   </data>
   <data name="OptimizationDetailsDialog.Consequence" xml:space="preserve">
     <value>適用すると変わること</value>
