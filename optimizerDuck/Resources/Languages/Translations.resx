@@ -558,17 +558,11 @@
   <data name="Optimizer.Performance.ConsolidateServiceHosts.Error.InvalidRAM" xml:space="preserve">
     <value>Invalid RAM: {0}</value>
   </data>
-  <data name="Optimizer.Performance.ProcessPriority.Name" xml:space="preserve">
-    <value>Prioritize Active Applications</value>
-  </data>
-  <data name="Optimizer.Performance.ProcessPriority.ShortDescription" xml:space="preserve">
-    <value>Allocates more CPU resources to the application you are currently using for a faster, more responsive experience.</value>
-  </data>
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.Name" xml:space="preserve">
     <value>Optimize Multimedia Scheduler</value>
   </data>
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.ShortDescription" xml:space="preserve">
-    <value>Configures the Multimedia Class Scheduler Service (MMCSS) for gaming and low latency by prioritizing multimedia workloads and disabling network throttling.</value>
+    <value>Configures the Multimedia Class Scheduler Service (MMCSS) for gaming and low latency by prioritizing multimedia workloads.</value>
   </data>
   <data name="Optimizer.Performance.LiftWebDavFileSizeLimit.Name" xml:space="preserve">
     <value>Lift WebDAV 50 MB limit</value>
@@ -1246,12 +1240,6 @@ Update now to enjoy the latest features, improvements, and bug fixes.</value>
   </data>
   <data name="DiskCleanup.Item.WindowsUpdate.Description" xml:space="preserve">
     <value>Downloaded Windows Update files that are no longer needed</value>
-  </data>
-  <data name="DiskCleanup.Item.Prefetch" xml:space="preserve">
-    <value>Prefetch Files</value>
-  </data>
-  <data name="DiskCleanup.Item.Prefetch.Description" xml:space="preserve">
-    <value>Application prefetch data used to speed up loading</value>
   </data>
   <data name="DiskCleanup.Item.Thumbnails" xml:space="preserve">
     <value>Thumbnail Cache</value>

@@ -135,7 +135,7 @@ public class Gpu : LocalizedObject, IOptimizationCategory
 
     [Optimization(
         Id = "4433CE93-B632-4D67-AE71-0241C31099C0",
-        Risk = OptimizationRisk.Safe,
+        Risk = OptimizationRisk.Moderate,
         Tags = OptimizationTags.Amd | OptimizationTags.Power,
         Condition = typeof(AmdGpuCondition)
     )]
@@ -194,7 +194,7 @@ public class Gpu : LocalizedObject, IOptimizationCategory
 
     [Optimization(
         Id = "8A4B4C4D-000E-42DB-8BD7-293067F8FAE7",
-        Risk = OptimizationRisk.Safe,
+        Risk = OptimizationRisk.Moderate,
         Tags = OptimizationTags.Amd | OptimizationTags.Latency,
         Condition = typeof(AmdGpuCondition)
     )]
@@ -214,7 +214,7 @@ public class Gpu : LocalizedObject, IOptimizationCategory
 
     [Optimization(
         Id = "FA58802F-B98C-4E98-AA67-067C5A394296",
-        Risk = OptimizationRisk.Safe,
+        Risk = OptimizationRisk.Moderate,
         Tags = OptimizationTags.Nvidia | OptimizationTags.Power,
         Condition = typeof(NvidiaGpuCondition)
     )]
@@ -246,7 +246,7 @@ public class Gpu : LocalizedObject, IOptimizationCategory
 
     [Optimization(
         Id = "DF8739FF-E322-4958-B369-DF584BB9B0C1",
-        Risk = OptimizationRisk.Safe,
+        Risk = OptimizationRisk.Moderate,
         Tags = OptimizationTags.Intel | OptimizationTags.Latency,
         Condition = typeof(IntelGpuCondition)
     )]
@@ -262,7 +262,7 @@ public class Gpu : LocalizedObject, IOptimizationCategory
 
     [Optimization(
         Id = "EBFB0DED-5D1A-4CD1-B5C0-4F7018DD6054",
-        Risk = OptimizationRisk.Safe,
+        Risk = OptimizationRisk.Moderate,
         Tags = OptimizationTags.Intel | OptimizationTags.Display,
         Condition = typeof(IntelGpuCondition)
     )]

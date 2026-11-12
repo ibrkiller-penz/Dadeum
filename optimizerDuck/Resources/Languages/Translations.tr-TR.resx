@@ -480,17 +480,11 @@
   <data name="Optimizer.Performance.ConsolidateServiceHosts.Error.InvalidRAM" xml:space="preserve">
     <value>Geçersiz RAM: {0}</value>
   </data>
-  <data name="Optimizer.Performance.ProcessPriority.Name" xml:space="preserve">
-    <value>Aktif Uygulamalara Öncelik Ver</value>
-  </data>
-  <data name="Optimizer.Performance.ProcessPriority.ShortDescription" xml:space="preserve">
-    <value>Daha hızlı ve daha duyarlı bir deneyim için o anda kullandığınız uygulamaya daha fazla CPU kaynağı ayırır.</value>
-  </data>
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.Name" xml:space="preserve">
     <value>Multimedya Zamanlayıcısını Optimize Et</value>
   </data>
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.ShortDescription" xml:space="preserve">
-    <value>Multimedya iş yüklerine öncelik vererek ve ağ kısıtlamasını devre dışı bırakarak Multimedya Sınıf Zamanlayıcı Servisi'ni (MMCSS) oyun ve düşük gecikme için yapılandırır.</value>
+    <value>Multimedya iş yüklerine öncelik vererek Multimedya Sınıf Zamanlayıcı Servisi'ni (MMCSS) oyun ve düşük gecikme için yapılandırır.</value>
   </data>
   <data name="Optimizer.Performance.KeyboardLatencyOptimization.Name" xml:space="preserve">
     <value>Klavye Tekrarını Optimize Et</value>
@@ -1090,12 +1084,6 @@ En son özelliklerden, iyileştirmelerden ve hata düzeltmelerinden yararlanmak 
   </data>
   <data name="DiskCleanup.Item.WindowsUpdate.Description" xml:space="preserve">
     <value>Artık gerekli olmayan indirilmiş Windows Update dosyaları</value>
-  </data>
-  <data name="DiskCleanup.Item.Prefetch" xml:space="preserve">
-    <value>Ön Getirme Dosyaları</value>
-  </data>
-  <data name="DiskCleanup.Item.Prefetch.Description" xml:space="preserve">
-    <value>Yüklemeyi hızlandırmak için kullanılan uygulama ön getirme verileri</value>
   </data>
   <data name="DiskCleanup.Item.Thumbnails" xml:space="preserve">
     <value>Küçük Resim Önbelleği</value>

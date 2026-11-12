@@ -480,17 +480,11 @@
   <data name="Optimizer.Performance.ConsolidateServiceHosts.Error.InvalidRAM" xml:space="preserve">
   <value>잘못된 RAM 값: {0}</value>
 </data>
-  <data name="Optimizer.Performance.ProcessPriority.Name" xml:space="preserve">
-  <value>활성 앱 우선 처리</value>
-</data>
-  <data name="Optimizer.Performance.ProcessPriority.ShortDescription" xml:space="preserve">
-  <value>현재 사용 중인 앱에 더 많은 CPU 자원을 할당해 더 빠르고 반응성 높은 환경을 제공합니다</value>
-</data>
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.Name" xml:space="preserve">
   <value>멀티미디어 스케줄러 최적화</value>
 </data>
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.ShortDescription" xml:space="preserve">
-  <value>MMCSS를 게이밍 및 저지연 환경에 맞게 구성하여 멀티미디어 작업의 우선순위를 높이고 네트워크 스로틀링을 비활성화합니다</value>
+  <value>MMCSS를 게이밍 및 저지연 환경에 맞게 구성하여 멀티미디어 작업의 우선순위를 높입니다</value>
 </data>
   <data name="Optimizer.Performance.KeyboardLatencyOptimization.Name" xml:space="preserve">
   <value>키보드 반복 최적화</value>
@@ -1090,12 +1084,6 @@
   </data>
   <data name="DiskCleanup.Item.WindowsUpdate.Description" xml:space="preserve">
     <value>더 이상 필요하지 않은 Windows 업데이트 파일을 다운로드했습니다</value>
-  </data>
-  <data name="DiskCleanup.Item.Prefetch" xml:space="preserve">
-    <value>프리페치 파일</value>
-  </data>
-  <data name="DiskCleanup.Item.Prefetch.Description" xml:space="preserve">
-    <value>로딩 속도를 높이는 데 사용되는 애플리케이션 프리패치 데이터</value>
   </data>
   <data name="DiskCleanup.Item.Thumbnails" xml:space="preserve">
     <value>썸네일 캐시</value>

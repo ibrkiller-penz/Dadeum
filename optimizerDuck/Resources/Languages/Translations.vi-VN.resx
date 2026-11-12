@@ -469,17 +469,11 @@
   <data name="Optimizer.Performance.ConsolidateServiceHosts.Error.InvalidRAM" xml:space="preserve">
     <value>RAM không hợp lệ: {0}</value>
   </data>
-  <data name="Optimizer.Performance.ProcessPriority.Name" xml:space="preserve">
-    <value>Ưu tiên ứng dụng đang dùng</value>
-  </data>
-  <data name="Optimizer.Performance.ProcessPriority.ShortDescription" xml:space="preserve">
-    <value>Cấu hình Win32PrioritySeparation thành 38 (Short, Variable, High foreground boost), ưu tiên ứng dụng đang hoạt động và giảm độ trễ đầu vào.</value>
-  </data>
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.Name" xml:space="preserve">
     <value>Tối ưu hóa Multimedia Scheduler</value>
   </data>
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.ShortDescription" xml:space="preserve">
-    <value>Cấu hình dịch vụ Multimedia Class Scheduler Service (MMCSS) cho gaming và độ trễ thấp bằng cách ưu tiên multimedia và tắt giới hạn băng thông mạng.</value>
+    <value>Cấu hình dịch vụ Multimedia Class Scheduler Service (MMCSS) cho gaming và độ trễ thấp bằng cách ưu tiên multimedia.</value>
   </data>
   <data name="Optimizer.Performance.KeyboardLatencyOptimization.Name" xml:space="preserve">
     <value>Tối ưu lặp phím bàn phím</value>
@@ -1001,12 +995,6 @@ Cập nhật ngay để trải nghiệm các tính năng mới, cải tiến và
   </data>
   <data name="DiskCleanup.Item.WindowsUpdate.Description" xml:space="preserve">
     <value>Tệp cập nhật Windows đã tải về không còn cần thiết</value>
-  </data>
-  <data name="DiskCleanup.Item.Prefetch" xml:space="preserve">
-    <value>Tệp Prefetch</value>
-  </data>
-  <data name="DiskCleanup.Item.Prefetch.Description" xml:space="preserve">
-    <value>Dữ liệu prefetch giúp tăng tốc khởi chạy ứng dụng</value>
   </data>
   <data name="DiskCleanup.Item.Thumbnails" xml:space="preserve">
     <value>Bộ nhớ đệm hình thu nhỏ</value>

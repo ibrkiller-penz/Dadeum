@@ -94,55 +94,6 @@ public class Performance : LocalizedObject, IOptimizationCategory
     }
 
     [Optimization(
-        Id = "C51E4187-BE49-4376-A97D-46C967A033B5",
-        Risk = OptimizationRisk.Safe,
-        Tags = OptimizationTags.System | OptimizationTags.Performance
-    )]
-    public class ProcessPriority : BaseOptimization
-    {
-        public override Task<ApplyResult> ApplyAsync(
-            IProgress<ProcessingProgress> progress,
-            OptimizationContext context
-        )
-        {
-            /*
-             ref: https://forums.blurbusters.com/viewtopic.php?t=8535
-            42 Dec, 2A Hex = Short, Fixed , High foreground boost.
-            41 Dec, 29 Hex = Short, Fixed , Medium foreground boost.
-            40 Dec, 28 Hex = Short, Fixed , No foreground boost.
-
-            38 Dec, 26 Hex = Short, Variable , High foreground boost.
-            37 Dec, 25 Hex = Short, Variable , Medium foreground boost.
-            36 Dec, 24 Hex = Short, Variable , No foreground boost.
-
-            26 Dec, 1A Hex = Long, Fixed, High foreground boost.
-            25 Dec, 19 Hex = Long, Fixed, Medium foreground boost.
-            24 Dec, 18 Hex = Long, Fixed, No foreground boost.
-
-            22 Dec, 16 Hex = Long, Variable, High foreground boost.
-            21 Dec, 15 Hex = Long, Variable, Medium foreground boost.
-            20 Dec, 14 Hex = Long, Variable, No foreground boost.
-             */
-
-            const int win32Priority = 38; // Short, Variable, High foreground boost
-
-            RegistryService.Write(
-                context,
-                new RegistryItem(
-                    @"HKLM\SYSTEM\CurrentControlSet\Control\PriorityControl",
-                    "Win32PrioritySeparation",
-                    win32Priority
-                )
-            );
-            context.Logger.LogInformation(
-                "Enabled foreground boost with priority: {Priority}",
-                win32Priority
-            );
-            return Task.FromResult(context.Changes.ToApplyResult());
-        }
-    }
-
-    [Optimization(
         Id = "FFB49D94-CCA9-4591-B329-6FDA3A2758F9",
         Risk = OptimizationRisk.Safe,
         Tags = OptimizationTags.System
@@ -165,12 +116,6 @@ public class Performance : LocalizedObject, IOptimizationCategory
                 context,
                 new RegistryItem(systemProfileKey, "NoLazyMode", 1),
                 new RegistryItem(systemProfileKey, "AlwaysOn", 1),
-                new RegistryItem(
-                    systemProfileKey,
-                    "NetworkThrottlingIndex",
-                    unchecked((int)0xFFFFFFFF),
-                    RegistryValueKind.DWord
-                ),
                 new RegistryItem(
                     systemProfileKey,
                     "SystemResponsiveness",

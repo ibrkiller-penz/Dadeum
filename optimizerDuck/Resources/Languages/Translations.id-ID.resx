@@ -524,17 +524,11 @@
   <data name="Optimizer.Performance.ConsolidateServiceHosts.Error.InvalidRAM" xml:space="preserve">
     <value>RAM tidak valid: {0}</value>
   </data>
-  <data name="Optimizer.Performance.ProcessPriority.Name" xml:space="preserve">
-    <value>Prioritaskan Aplikasi Aktif</value>
-  </data>
-  <data name="Optimizer.Performance.ProcessPriority.ShortDescription" xml:space="preserve">
-    <value>Mengalokasikan lebih banyak sumber daya CPU ke aplikasi yang sedang Anda gunakan untuk pengalaman yang lebih cepat dan responsif.</value>
-  </data>
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.Name" xml:space="preserve">
     <value>Optimalkan Penjadwal Multimedia</value>
   </data>
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.ShortDescription" xml:space="preserve">
-    <value>Mengonfigurasi Layanan Penjadwal Kelas Multimedia (MMCSS) untuk gaming dan latensi rendah dengan memprioritaskan beban kerja multimedia dan menonaktifkan pembatasan jaringan.</value>
+    <value>Mengonfigurasi Layanan Penjadwal Kelas Multimedia (MMCSS) untuk gaming dan latensi rendah dengan memprioritaskan beban kerja multimedia.</value>
   </data>
   <data name="Optimizer.Performance.KeyboardLatencyOptimization.Name" xml:space="preserve">
     <value>Optimalkan Pengulangan Keyboard</value>
@@ -1146,12 +1140,6 @@ Perbarui sekarang untuk menikmati fitur terbaru, peningkatan, dan perbaikan bug.
   </data>
   <data name="DiskCleanup.Item.WindowsUpdate.Description" xml:space="preserve">
     <value>File Pembaruan Windows yang diunduh yang tidak lagi diperlukan</value>
-  </data>
-  <data name="DiskCleanup.Item.Prefetch" xml:space="preserve">
-    <value>File Prefetch</value>
-  </data>
-  <data name="DiskCleanup.Item.Prefetch.Description" xml:space="preserve">
-    <value>Data prefetch aplikasi yang digunakan untuk mempercepat pemuatan</value>
   </data>
   <data name="DiskCleanup.Item.Thumbnails" xml:space="preserve">
     <value>Cache Thumbnail</value>
