@@ -2569,7 +2569,7 @@ Update now to enjoy the latest features, improvements, and bug fixes.</value>
     <value>You can no longer search past screen snapshots, and saved snapshots are deleted. Turning Recall back on does not bring them back.</value>
   </data>
   <data name="Optimizer.BloatwareAndServices.ConfigureServices.Consequence" xml:space="preserve">
-    <value>Changes the startup type of many services at once. Features that depend on a changed service, such as printing, Bluetooth, Xbox or remote access, can stop working until you revert.</value>
+    <value>Changes the startup type of about 200 services at once. Features that depend on a changed service, such as remote desktop, scanners, smart cards or sensors, can stop working until you revert.</value>
   </data>
   <data name="Optimizer.Gpu.AmdDisableUlps.Consequence" xml:space="preserve">
     <value>The GPU no longer saves power when idle, so power draw and heat rise, especially on laptops. The performance gain has not been measured.</value>

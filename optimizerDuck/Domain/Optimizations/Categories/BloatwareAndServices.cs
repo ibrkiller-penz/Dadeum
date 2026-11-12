@@ -75,6 +75,11 @@ public class BloatwareAndServices : LocalizedObject, IOptimizationCategory
             OptimizationContext context
         )
         {
+            // Dadeum: services behind features that most often break after a bulk change are
+            // left alone: printing (Spooler, PrintNotify), file sharing (LanmanServer),
+            // notifications (WpnService), Windows Update (wuauserv, UsoSvc, WaaSMedicSvc, BITS),
+            // Xbox (XboxGipSvc, XblAuthManager, XblGameSave, XboxNetApiSvc), Bluetooth (bthserv,
+            // BTAGService, BthAvctpSvc, BthHFSrv) and DiagTrack, which the telemetry item owns.
             var servicesToChange = new List<ServiceItem>
             {
                 new("AJRouter", ServiceStartupType.Disabled),
@@ -91,12 +96,8 @@ public class BloatwareAndServices : LocalizedObject, IOptimizationCategory
                 new("AxInstSV", ServiceStartupType.Manual),
                 new("BDESVC", ServiceStartupType.Manual),
                 new("BFE", ServiceStartupType.Automatic),
-                new("BITS", ServiceStartupType.AutomaticDelayedStart),
-                new("BTAGService", ServiceStartupType.Manual),
                 new("BrokerInfrastructure", ServiceStartupType.Automatic),
                 new("Browser", ServiceStartupType.Manual),
-                new("BthAvctpSvc", ServiceStartupType.Automatic),
-                new("BthHFSrv", ServiceStartupType.Automatic),
                 new("CDPSvc", ServiceStartupType.Manual),
                 new("COMSysApp", ServiceStartupType.Manual),
                 new("CertPropSvc", ServiceStartupType.Manual),
@@ -111,7 +112,6 @@ public class BloatwareAndServices : LocalizedObject, IOptimizationCategory
                 new("DeviceAssociationService", ServiceStartupType.Manual),
                 new("DeviceInstall", ServiceStartupType.Manual),
                 new("Dhcp", ServiceStartupType.Automatic),
-                new("DiagTrack", ServiceStartupType.Disabled),
                 new("DialogBlockingService", ServiceStartupType.Disabled),
                 new("DispBrokerDesktopSvc", ServiceStartupType.Automatic),
                 new("DisplayEnhancementService", ServiceStartupType.Manual),
@@ -139,7 +139,6 @@ public class BloatwareAndServices : LocalizedObject, IOptimizationCategory
                 new("KeyIso", ServiceStartupType.Automatic),
                 new("KtmRm", ServiceStartupType.Manual),
                 new("LSM", ServiceStartupType.Automatic),
-                new("LanmanServer", ServiceStartupType.Manual),
                 new("LanmanWorkstation", ServiceStartupType.Automatic),
                 new("LicenseManager", ServiceStartupType.Manual),
                 new("LxpSvc", ServiceStartupType.Manual),
@@ -170,7 +169,6 @@ public class BloatwareAndServices : LocalizedObject, IOptimizationCategory
                 new("PlugPlay", ServiceStartupType.Automatic),
                 new("PolicyAgent", ServiceStartupType.Manual),
                 new("Power", ServiceStartupType.Automatic),
-                new("PrintNotify", ServiceStartupType.Manual),
                 new("ProfSvc", ServiceStartupType.Automatic),
                 new("PushToInstall", ServiceStartupType.Manual),
                 new("QWAVE", ServiceStartupType.Manual),
@@ -201,7 +199,6 @@ public class BloatwareAndServices : LocalizedObject, IOptimizationCategory
                 new("SharedRealitySvc", ServiceStartupType.Manual),
                 new("ShellHWDetection", ServiceStartupType.Automatic),
                 new("SmsRouter", ServiceStartupType.Manual),
-                new("Spooler", ServiceStartupType.Manual),
                 new("SstpSvc", ServiceStartupType.Manual),
                 new("StiSvc", ServiceStartupType.Manual),
                 new("StorSvc", ServiceStartupType.Manual),
@@ -220,7 +217,6 @@ public class BloatwareAndServices : LocalizedObject, IOptimizationCategory
                 new("UevAgentService", ServiceStartupType.Disabled),
                 new("UmRdpService", ServiceStartupType.Manual),
                 new("UserManager", ServiceStartupType.Automatic),
-                new("UsoSvc", ServiceStartupType.Manual),
                 new("VGAuthService", ServiceStartupType.Manual),
                 new("VMTools", ServiceStartupType.Manual),
                 new("VSS", ServiceStartupType.Manual),
@@ -233,7 +229,6 @@ public class BloatwareAndServices : LocalizedObject, IOptimizationCategory
                 new("WManSvc", ServiceStartupType.Manual),
                 new("WPDBusEnum", ServiceStartupType.Manual),
                 new("WSearch", ServiceStartupType.Manual),
-                new("WaaSMedicSvc", ServiceStartupType.Manual),
                 new("WalletService", ServiceStartupType.Manual),
                 new("WarpJITSvc", ServiceStartupType.Manual),
                 new("WbioSrvc", ServiceStartupType.Manual),
@@ -250,13 +245,7 @@ public class BloatwareAndServices : LocalizedObject, IOptimizationCategory
                 new("Winmgmt", ServiceStartupType.Automatic),
                 new("WlanSvc", ServiceStartupType.Automatic),
                 new("WpcMonSvc", ServiceStartupType.Manual),
-                new("WpnService", ServiceStartupType.Manual),
-                new("XblAuthManager", ServiceStartupType.Manual),
-                new("XblGameSave", ServiceStartupType.Manual),
-                new("XboxGipSvc", ServiceStartupType.Manual),
-                new("XboxNetApiSvc", ServiceStartupType.Manual),
                 new("autotimesvc", ServiceStartupType.Manual),
-                new("bthserv", ServiceStartupType.Manual),
                 new("camsvc", ServiceStartupType.Manual),
                 new("cloudidsvc", ServiceStartupType.Manual),
                 new("dcsvc", ServiceStartupType.Manual),
@@ -315,7 +304,6 @@ public class BloatwareAndServices : LocalizedObject, IOptimizationCategory
                 new("wmiApSrv", ServiceStartupType.Manual),
                 new("workfolderssvc", ServiceStartupType.Manual),
                 new("wscsvc", ServiceStartupType.AutomaticDelayedStart),
-                new("wuauserv", ServiceStartupType.Manual),
             };
 
             for (var i = 0; i < servicesToChange.Count; i++)
