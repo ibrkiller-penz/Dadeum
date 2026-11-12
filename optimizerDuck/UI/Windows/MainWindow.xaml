@@ -11,7 +11,7 @@
     xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
     xmlns:viewmodels="clr-namespace:optimizerDuck.UI.ViewModels.Windows"
     xmlns:windows="clr-namespace:optimizerDuck.UI.Windows"
-    Title="optimizerDuck"
+    Title="Dadeum"
     Width="1350"
     Height="800"
     MinWidth="900"
@@ -123,7 +123,7 @@
                         Margin="0,0,6,0"
                         VerticalAlignment="Center"
                         FontTypography="Body"
-                        Text="optimizerDuck" />
+                        Text="Dadeum" />
                     <ui:TextBlock
                         VerticalAlignment="Center"
                         FontTypography="Body"
@@ -149,7 +149,8 @@
                         Command="{Binding OpenDiscordLinkCommand}"
                         Cursor="Hand"
                         Icon="{ui:SymbolIcon PeopleCommunity24}"
-                        ToolTip="{extensions:Loc TitleBar.Discord}" />
+                        ToolTip="{extensions:Loc TitleBar.Discord}"
+                        Visibility="Collapsed" />
                 </StackPanel>
             </ui:TitleBar.TrailingContent>
         </ui:TitleBar>

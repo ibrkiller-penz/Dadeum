@@ -214,10 +214,10 @@
     <value>Не удалось определить текущую активную схему электропитания.</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ImportFailed" xml:space="preserve">
-    <value>Не удалось импортировать схему электропитания optimizerDuck.</value>
+    <value>Не удалось импортировать схему электропитания Dadeum.</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ActivateFailed" xml:space="preserve">
-    <value>Не удалось активировать схему электропитания optimizerDuck.</value>
+    <value>Не удалось активировать схему электропитания Dadeum.</value>
   </data>
   <data name="Optimizer.UI.Tags.System" xml:space="preserve">
     <value>Система</value>
@@ -889,7 +889,7 @@
     <value>Благодарности</value>
   </data>
   <data name="Settings.About.Acknowledgements.Description" xml:space="preserve">
-    <value>optimizerDuck стал возможен благодаря следующему ПО и ресурсам с открытым кодом.</value>
+    <value>Dadeum стал возможен благодаря следующему ПО и ресурсам с открытым кодом.</value>
   </data>
   <data name="RestorePoint.Title" xml:space="preserve">
     <value>Восстановление системы</value>
@@ -899,7 +899,7 @@
 Это мера безопасности перед внесением изменений.</value>
   </data>
   <data name="RestorePointDialog.Help" xml:space="preserve">
-    <value>Приложение автоматически включит Восстановление системы и создаст точку "optimizerDuck...".
+    <value>Приложение автоматически включит Восстановление системы и создаст точку "Dadeum...".
 Это гарантирует возможность отката при сбоях.</value>
   </data>
   <data name="RestorePoint.Snackbar.Error.Title" xml:space="preserve">
@@ -957,7 +957,7 @@
     <value>Ненужных приложений не найдено ¯\_(ツ)_/¯</value>
   </data>
   <data name="Bloatware.Empty.Description" xml:space="preserve">
-    <value>optimizerDuck не нашел пакетов AppX для удаления. Пусто, как в космосе...</value>
+    <value>Dadeum не нашел пакетов AppX для удаления. Пусто, как в космосе...</value>
   </data>
   <data name="Bloatware.Loading" xml:space="preserve">
     <value>Поиск приложений для удаления...</value>
@@ -987,7 +987,7 @@
     <value>При удалении AppX также удалять пакеты подготовки, чтобы предотвратить их автоустановку для новых пользователей.</value>
   </data>
   <data name="Dashboard.UpdateInfoBar.Message" xml:space="preserve">
-    <value>Доступен optimizerDuck (v{0})!
+    <value>Доступен Dadeum (v{0})!
 Обновитесь, чтобы получить новые функции и исправления.</value>
   </data>
   <data name="Common.Search.Placeholder" xml:space="preserve">
@@ -1527,7 +1527,7 @@
     <value>Юридическое соглашение</value>
   </data>
   <data name="LegalDialog.Intro.Title" xml:space="preserve">
-    <value>Добро пожаловать в optimizerDuck!</value>
+    <value>Добро пожаловать в Dadeum!</value>
   </data>
   <data name="LegalDialog.Intro.Description" xml:space="preserve">
     <value>Выберите язык и тему, уделите минутку для ознакомления с Условиями использования, Политикой конфиденциальности и Отказом от ответственности, и вы готовы к работе.</value>
@@ -1785,7 +1785,7 @@
     <value>Проверка совместимости не удалась</value>
   </data>
   <data name="Condition.Error.Description" xml:space="preserve">
-    <value>optimizerDuck не смог определить, поддерживается ли этот элемент в вашей системе.</value>
+    <value>Dadeum не смог определить, поддерживается ли этот элемент в вашей системе.</value>
   </data>
   <data name="Condition.Windows11.Title" xml:space="preserve">
     <value>Требуется Windows 11</value>
@@ -1992,7 +1992,7 @@
     <value>Не удалось восстановить предыдущую схему питания: {0}.</value>
   </data>
   <data name="Revert.PowerPlan.Error.DeleteFailed" xml:space="preserve">
-    <value>Не удалось удалить схему питания optimizerDuck: {0}</value>
+    <value>Не удалось удалить схему питания Dadeum: {0}</value>
   </data>
   <data name="Revert.PowerPlan.Error.NothingToDo" xml:space="preserve">
     <value>Откатывать нечего: предыдущая или установленная схема питания не записана.</value>
@@ -2442,7 +2442,7 @@
     <value>Показать файл записи</value>
   </data>
   <data name="OptimizationDetailsDialog.Other.OpenRecordFile.Description" xml:space="preserve">
-    <value>Открывает файл, в котором optimizerDuck отмечает, что сделала эта оптимизация. Он сохраняется после отката, чтобы можно было посмотреть позже.</value>
+    <value>Открывает файл, в котором Dadeum отмечает, что сделала эта оптимизация. Он сохраняется после отката, чтобы можно было посмотреть позже.</value>
   </data>
   <data name="Optimizer.Details.Provider.Registry" xml:space="preserve">
     <value>Реестр</value>

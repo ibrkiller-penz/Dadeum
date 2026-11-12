@@ -113,7 +113,7 @@
         </value>
   </resheader>
   <data name="Bloatware.Empty.Description" xml:space="preserve">
-    <value>لم يعثر ‎optimizerDuck‎ على أي حزم ‎AppX‎ قابلة للإزالة. فارغة تمامًا كالفراغ...</value>
+    <value>لم يعثر ‎Dadeum‎ على أي حزم ‎AppX‎ قابلة للإزالة. فارغة تمامًا كالفراغ...</value>
   </data>
   <data name="Bloatware.Empty.Title" xml:space="preserve">
     <value>لا توجد تطبيقات غير ضرورية ‎¯\_(ツ)_/¯‎</value>
@@ -749,7 +749,7 @@
     <value>{0} غيغابايت</value>
   </data>
   <data name="Dashboard.UpdateInfoBar.Message" xml:space="preserve">
-    <value>الإصدار optimizerDuck (v{0}) متوفر!
+    <value>الإصدار Dadeum (v{0}) متوفر!
 حدّث الآن للاستفادة من أحدث المزايا والتحسينات وإصلاحات الأخطاء.</value>
   </data>
   <data name="Dialog.AreYouSure.Title" xml:space="preserve">
@@ -876,7 +876,7 @@
     <value>إجمالي المساحة القابلة للاستعادة</value>
   </data>
   <data name="LegalDialog.Intro.Title" xml:space="preserve">
-    <value>مرحباً بك في optimizerDuck!</value>
+    <value>مرحباً بك في Dadeum!</value>
   </data>
   <data name="LegalDialog.Intro.Description" xml:space="preserve">
     <value>اختر لغتك والمظهر الخاص بك، وخذ لحظة لمراجعة شروط الخدمة وسياسة الخصوصية وإخلاء المسؤولية، ثم ستكون جاهزًا للانطلاق.</value>
@@ -1186,13 +1186,13 @@
     <value>يمنع ويندوز من إيقاف طاقة منافذ ‎USB‎، ما يلغي تأخير الاستيقاظ للفأرة ولوحة المفاتيح والملحقات الأخرى.</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ActivateFailed" xml:space="preserve">
-    <value>فشل تفعيل خطة الطاقة الخاصة بـ‎optimizerDuck‎.</value>
+    <value>فشل تفعيل خطة الطاقة الخاصة بـ‎Dadeum‎.</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.DetectActivePlanFailed" xml:space="preserve">
     <value>فشل تحديد خطة الطاقة النشطة حاليًا.</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ImportFailed" xml:space="preserve">
-    <value>فشل استيراد خطة الطاقة الخاصة بـ‎optimizerDuck‎.</value>
+    <value>فشل استيراد خطة الطاقة الخاصة بـ‎Dadeum‎.</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Name" xml:space="preserve">
     <value>تطبيق خطة طاقة محسّنة</value>
@@ -1394,7 +1394,7 @@
 وهي إجراء وقائي لحماية ويندوز قبل تطبيق التغييرات.</value>
   </data>
   <data name="RestorePointDialog.Help" xml:space="preserve">
-    <value>سيفعّل التطبيق استعادة النظام تلقائيًا وينشئ نقطة تحقق باسم «‎optimizerDuck...‎».
+    <value>سيفعّل التطبيق استعادة النظام تلقائيًا وينشئ نقطة تحقق باسم «‎Dadeum...‎».
 هذا يضمن إمكانية الرجوع دائمًا إذا حدث خطأ ما.</value>
   </data>
   <data name="Revert.Error.NoDataFound" xml:space="preserve">
@@ -1569,7 +1569,7 @@
     <value>انتهت المهلة</value>
   </data>
   <data name="Settings.About.Acknowledgements.Description" xml:space="preserve">
-    <value>تحقّق optimizerDuck بفضل البرمجيات والموارد مفتوحة المصدر التالية.</value>
+    <value>تحقّق Dadeum بفضل البرمجيات والموارد مفتوحة المصدر التالية.</value>
   </data>
   <data name="Settings.About.Acknowledgements.Title" xml:space="preserve">
     <value>شكر وتقدير</value>
@@ -1827,7 +1827,7 @@
     <value>فشل فحص التوافق</value>
   </data>
   <data name="Condition.Error.Description" xml:space="preserve">
-    <value>تعذّر على optimizerDuck تحديد ما إذا كان هذا العنصر مدعومًا على نظامك.</value>
+    <value>تعذّر على Dadeum تحديد ما إذا كان هذا العنصر مدعومًا على نظامك.</value>
   </data>
   <data name="Condition.Windows11.Title" xml:space="preserve">
     <value>يتطلب Windows 11</value>
@@ -2034,7 +2034,7 @@
     <value>فشل في استعادة خطة الطاقة السابقة: {0}.</value>
   </data>
   <data name="Revert.PowerPlan.Error.DeleteFailed" xml:space="preserve">
-    <value>فشل في حذف خطة الطاقة optimizerDuck: {0}</value>
+    <value>فشل في حذف خطة الطاقة Dadeum: {0}</value>
   </data>
   <data name="Revert.PowerPlan.Error.NothingToDo" xml:space="preserve">
     <value>لا يوجد ما يمكن التراجع عنه: لم يتم تسجيل خطة الطاقة السابقة أو المثبتة.</value>
@@ -2484,7 +2484,7 @@
     <value>إظهار ملف السجل</value>
   </data>
   <data name="OptimizationDetailsDialog.Other.OpenRecordFile.Description" xml:space="preserve">
-    <value>يفتح الملف الذي يسجّل فيه optimizerDuck ما فعله هذا التحسين. يبقى بعد التراجع لتتمكن من مراجعته لاحقاً.</value>
+    <value>يفتح الملف الذي يسجّل فيه Dadeum ما فعله هذا التحسين. يبقى بعد التراجع لتتمكن من مراجعته لاحقاً.</value>
   </data>
   <data name="Optimizer.Details.Provider.Registry" xml:space="preserve">
     <value>السجل</value>

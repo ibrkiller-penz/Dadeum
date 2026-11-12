@@ -263,10 +263,10 @@
     <value>شناسایی طرح انرژی فعال سیستم ناموفق بود.</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ImportFailed" xml:space="preserve">
-    <value>وارد کردن طرح انرژی اختصاصی optimizerDuck با خطا مواجه شد.</value>
+    <value>وارد کردن طرح انرژی اختصاصی Dadeum با خطا مواجه شد.</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ActivateFailed" xml:space="preserve">
-    <value>فعال‌سازی طرح انرژی optimizerDuck انجام نشد.</value>
+    <value>فعال‌سازی طرح انرژی Dadeum انجام نشد.</value>
   </data>
   <data name="Optimizer.UI.Tags.System" xml:space="preserve">
     <value>سیستم</value>
@@ -352,7 +352,7 @@
     <value>بازگردانی طرح انرژی قبلی ناموفق بود: {0}.</value>
   </data>
   <data name="Revert.PowerPlan.Error.DeleteFailed" xml:space="preserve">
-    <value>حذف طرح انرژی optimizerDuck ناموفق بود: {0}</value>
+    <value>حذف طرح انرژی Dadeum ناموفق بود: {0}</value>
   </data>
   <data name="Revert.PowerPlan.Error.NothingToDo" xml:space="preserve">
     <value>موردی برای بازگردانی وجود ندارد: هیچ طرح انرژی قبلی ثبت نشده است.</value>
@@ -1041,7 +1041,7 @@
     <value>قدردانی و سپاس‌گزاری</value>
   </data>
   <data name="Settings.About.Acknowledgements.Description" xml:space="preserve">
-    <value>برنامه optimizerDuck با استفاده از نرم‌افزارها و منابع متن‌باز زیر توسعه یافته است.</value>
+    <value>برنامه Dadeum با استفاده از نرم‌افزارها و منابع متن‌باز زیر توسعه یافته است.</value>
   </data>
   <data name="RestorePoint.Title" xml:space="preserve">
     <value>بازیابی سیستم (System Restore)</value>
@@ -1051,7 +1051,7 @@
 این یک اقدام ایمنی برای محافظت از ویندوز قبل از اعمال تغییرات است.</value>
   </data>
   <data name="RestorePointDialog.Help" xml:space="preserve">
-    <value>برنامه به‌طور خودکار قابلیت System Restore را فعال کرده و یک نقطه بازیابی با نام "optimizerDuck..." می‌سازد تا در صورت بروز هرگونه مشکل بتوانید سیستم را به حالت قبل بازگردانید.</value>
+    <value>برنامه به‌طور خودکار قابلیت System Restore را فعال کرده و یک نقطه بازیابی با نام "Dadeum..." می‌سازد تا در صورت بروز هرگونه مشکل بتوانید سیستم را به حالت قبل بازگردانید.</value>
   </data>
   <data name="RestorePoint.Snackbar.Error.Title" xml:space="preserve">
     <value>فعال‌سازی یا ایجاد نقطه بازیابی سیستم ناموفق بود.</value>
@@ -1108,7 +1108,7 @@
     <value>هیچ برنامه زائدی یافت نشد ¯\_(ツ)_/¯</value>
   </data>
   <data name="Bloatware.Empty.Description" xml:space="preserve">
-    <value>برنامه optimizerDuck هیچ بسته AppX قابل حذفی پیدا نکرد.</value>
+    <value>برنامه Dadeum هیچ بسته AppX قابل حذفی پیدا نکرد.</value>
   </data>
   <data name="Bloatware.Loading" xml:space="preserve">
     <value>در حال جست‌وجوی برنامه‌های قابل حذف...</value>
@@ -1147,7 +1147,7 @@
     <value>هنگام حذف بسته‌های AppX، بسته‌های پیش‌فرض (Provisioned) آن‌ها نیز حذف می‌شوند تا از نصب مجدد و خودکار برای کاربران جدید جلوگیری شود.</value>
   </data>
   <data name="Dashboard.UpdateInfoBar.Message" xml:space="preserve">
-    <value>نسخه جدید optimizerDuck (v{0}) منتشر شد!
+    <value>نسخه جدید Dadeum (v{0}) منتشر شد!
 همین حالا به‌روزرسانی کنید تا از آخرین قابلیت‌ها، بهبودها و رفع اشکالات بهره‌مند شوید.</value>
   </data>
   <data name="Common.Search.Placeholder" xml:space="preserve">
@@ -1810,7 +1810,7 @@
     <value>توافق‌نامه حقوقی</value>
   </data>
   <data name="LegalDialog.Intro.Title" xml:space="preserve">
-    <value>به optimizerDuck خوش آمدید!</value>
+    <value>به Dadeum خوش آمدید!</value>
   </data>
   <data name="LegalDialog.Intro.Description" xml:space="preserve">
     <value>زبان و تم دلخواه خود را انتخاب کنید، چند لحظه وقت بگذارید تا شرایط استفاده، سیاست حفظ حریم خصوصی و سلب مسئولیت را مرور کنید؛ سپس همه‌چیز آماده است.</value>
@@ -2010,7 +2010,7 @@
     <value>بررسی سازگاری با شکست مواجه شد</value>
   </data>
   <data name="Condition.Error.Description" xml:space="preserve">
-    <value>برنامه optimizerDuck نتوانست پشتیبانی یا عدم پشتیبانی این مورد در سیستم شما را تشخیص دهد.</value>
+    <value>برنامه Dadeum نتوانست پشتیبانی یا عدم پشتیبانی این مورد در سیستم شما را تشخیص دهد.</value>
   </data>
   <data name="Condition.Windows11.Title" xml:space="preserve">
     <value>نیازمند ویندوز 11</value>
@@ -2499,7 +2499,7 @@
     <value>نمایش فایل تاریخچه تغییرات</value>
   </data>
   <data name="OptimizationDetailsDialog.Other.OpenRecordFile.Description" xml:space="preserve">
-    <value>فایلی را که مراحل انجام‌شده توسط optimizerDuck در آن ثبت شده باز می‌کند. این گزارش حتی پس از بازگردانی تغییرات حفظ می‌شود.</value>
+    <value>فایلی را که مراحل انجام‌شده توسط Dadeum در آن ثبت شده باز می‌کند. این گزارش حتی پس از بازگردانی تغییرات حفظ می‌شود.</value>
   </data>
   <data name="Optimizer.Details.Provider.Registry" xml:space="preserve">
     <value>رجیستری (Registry)</value>

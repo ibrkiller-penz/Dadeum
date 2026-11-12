@@ -30,7 +30,7 @@ if not defined PROFILE goto :cleanup_fail
 
 echo.
 echo ========================================
-echo optimizerDuck publish
+echo Dadeum publish
 echo ========================================
 echo Profile:       %PROFILE%
 echo Arch:          %ARCH%

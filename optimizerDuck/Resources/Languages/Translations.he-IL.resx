@@ -263,10 +263,10 @@
     <value>זיהוי תוכנית צריכת החשמל הפעילה הנוכחית נכשל.</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ImportFailed" xml:space="preserve">
-    <value>ייבוא תוכנית צריכת החשמל של optimizerDuck נכשל.</value>
+    <value>ייבוא תוכנית צריכת החשמל של Dadeum נכשל.</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ActivateFailed" xml:space="preserve">
-    <value>הפעלת תוכנית צריכת החשמל של optimizerDuck נכשלה.</value>
+    <value>הפעלת תוכנית צריכת החשמל של Dadeum נכשלה.</value>
   </data>
   <data name="Optimizer.UI.Tags.System" xml:space="preserve">
     <value>מערכת</value>
@@ -956,7 +956,7 @@
     <value>תודות</value>
   </data>
   <data name="Settings.About.Acknowledgements.Description" xml:space="preserve">
-    <value>optimizerDuck מתאפשר בזכות תוכנות הקוד הפתוח והמשאבים הבאים.</value>
+    <value>Dadeum מתאפשר בזכות תוכנות הקוד הפתוח והמשאבים הבאים.</value>
   </data>
   <data name="RestorePoint.Title" xml:space="preserve">
     <value>שחזור מערכת</value>
@@ -966,7 +966,7 @@
 זהו אמצעי בטיחות להגנה על Windows לפני החלת שינויים.</value>
   </data>
   <data name="RestorePointDialog.Help" xml:space="preserve">
-    <value>היישום יפעיל אוטומטית את שחזור המערכת וייצור נקודת ביקורת בשם "optimizerDuck...".
+    <value>היישום יפעיל אוטומטית את שחזור המערכת וייצור נקודת ביקורת בשם "Dadeum...".
 כך תמיד ניתן לחזור אחורה אם משהו משתבש.</value>
   </data>
   <data name="RestorePoint.Snackbar.Error.Title" xml:space="preserve">
@@ -1024,7 +1024,7 @@
     <value>לא נמצאו אפליקציות מיותרות ¯\_(ツ)_/¯</value>
   </data>
   <data name="Bloatware.Empty.Description" xml:space="preserve">
-    <value>optimizerDuck לא מצא חבילות AppX ניתנות להסרה. ריק כמו החלל...</value>
+    <value>Dadeum לא מצא חבילות AppX ניתנות להסרה. ריק כמו החלל...</value>
   </data>
   <data name="Bloatware.Loading" xml:space="preserve">
     <value>מחפש אפליקציות ניתנות להסרה...</value>
@@ -1054,7 +1054,7 @@
     <value>בעת הסרת חבילות AppX מותקנות, יש להסיר גם את חבילות ה-Provisioned התואמות כדי למנוע התקנה מחדש אוטומטית עבור משתמשים חדשים.</value>
   </data>
   <data name="Dashboard.UpdateInfoBar.Message" xml:space="preserve">
-    <value>optimizerDuck (v{0}) זמין!
+    <value>Dadeum (v{0}) זמין!
 עדכן עכשיו כדי ליהנות מהתכונות, השיפורים ותיקוני הבאגים האחרונים.</value>
   </data>
   <data name="Common.Search.Placeholder" xml:space="preserve">
@@ -1594,7 +1594,7 @@
     <value>הסכם משפטי</value>
   </data>
   <data name="LegalDialog.Intro.Title" xml:space="preserve">
-    <value>ברוכים הבאים ל-optimizerDuck!</value>
+    <value>ברוכים הבאים ל-Dadeum!</value>
   </data>
   <data name="LegalDialog.Intro.Description" xml:space="preserve">
     <value>בחרו את השפה והערכה שלכם, הקדישו רגע לעיון בתנאי השימוש, במדיניות הפרטיות ובהצהרת האחריות, ואז אתם מוכנים להתחיל.</value>
@@ -1842,7 +1842,7 @@
     <value>בדיקת התאימות נכשלה</value>
   </data>
   <data name="Condition.Error.Description" xml:space="preserve">
-    <value>optimizerDuck לא הצליח לקבוע אם פריט זה נתמך במערכת שלך.</value>
+    <value>Dadeum לא הצליח לקבוע אם פריט זה נתמך במערכת שלך.</value>
   </data>
   <data name="Condition.Windows11.Title" xml:space="preserve">
     <value>נדרש Windows 11</value>
@@ -2049,7 +2049,7 @@
     <value>שחזור תוכנית החשמל הקודמת נכשל: {0}.</value>
   </data>
   <data name="Revert.PowerPlan.Error.DeleteFailed" xml:space="preserve">
-    <value>מחיקת תוכנית החשמל של optimizerDuck נכשלה: {0}</value>
+    <value>מחיקת תוכנית החשמל של Dadeum נכשלה: {0}</value>
   </data>
   <data name="Revert.PowerPlan.Error.NothingToDo" xml:space="preserve">
     <value>אין מה לשחזר: לא נרשמה תוכנית חשמל קודמת או מותקנת.</value>
@@ -2499,7 +2499,7 @@
     <value>הצג קובץ רשומה</value>
   </data>
   <data name="OptimizationDetailsDialog.Other.OpenRecordFile.Description" xml:space="preserve">
-    <value>פותח את הקובץ שבו optimizerDuck רושם מה עשתה האופטימיזציה הזו. הוא נשאר גם אחרי ביטול, כדי שתוכל לעיין בו.</value>
+    <value>פותח את הקובץ שבו Dadeum רושם מה עשתה האופטימיזציה הזו. הוא נשאר גם אחרי ביטול, כדי שתוכל לעיין בו.</value>
   </data>
   <data name="Optimizer.Details.Provider.Registry" xml:space="preserve">
     <value>רישום</value>

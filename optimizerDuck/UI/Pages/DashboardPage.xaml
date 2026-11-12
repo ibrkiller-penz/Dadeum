@@ -64,14 +64,16 @@
         <UniformGrid
             Grid.Row="1"
             Margin="0,0,0,24"
-            Columns="3">
+            Columns="2">
+            <!--  Dadeum has no Discord community yet, so this card stays hidden.  -->
             <ui:CardAction
                 Margin="0,0,12,0"
                 Padding="16,14"
                 VerticalAlignment="Stretch"
                 Command="{Binding ViewModel.OpenActionCommand}"
                 CommandParameter="Discord"
-                Cursor="Hand">
+                Cursor="Hand"
+                Visibility="Collapsed">
                 <ui:CardAction.Icon>
                     <ui:ImageIcon Height="25" Source="pack://application:,,,/Resources/Images/DiscordLogo.png" />
                 </ui:CardAction.Icon>

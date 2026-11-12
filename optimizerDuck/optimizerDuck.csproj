@@ -13,15 +13,19 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <UseWPF>true</UseWPF>
-        <Authors>fatDuck</Authors>
+        <!-- Dadeum is a fork of optimizerDuck. The exe is renamed, but the root namespace stays
+             "optimizerDuck" so embedded resources keep their names and upstream merges stay easy. -->
+        <AssemblyName>Dadeum</AssemblyName>
+        <RootNamespace>optimizerDuck</RootNamespace>
+        <Authors>Dadeum contributors; fatDuck (optimizerDuck)</Authors>
         <ApplicationIcon>Logo.ico</ApplicationIcon>
-        <Company>fatDuck</Company>
-        <FileVersion>2.29.0</FileVersion>
-        <Version>2.29.0</Version>
-        <Product>optimizerDuck</Product>
-        <Copyright>Copyright fatDuck 2026</Copyright>
-        <AssemblyTitle>optimizerDuck</AssemblyTitle>
-        <AssemblyDescription>Free, open-source Windows optimization tool for performance, privacy, and simplicity.</AssemblyDescription>
+        <Company>Dadeum</Company>
+        <FileVersion>0.1.0</FileVersion>
+        <Version>0.1.0</Version>
+        <Product>Dadeum</Product>
+        <Copyright>Copyright (C) 2026 Dadeum contributors. Based on optimizerDuck, Copyright (C) 2025-2026 fatDuck. GPL-3.0</Copyright>
+        <AssemblyTitle>Dadeum</AssemblyTitle>
+        <AssemblyDescription>Free, open-source Windows optimization tool (fork of optimizerDuck).</AssemblyDescription>
         <NeutralLanguage>en-US</NeutralLanguage>
         <ApplicationManifest>app.manifest</ApplicationManifest>
         <!-- The gate: a warning fails the build, and the promoted style rules run inside it. -->

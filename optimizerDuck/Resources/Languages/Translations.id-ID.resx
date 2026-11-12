@@ -257,10 +257,10 @@
     <value>Gagal mendeteksi paket daya aktif saat ini.</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ImportFailed" xml:space="preserve">
-    <value>Gagal mengimpor paket daya optimizerDuck.</value>
+    <value>Gagal mengimpor paket daya Dadeum.</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ActivateFailed" xml:space="preserve">
-    <value>Gagal mengaktifkan paket daya optimizerDuck.</value>
+    <value>Gagal mengaktifkan paket daya Dadeum.</value>
   </data>
   <data name="Optimizer.UI.Tags.System" xml:space="preserve">
     <value>Sistem</value>
@@ -950,7 +950,7 @@
     <value>Penghargaan</value>
   </data>
   <data name="Settings.About.Acknowledgements.Description" xml:space="preserve">
-    <value>optimizerDuck dimungkinkan oleh perangkat lunak dan sumber daya sumber terbuka berikut.</value>
+    <value>Dadeum dimungkinkan oleh perangkat lunak dan sumber daya sumber terbuka berikut.</value>
   </data>
   <data name="RestorePoint.Title" xml:space="preserve">
     <value>Pemulihan Sistem</value>
@@ -960,7 +960,7 @@
 Ini adalah langkah keamanan untuk melindungi Windows Anda sebelum menerapkan perubahan.</value>
   </data>
   <data name="RestorePointDialog.Help" xml:space="preserve">
-    <value>Aplikasi akan secara otomatis mengaktifkan Pemulihan Sistem dan membuat titik pemulihan bernama &quot;optimizerDuck...&quot;.
+    <value>Aplikasi akan secara otomatis mengaktifkan Pemulihan Sistem dan membuat titik pemulihan bernama &quot;Dadeum...&quot;.
 Ini memastikan Anda selalu dapat kembali jika terjadi kesalahan.</value>
   </data>
   <data name="RestorePoint.Snackbar.Error.Title" xml:space="preserve">
@@ -1018,7 +1018,7 @@ Ini memastikan Anda selalu dapat kembali jika terjadi kesalahan.</value>
     <value>Tidak ada aplikasi yang tidak diperlukan ditemukan ¯\_(ツ)_/¯</value>
   </data>
   <data name="Bloatware.Empty.Description" xml:space="preserve">
-    <value>optimizerDuck tidak menemukan paket AppX yang dapat dihapus. Kosong melompong...</value>
+    <value>Dadeum tidak menemukan paket AppX yang dapat dihapus. Kosong melompong...</value>
   </data>
   <data name="Bloatware.Loading" xml:space="preserve">
     <value>Mencari aplikasi yang dapat dihapus...</value>
@@ -1048,7 +1048,7 @@ Ini memastikan Anda selalu dapat kembali jika terjadi kesalahan.</value>
     <value>Saat menghapus paket AppX yang terinstal, hapus juga paket Provisioned terkait untuk mencegah instalasi ulang otomatis pada pengguna baru.</value>
   </data>
   <data name="Dashboard.UpdateInfoBar.Message" xml:space="preserve">
-    <value>optimizerDuck (v{0}) telah tersedia!
+    <value>Dadeum (v{0}) telah tersedia!
 Perbarui sekarang untuk menikmati fitur terbaru, peningkatan, dan perbaikan bug.</value>
   </data>
   <data name="Common.Search.Placeholder" xml:space="preserve">
@@ -1618,7 +1618,7 @@ Perbarui sekarang untuk menikmati fitur terbaru, peningkatan, dan perbaikan bug.
     <value>Perjanjian Hukum</value>
   </data>
   <data name="LegalDialog.Intro.Title" xml:space="preserve">
-    <value>Selamat datang di optimizerDuck!</value>
+    <value>Selamat datang di Dadeum!</value>
   </data>
   <data name="LegalDialog.Intro.Description" xml:space="preserve">
     <value>Pilih bahasa dan tema Anda, luangkan waktu sejenak untuk meninjau Syarat, Kebijakan Privasi, dan Penafian kami, lalu Anda siap melanjutkan.</value>
@@ -1842,7 +1842,7 @@ Perbarui sekarang untuk menikmati fitur terbaru, peningkatan, dan perbaikan bug.
     <value>Pemeriksaan kompatibilitas gagal</value>
   </data>
   <data name="Condition.Error.Description" xml:space="preserve">
-    <value>optimizerDuck tidak dapat menentukan apakah item ini didukung pada sistem Anda.</value>
+    <value>Dadeum tidak dapat menentukan apakah item ini didukung pada sistem Anda.</value>
   </data>
   <data name="Condition.Windows11.Title" xml:space="preserve">
     <value>Windows 11 diperlukan</value>
@@ -2049,7 +2049,7 @@ Perbarui sekarang untuk menikmati fitur terbaru, peningkatan, dan perbaikan bug.
     <value>Gagal memulihkan paket daya sebelumnya: {0}.</value>
   </data>
   <data name="Revert.PowerPlan.Error.DeleteFailed" xml:space="preserve">
-    <value>Gagal menghapus paket daya optimizerDuck: {0}</value>
+    <value>Gagal menghapus paket daya Dadeum: {0}</value>
   </data>
   <data name="Revert.PowerPlan.Error.NothingToDo" xml:space="preserve">
     <value>Tidak ada yang perlu dikembalikan: tidak ada paket daya sebelumnya atau terinstal yang tercatat.</value>
@@ -2499,7 +2499,7 @@ Perbarui sekarang untuk menikmati fitur terbaru, peningkatan, dan perbaikan bug.
     <value>Tampilkan file catatan</value>
   </data>
   <data name="OptimizationDetailsDialog.Other.OpenRecordFile.Description" xml:space="preserve">
-    <value>Membuka file tempat optimizerDuck mencatat apa yang dilakukan optimasi ini. File tetap ada setelah dikembalikan, jadi Anda bisa melihatnya nanti.</value>
+    <value>Membuka file tempat Dadeum mencatat apa yang dilakukan optimasi ini. File tetap ada setelah dikembalikan, jadi Anda bisa melihatnya nanti.</value>
   </data>
   <data name="Optimizer.Details.Provider.Registry" xml:space="preserve">
     <value>Registri</value>

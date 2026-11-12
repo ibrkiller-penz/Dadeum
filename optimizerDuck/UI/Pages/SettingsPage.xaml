@@ -258,7 +258,7 @@
                         Padding="16,14"
                         IsExpanded="True">
                         <ui:CardExpander.Icon>
-                            <ui:ImageIcon Height="25" Source="pack://application:,,,/optimizerDuck;component/Resources/Images/Duck.png" />
+                            <ui:ImageIcon Height="25" Source="pack://application:,,,/Resources/Images/Duck.png" />
                         </ui:CardExpander.Icon>
 
                         <ui:CardExpander.Header>
@@ -267,7 +267,7 @@
                                     <ui:TextBlock
                                         FontTypography="BodyStrong"
                                         Foreground="{DynamicResource TextFillColorPrimaryBrush}"
-                                        Text="optimizerDuck"
+                                        Text="Dadeum"
                                         TextWrapping="Wrap" />
                                     <ui:TextBlock
                                         Foreground="{DynamicResource TextFillColorSecondaryBrush}"
