@@ -530,10 +530,10 @@
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.ShortDescription" xml:space="preserve">
     <value>Mengonfigurasi Layanan Penjadwal Kelas Multimedia (MMCSS) untuk gaming dan latensi rendah dengan memprioritaskan beban kerja multimedia.</value>
   </data>
-  <data name="Optimizer.Performance.KeyboardLatencyOptimization.Name" xml:space="preserve">
+  <data name="Customize.Gaming.FastKeyboardRepeat.Name" xml:space="preserve">
     <value>Optimalkan Pengulangan Keyboard</value>
   </data>
-  <data name="Optimizer.Performance.KeyboardLatencyOptimization.ShortDescription" xml:space="preserve">
+  <data name="Customize.Gaming.FastKeyboardRepeat.Description" xml:space="preserve">
     <value>Mengatur jeda pengulangan keyboard dan kecepatan pengulangan tercepat untuk pengetikan yang lebih responsif dan penekanan tombol berulang.</value>
   </data>
   <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Name" xml:space="preserve">

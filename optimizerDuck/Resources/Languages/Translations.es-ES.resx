@@ -994,13 +994,13 @@
 
   </data>
 
-  <data name="Optimizer.Performance.KeyboardLatencyOptimization.Name" xml:space="preserve">
+  <data name="Customize.Gaming.FastKeyboardRepeat.Name" xml:space="preserve">
 
     <value>Optimizar repeticion del teclado</value>
 
   </data>
 
-  <data name="Optimizer.Performance.KeyboardLatencyOptimization.ShortDescription" xml:space="preserve">
+  <data name="Customize.Gaming.FastKeyboardRepeat.Description" xml:space="preserve">
 
     <value>Establece el menor retraso y la mayor velocidad de repetición del teclado para una escritura más rápida y una respuesta mejorada al mantener teclas presionadas.</value>
 

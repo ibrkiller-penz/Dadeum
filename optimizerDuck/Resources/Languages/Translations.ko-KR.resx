@@ -486,10 +486,10 @@
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.ShortDescription" xml:space="preserve">
   <value>MMCSS를 게이밍 및 저지연 환경에 맞게 구성하여 멀티미디어 작업의 우선순위를 높입니다</value>
 </data>
-  <data name="Optimizer.Performance.KeyboardLatencyOptimization.Name" xml:space="preserve">
+  <data name="Customize.Gaming.FastKeyboardRepeat.Name" xml:space="preserve">
   <value>키보드 반복 최적화</value>
 </data>
-  <data name="Optimizer.Performance.KeyboardLatencyOptimization.ShortDescription" xml:space="preserve">
+  <data name="Customize.Gaming.FastKeyboardRepeat.Description" xml:space="preserve">
   <value>키보드 반복 지연과 반복 속도를 가장 빠르게 설정해 입력 반응성을 높입니다</value>
 </data>
   <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Name" xml:space="preserve">

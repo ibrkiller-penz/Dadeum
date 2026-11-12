@@ -4707,18 +4707,18 @@ namespace optimizerDuck.Resources.Languages {
         /// <summary>
         ///   Looks up a localized string similar to Optimize Keyboard Repeat.
         /// </summary>
-        internal static string Optimizer_Performance_KeyboardLatencyOptimization_Name {
+        internal static string Customize_Gaming_FastKeyboardRepeat_Name {
             get {
-                return ResourceManager.GetString("Optimizer.Performance.KeyboardLatencyOptimization.Name", resourceCulture);
+                return ResourceManager.GetString("Customize.Gaming.FastKeyboardRepeat.Name", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Sets the fastest keyboard repeat delay and repeat rate for more responsive typing and repeated key presses..
         /// </summary>
-        internal static string Optimizer_Performance_KeyboardLatencyOptimization_ShortDescription {
+        internal static string Customize_Gaming_FastKeyboardRepeat_Description {
             get {
-                return ResourceManager.GetString("Optimizer.Performance.KeyboardLatencyOptimization.ShortDescription", resourceCulture);
+                return ResourceManager.GetString("Customize.Gaming.FastKeyboardRepeat.Description", resourceCulture);
             }
         }
         

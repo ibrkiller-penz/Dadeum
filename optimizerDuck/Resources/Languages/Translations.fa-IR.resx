@@ -570,10 +570,10 @@
   <data name="Optimizer.Performance.LiftWebDavFileSizeLimit.ShortDescription" xml:space="preserve">
     <value>سقف حجم فایل‌های سرویس WebDAV را از 50 مگابایت به 4 گیگابایت افزایش می‌دهد تا انتقال فایل‌های بزرگ در شبکه دچار خطا نشود.</value>
   </data>
-  <data name="Optimizer.Performance.KeyboardLatencyOptimization.Name" xml:space="preserve">
+  <data name="Customize.Gaming.FastKeyboardRepeat.Name" xml:space="preserve">
     <value>بهینه‌سازی نرخ تکرار کلیدهای کیبورد</value>
   </data>
-  <data name="Optimizer.Performance.KeyboardLatencyOptimization.ShortDescription" xml:space="preserve">
+  <data name="Customize.Gaming.FastKeyboardRepeat.Description" xml:space="preserve">
     <value>تاخیر ورودی کیبورد را به حداقل رسانده و سرعت تکرار کلیدها را برای تایپ و فشردن سریع کلیدها افزایش می‌دهد.</value>
   </data>
   <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Name" xml:space="preserve">

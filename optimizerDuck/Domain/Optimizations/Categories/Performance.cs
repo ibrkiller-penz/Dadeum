@@ -143,29 +143,6 @@ public class Performance : LocalizedObject, IOptimizationCategory
     }
 
     [Optimization(
-        Id = "613FE85C-770D-441C-B97A-147B89B99028",
-        Risk = OptimizationRisk.Safe,
-        Tags = OptimizationTags.Latency | OptimizationTags.System | OptimizationTags.Performance
-    )]
-    public class KeyboardLatencyOptimization : BaseOptimization
-    {
-        public override Task<ApplyResult> ApplyAsync(
-            IProgress<ProcessingProgress> progress,
-            OptimizationContext context
-        )
-        {
-            RegistryService.Write(
-                context,
-                new RegistryItem(@"HKEY_CURRENT_USER\Control Panel\Keyboard", "KeyboardDelay", "0"),
-                new RegistryItem(@"HKEY_CURRENT_USER\Control Panel\Keyboard", "KeyboardSpeed", "31")
-            );
-
-            context.Logger.LogInformation("Optimized keyboard repeat settings");
-            return Task.FromResult(context.Changes.ToApplyResult());
-        }
-    }
-
-    [Optimization(
         Id = "B7BB32F8-C756-47A4-83F2-F6E7EC7D45B8",
         Risk = OptimizationRisk.Moderate,
         Tags = OptimizationTags.Latency | OptimizationTags.System,
