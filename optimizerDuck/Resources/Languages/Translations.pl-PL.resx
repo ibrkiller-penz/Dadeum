@@ -2579,4 +2579,10 @@ Zaktualizuj teraz, aby korzystać z najnowszych funkcji, ulepszeń i poprawek b�
   <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
     <value>Dla tej pozycji nie zweryfikowano jeszcze żadnego źródła. Traktuj jej efekt jako niepotwierdzony.</value>
   </data>
+  <data name="Optimizer.UI.State.Drifted" xml:space="preserve">
+    <value>Zmienione od tego czasu</value>
+  </data>
+  <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
+    <value>{0} ustawień zmienionych przez tę pozycję nie ma już tej wartości, prawdopodobnie przez aktualizację Windows: {1}. Wyłącz ją i włącz ponownie, aby zastosować ją jeszcze raz.</value>
+  </data>
 </root>

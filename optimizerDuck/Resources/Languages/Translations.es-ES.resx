@@ -4376,4 +4376,10 @@ Actualiza ahora para disfrutar de las nuevas funciones y mejoras.</value>
   <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
     <value>Aún no se ha verificado ninguna fuente para este elemento. Considera su efecto como no demostrado.</value>
   </data>
+  <data name="Optimizer.UI.State.Drifted" xml:space="preserve">
+    <value>Cambiado desde entonces</value>
+  </data>
+  <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
+    <value>{0} ajuste(s) que este elemento configuró ya no tienen ese valor, probablemente por una actualización de Windows: {1}. Desactívalo y vuelve a activarlo para aplicarlo de nuevo.</value>
+  </data>
 </root>

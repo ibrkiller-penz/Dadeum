@@ -52,3 +52,13 @@ A summary:
   (AI-assisted; a native review is still welcome, especially for Windows feature names).
 - "Optimize System Services" no longer touches printing, file sharing, notifications, Windows
   Update, Xbox, Bluetooth or DiagTrack (the telemetry item owns it). About 200 services remain.
+
+### 2026-11-12: drift detection and a restore point before every apply
+- New `DriftDetector`: for each applied item it compares the values its last apply left
+  (registry values and service startup types from the change record) with the live system.
+  An item whose settings were set back since, typically by a Windows update, shows a
+  "Changed since" badge with the changed settings in its tooltip. Other step kinds are not
+  checked, so an item is never marked changed on a guess.
+- A restore point is now created even when one already exists inside Windows' creation
+  window (24 hours by default): `SystemRestorePointCreationFrequency` is set to 0 for that one
+  call and then put back exactly as it was, or removed when it was absent.

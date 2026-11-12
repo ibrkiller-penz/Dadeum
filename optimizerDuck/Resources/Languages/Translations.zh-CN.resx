@@ -2587,4 +2587,10 @@
   <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
     <value>此项目尚无经过核实的依据。请将其效果视为未经证实。</value>
   </data>
+  <data name="Optimizer.UI.State.Drifted" xml:space="preserve">
+    <value>已被更改</value>
+  </data>
+  <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
+    <value>此项目设置的 {0} 项设置已不再是该值，可能是 Windows 更新所致：{1}。关闭后再打开即可重新应用。</value>
+  </data>
 </root>

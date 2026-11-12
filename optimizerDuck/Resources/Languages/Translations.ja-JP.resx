@@ -2571,4 +2571,10 @@
   <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
     <value>この項目の根拠資料はまだ確認されていません。効果は未検証として扱ってください。</value>
   </data>
+  <data name="Optimizer.UI.State.Drifted" xml:space="preserve">
+    <value>その後変更</value>
+  </data>
+  <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
+    <value>この項目が変更した設定のうち {0} 件が別の値に戻っています。Windows Update が原因の可能性があります: {1}。オフにしてからもう一度オンにすると再適用されます。</value>
+  </data>
 </root>

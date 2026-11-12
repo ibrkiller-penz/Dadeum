@@ -2570,4 +2570,10 @@ En son özelliklerden, iyileştirmelerden ve hata düzeltmelerinden yararlanmak 
   <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
     <value>Bu öğe için henüz doğrulanmış bir kaynak yok. Etkisini kanıtlanmamış kabul edin.</value>
   </data>
+  <data name="Optimizer.UI.State.Drifted" xml:space="preserve">
+    <value>Sonradan değişti</value>
+  </data>
+  <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
+    <value>Bu öğenin ayarladığı {0} ayar artık o değere sahip değil, büyük olasılıkla bir Windows güncellemesi nedeniyle: {1}. Yeniden uygulamak için kapatıp tekrar açın.</value>
+  </data>
 </root>

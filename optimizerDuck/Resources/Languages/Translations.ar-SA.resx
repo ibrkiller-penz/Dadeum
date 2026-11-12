@@ -2621,5 +2621,11 @@
   <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
     <value>لم يتم التحقق من أي مصدر لهذا العنصر بعد. اعتبر تأثيره غير مثبت.</value>
   </data>
+  <data name="Optimizer.UI.State.Drifted" xml:space="preserve">
+    <value>تغيّر منذ التطبيق</value>
+  </data>
+  <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
+    <value>{0} من الإعدادات التي غيّرها هذا العنصر لم تعد تحمل تلك القيمة، على الأرجح بسبب تحديث Windows: {1}. أوقفه ثم شغّله مجددًا لإعادة التطبيق.</value>
+  </data>
 </root>
 

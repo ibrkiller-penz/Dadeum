@@ -2579,4 +2579,10 @@
   <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
     <value>Для этого пункта пока не проверен ни один источник. Считайте его эффект недоказанным.</value>
   </data>
+  <data name="Optimizer.UI.State.Drifted" xml:space="preserve">
+    <value>Изменено с тех пор</value>
+  </data>
+  <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
+    <value>{0} настроек, заданных этим пунктом, больше не имеют этого значения, вероятно из-за обновления Windows: {1}. Выключите и снова включите его, чтобы применить заново.</value>
+  </data>
 </root>

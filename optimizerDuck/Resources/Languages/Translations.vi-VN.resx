@@ -2571,4 +2571,10 @@ Cập nhật ngay để trải nghiệm các tính năng mới, cải tiến và
   <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
     <value>Chưa có nguồn nào được xác minh cho mục này. Hãy coi hiệu quả của nó là chưa được chứng minh.</value>
   </data>
+  <data name="Optimizer.UI.State.Drifted" xml:space="preserve">
+    <value>Đã bị thay đổi</value>
+  </data>
+  <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
+    <value>{0} cài đặt mà mục này đã đặt không còn giữ giá trị đó, có thể do bản cập nhật Windows: {1}. Tắt rồi bật lại để áp dụng lại.</value>
+  </data>
 </root>

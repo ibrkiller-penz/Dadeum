@@ -2637,4 +2637,10 @@ Update now to enjoy the latest features, improvements, and bug fixes.</value>
   <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
     <value>No source has been verified for this item yet. Treat its effect as unproven.</value>
   </data>
+  <data name="Optimizer.UI.State.Drifted" xml:space="preserve">
+    <value>Changed since</value>
+  </data>
+  <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
+    <value>{0} setting(s) this item set no longer hold that value, likely because of a Windows update: {1}. Turn it off and on again to reapply.</value>
+  </data>
 </root>

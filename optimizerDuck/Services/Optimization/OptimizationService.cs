@@ -76,12 +76,23 @@ public class OptimizationService(
         {
             // Throttle is the documented frequency setting plus the newest existing point; the
             // service fails open when that state cannot be read, exactly like the create below.
+            // Dadeum: inside the window a point is still created, with the frequency lowered for
+            // that one call, so there is always a point taken right before this apply.
             var nowUtc = DateTime.UtcNow;
-            if (await Task.Run(() => _systemRestoreService.IsWithinCreationThrottle(nowUtc)))
-            {
-                _logger.LogWarning("Restore point creation skipped: frequency limit reached.");
-                return RestorePointResult.FrequencyLimitReached;
-            }
+            var throttled = await Task.Run(() =>
+                _systemRestoreService.IsWithinCreationThrottle(nowUtc)
+            );
+            if (throttled)
+                _logger.LogInformation(
+                    "A restore point exists inside the frequency window; creating one anyway."
+                );
+
+            SystemRestoreService.SystemRestoreResult Create() =>
+                throttled
+                    ? _systemRestoreService.CreateRestorePointIgnoringThrottle(
+                        Shared.RestorePointName
+                    )
+                    : _systemRestoreService.CreateRestorePoint(Shared.RestorePointName);
 
             dialogViewModel.ProgressReporter.Report(
                 new ProcessingProgress
@@ -91,9 +102,7 @@ public class OptimizationService(
                 }
             );
 
-            var first = await Task.Run(() =>
-                _systemRestoreService.CreateRestorePoint(Shared.RestorePointName)
-            );
+            var first = await Task.Run(Create);
 
             if (first.ExceptionText is not null)
                 _logger.LogError("Restore point creation failed: {Message}", first.ExceptionText);
@@ -142,9 +151,7 @@ public class OptimizationService(
                 }
             );
 
-            var retry = await Task.Run(() =>
-                _systemRestoreService.CreateRestorePoint(Shared.RestorePointName)
-            );
+            var retry = await Task.Run(Create);
 
             if (retry.ExceptionText is not null)
                 _logger.LogError("Restore point creation failed: {Message}", retry.ExceptionText);
@@ -317,6 +324,20 @@ public class OptimizationService(
                             record.CountOf(ChangeKind.NotApplicable),
                             record.CountOf(ChangeKind.Refused)
                         ];
+
+                    // Dadeum: an applied item whose settings were set back since is shown as such.
+                    var drift = applied
+                        ? await DriftDetector.CheckAsync(record).ConfigureAwait(false)
+                        : DriftResult.Unknown;
+                    opt.State.IsDrifted = drift.Status == DriftStatus.Drifted;
+                    opt.State.DriftSummary = opt.State.IsDrifted
+                        ? Loc.Instance[
+                            "Optimizer.UI.State.Drifted.Tooltip",
+                            drift.Changed.Count,
+                            string.Join(", ", drift.Changed.Take(3))
+                                + (drift.Changed.Count > 3 ? ", ..." : string.Empty)
+                        ]
+                        : string.Empty;
                 }
             )
             .ConfigureAwait(false);

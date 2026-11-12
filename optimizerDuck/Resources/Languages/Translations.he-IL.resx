@@ -2636,4 +2636,10 @@
   <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
     <value>עדיין לא אומת מקור עבור פריט זה. יש להתייחס להשפעתו כלא מוכחת.</value>
   </data>
+  <data name="Optimizer.UI.State.Drifted" xml:space="preserve">
+    <value>השתנה מאז</value>
+  </data>
+  <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
+    <value>{0} הגדרות שפריט זה קבע כבר לא מחזיקות בערך הזה, כנראה בגלל עדכון Windows: {1}. כבה והפעל מחדש כדי להחיל שוב.</value>
+  </data>
 </root>

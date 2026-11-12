@@ -2636,4 +2636,10 @@ Perbarui sekarang untuk menikmati fitur terbaru, peningkatan, dan perbaikan bug.
   <data name="OptimizationDetailsDialog.Evidence.None" xml:space="preserve">
     <value>Belum ada sumber yang diverifikasi untuk item ini. Anggap efeknya belum terbukti.</value>
   </data>
+  <data name="Optimizer.UI.State.Drifted" xml:space="preserve">
+    <value>Berubah sejak itu</value>
+  </data>
+  <data name="Optimizer.UI.State.Drifted.Tooltip" xml:space="preserve">
+    <value>{0} pengaturan yang diubah item ini tidak lagi bernilai demikian, kemungkinan karena pembaruan Windows: {1}. Matikan lalu nyalakan lagi untuk menerapkan ulang.</value>
+  </data>
 </root>
