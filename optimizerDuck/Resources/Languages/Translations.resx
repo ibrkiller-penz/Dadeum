@@ -570,10 +570,10 @@
   <data name="Optimizer.Performance.LiftWebDavFileSizeLimit.ShortDescription" xml:space="preserve">
     <value>Raises the WebClient file size limit for WebDAV mounts from 50 MB to 4 GB so large files stop failing on network locations.</value>
   </data>
-  <data name="Optimizer.Performance.KeyboardLatencyOptimization.Name" xml:space="preserve">
+  <data name="Customize.Gaming.FastKeyboardRepeat.Name" xml:space="preserve">
     <value>Optimize Keyboard Repeat</value>
   </data>
-  <data name="Optimizer.Performance.KeyboardLatencyOptimization.ShortDescription" xml:space="preserve">
+  <data name="Customize.Gaming.FastKeyboardRepeat.Description" xml:space="preserve">
     <value>Sets the fastest keyboard repeat delay and repeat rate for more responsive typing and repeated key presses.</value>
   </data>
   <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Name" xml:space="preserve">

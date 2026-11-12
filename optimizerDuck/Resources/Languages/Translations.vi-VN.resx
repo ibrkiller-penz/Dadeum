@@ -475,10 +475,10 @@
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.ShortDescription" xml:space="preserve">
     <value>Cấu hình dịch vụ Multimedia Class Scheduler Service (MMCSS) cho gaming và độ trễ thấp bằng cách ưu tiên multimedia.</value>
   </data>
-  <data name="Optimizer.Performance.KeyboardLatencyOptimization.Name" xml:space="preserve">
+  <data name="Customize.Gaming.FastKeyboardRepeat.Name" xml:space="preserve">
     <value>Tối ưu lặp phím bàn phím</value>
   </data>
-  <data name="Optimizer.Performance.KeyboardLatencyOptimization.ShortDescription" xml:space="preserve">
+  <data name="Customize.Gaming.FastKeyboardRepeat.Description" xml:space="preserve">
     <value>Đặt độ trễ lặp và tốc độ lặp phím ở mức nhanh nhất để gõ phím và giữ phím phản hồi nhanh hơn.</value>
   </data>
   <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Name" xml:space="preserve">

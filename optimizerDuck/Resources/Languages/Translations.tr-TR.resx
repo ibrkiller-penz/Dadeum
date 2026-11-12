@@ -486,10 +486,10 @@
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.ShortDescription" xml:space="preserve">
     <value>Multimedya iş yüklerine öncelik vererek Multimedya Sınıf Zamanlayıcı Servisi'ni (MMCSS) oyun ve düşük gecikme için yapılandırır.</value>
   </data>
-  <data name="Optimizer.Performance.KeyboardLatencyOptimization.Name" xml:space="preserve">
+  <data name="Customize.Gaming.FastKeyboardRepeat.Name" xml:space="preserve">
     <value>Klavye Tekrarını Optimize Et</value>
   </data>
-  <data name="Optimizer.Performance.KeyboardLatencyOptimization.ShortDescription" xml:space="preserve">
+  <data name="Customize.Gaming.FastKeyboardRepeat.Description" xml:space="preserve">
     <value>Daha duyarlı yazma ve tekrarlanan tuş basışları için en hızlı klavye tekrar gecikmesini ve tekrar hızını ayarlar.</value>
   </data>
   <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Name" xml:space="preserve">

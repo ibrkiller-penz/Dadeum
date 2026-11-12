@@ -536,10 +536,10 @@
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.ShortDescription" xml:space="preserve">
     <value>Konfiguriert den Multimedia Class Scheduler Service (MMCSS) für Gaming und niedrige Latenz, indem Multimedia-Workloads priorisiert werden.</value>
   </data>
-  <data name="Optimizer.Performance.KeyboardLatencyOptimization.Name" xml:space="preserve">
+  <data name="Customize.Gaming.FastKeyboardRepeat.Name" xml:space="preserve">
     <value>Tastaturwiederholung optimieren</value>
   </data>
-  <data name="Optimizer.Performance.KeyboardLatencyOptimization.ShortDescription" xml:space="preserve">
+  <data name="Customize.Gaming.FastKeyboardRepeat.Description" xml:space="preserve">
     <value>Setzt die schnellste Tastatur-Wiederholverzögerung und Wiederholrate für reaktionsschnelleres Tippen und gedrückte Tasten.</value>
   </data>
   <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Name" xml:space="preserve">

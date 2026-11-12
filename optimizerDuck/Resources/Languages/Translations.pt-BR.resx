@@ -487,10 +487,10 @@
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.ShortDescription" xml:space="preserve">
     <value>Configura o Serviço de Agendamento de Classes de Multimídia (MMCSS) para jogos e baixa latência priorizando cargas de trabalho de multimídia.</value>
   </data>
-  <data name="Optimizer.Performance.KeyboardLatencyOptimization.Name" xml:space="preserve">
+  <data name="Customize.Gaming.FastKeyboardRepeat.Name" xml:space="preserve">
     <value>Otimizar Repetição de Teclado</value>
   </data>
-  <data name="Optimizer.Performance.KeyboardLatencyOptimization.ShortDescription" xml:space="preserve">
+  <data name="Customize.Gaming.FastKeyboardRepeat.Description" xml:space="preserve">
     <value>Define o atraso de repetição de teclado mais rápido e a taxa de repetição para uma digitação mais responsiva e pressionamentos de tecla repetidos.</value>
   </data>
   <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Name" xml:space="preserve">

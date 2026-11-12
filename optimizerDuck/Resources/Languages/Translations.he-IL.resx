@@ -536,10 +536,10 @@
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.ShortDescription" xml:space="preserve">
     <value>מגדיר את שירות מתזמן מחלקת המולטימדיה (MMCSS) לגיימינג ולהשהיה נמוכה, על ידי תעדוף עומסי מולטימדיה.</value>
   </data>
-  <data name="Optimizer.Performance.KeyboardLatencyOptimization.Name" xml:space="preserve">
+  <data name="Customize.Gaming.FastKeyboardRepeat.Name" xml:space="preserve">
     <value>מיטוב חזרת מקלדת</value>
   </data>
-  <data name="Optimizer.Performance.KeyboardLatencyOptimization.ShortDescription" xml:space="preserve">
+  <data name="Customize.Gaming.FastKeyboardRepeat.Description" xml:space="preserve">
     <value>מגדיר את השהיית החזרה ואת קצב החזרה המהירים ביותר של המקלדת, להקלדה ולהקשות חוזרות מגיבות יותר.</value>
   </data>
   <data name="Optimizer.Performance.DisableAccessibilityKeyboardHotkeys.Name" xml:space="preserve">

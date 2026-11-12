@@ -1131,10 +1131,10 @@
   <data name="Optimizer.Performance.DisableBackgroundApps.ShortDescription" xml:space="preserve">
     <value>يمنع التطبيقات غير النشطة من العمل في الخلفية لتحرير الذاكرة (RAM) وتقليل الحمل على المعالج.</value>
   </data>
-  <data name="Optimizer.Performance.KeyboardLatencyOptimization.Name" xml:space="preserve">
+  <data name="Customize.Gaming.FastKeyboardRepeat.Name" xml:space="preserve">
     <value>تحسين تكرار لوحة المفاتيح</value>
   </data>
-  <data name="Optimizer.Performance.KeyboardLatencyOptimization.ShortDescription" xml:space="preserve">
+  <data name="Customize.Gaming.FastKeyboardRepeat.Description" xml:space="preserve">
     <value>يضبط أسرع قيم لتأخير التكرار ومعدّله للحصول على استجابة أسرع عند الكتابة وتكرار الضغط.</value>
   </data>
   <data name="Optimizer.Performance.OptimizeMultimediaScheduler.Name" xml:space="preserve">

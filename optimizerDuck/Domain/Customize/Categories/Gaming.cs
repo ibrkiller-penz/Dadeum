@@ -1,4 +1,5 @@
 using System.Collections.ObjectModel;
+using Microsoft.Win32;
 using optimizerDuck.Common.Extensions;
 using optimizerDuck.Domain.Abstractions;
 using optimizerDuck.Domain.Attributes;
@@ -218,6 +219,30 @@ public class Gaming : LocalizedObject, ICustomizeCategory
 
             return result;
         }
+    }
+
+    /// <summary>
+    ///     Dadeum: moved here from the Performance optimizations. The shortest repeat delay is a
+    ///     preference, not a performance gain. The repeat rate is left alone because Windows
+    ///     already defaults it to the fastest value (31).
+    /// </summary>
+    [CustomizeSetting(Section = nameof(Sections.Input), Icon = SymbolRegular.Keyboard24)]
+    public class FastKeyboardRepeat : BaseCustomizeSetting
+    {
+        protected override CustomizeRefreshScope RefreshScope => CustomizeRefreshScope.Settings;
+
+        protected override IEnumerable<RegistryToggle> RegistryToggles =>
+            [
+                new()
+                {
+                    Path = @"HKCU\Control Panel\Keyboard",
+                    Name = "KeyboardDelay",
+                    OnValues = ["0"],
+                    OffValues = ["1"],
+                    DefaultValue = "1",
+                    ValueKind = RegistryValueKind.String,
+                },
+            ];
     }
 
     [CustomizeSetting(
